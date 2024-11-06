@@ -1,5 +1,6 @@
 
 ![Build Status](https://github.com/AsaphHall/tfsc-ontology/actions/workflows/qc.yml/badge.svg)
+
 # Thin-Film Solar Cell Ontology
 
 Description: None
@@ -12,9 +13,7 @@ More information can be found at http://obofoundry.org/ontology/tfsco
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/tfsco.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+link
 
 ### Editors' version
 
