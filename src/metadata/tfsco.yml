@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/tfsco
+
+idspace: TFSCO
+base_url: /obo/tfsco
+
+products:
+- tfsco.owl: https://raw.githubusercontent.com/AsaphHall/tfsc-ontology/main/tfsco.owl
+- tfsco.obo: https://raw.githubusercontent.com/AsaphHall/tfsc-ontology/main/tfsco.obo
+
+term_browser: ontobee
+example_terms:
+- TFSCO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/AsaphHall/tfsc-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/AsaphHall/tfsc-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/TFSCO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/AsaphHall/tfsc-ontology/main/
+
