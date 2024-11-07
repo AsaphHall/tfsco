@@ -13,7 +13,7 @@ More information can be found at http://obofoundry.org/ontology/tfsco
 
 The latest version of the ontology can always be found at:
 
-link
+[link](https://purl.archive.org/tfsco)
 
 ### Editors' version
 
