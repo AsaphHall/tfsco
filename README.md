@@ -5,7 +5,7 @@
 
 Description: None
 
-More information can be found at http://obofoundry.org/ontology/tfsco
+More information can be found at... coming soon!
 
 ## Versions
 
