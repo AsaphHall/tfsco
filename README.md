@@ -4,7 +4,7 @@
 
 Description: None
 
-More information are coming soon!
+More informations are coming soon!
 
 ## Versions
 
