@@ -1,0 +1,705 @@
+Prefix(:=<http://purl.obolibrary.org/obo/tfsco/imports/chmo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/tfsco/imports/chmo_import.owl>
+<http://purl.obolibrary.org/obo/tfsco/releases/2024-11-13/imports/chmo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chmo/releases/2022-04-19/chmo.owl>)
+Annotation(owl:versionInfo "2024-11-13")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000793>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000800>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000953>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000993>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001301>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001312>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001313>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001314>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001324>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001325>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001336>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001341>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001349>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001350>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001351>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001353>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001356>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001358>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001364>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001470>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001471>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001472>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001487>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001500>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001502>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001516>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001558>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001559>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001560>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001568>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001685>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001988>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002163>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002770>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002773>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002774>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002917>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000968>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000056>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000601>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000602>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0010000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chmo#isDefinedBy>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chmo#non-mining_synonym>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/chmo#non-mining_synonym> (<http://purl.obolibrary.org/obo/chmo#non-mining_synonym>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/chmo#non-mining_synonym> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000056> (participates in at some time)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000056> "BFO:0000056")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000056> "participates in at some time")
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000057> (has participant)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000057> "BFO:0000057")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000057> "has participant")
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000299> (has_specified_output)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000299> "OBI:0000299")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000299> "has_specified_output")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/BFO_0000057>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000312> (is_specified_output_of)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000312> "OBI:0000312")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000312> "is_specified_output_of")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/BFO_0000056>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000002> "BFO:0000002")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant")
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000179> <http://purl.obolibrary.org/obo/BFO_0000004> "ic")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000180> <http://purl.obolibrary.org/obo/BFO_0000004> "IndependentContinuant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "a chair")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "a heart")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "a leg")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "a molecule")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "a spatial region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "an atom")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "an orchestra.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "an organism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "the bottom right portion of a human torso")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "the interior of your mouth")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000004> "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000004> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000601> <http://purl.obolibrary.org/obo/BFO_0000004> "For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000601> <http://purl.obolibrary.org/obo/BFO_0000004> "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000004> "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000004> "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000004> "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/bfo/axiom/017-002>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/bfo/axiom/018-002>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/bfo/axiom/134-001>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/chmo#isDefinedBy> <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/bfo.owl>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000004> "BFO:0000004")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000015> "BFO:0000015")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process")
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000031> "BFO:0000031")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000040> "BFO:0000040")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000067> (microscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000067> "Any technique where a microscope is used to view a small object (or specimen) by producing a magnified image.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHMO_0000067> "FIX:0000005")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000067> "CHMO:0000067")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000067> "microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000067> <http://purl.obolibrary.org/obo/OBI_0000185>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <http://purl.obolibrary.org/obo/CHMO_0000953>))
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000208> (reflection method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000208> "Any method for determining structure where the change in direction or intensity of reflected radiation or particles is detected.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000208> "CHMO:0000208")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000208> "reflection method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000208> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000209> (reflectometry)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000209> "Any method for determining structure by directing a beam of particles or X-rays onto an extremely flat surface and measuring the intensity of the reflected radiation as a function of angle.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000209> "reflectivity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000209> "CHMO:0000209")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000209> "reflectometry")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000209> <http://purl.obolibrary.org/obo/CHMO_0000208>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000219> (X-ray reflectometry)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000219> "A method for determining structure by directing a beam of X-rays at an extremely flat surface and measuring the intensity of the reflected X-rays as a function of angle. X-ray reflectometry is used to determine the structure of thin films.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000219> "X-ray reflectivity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000219> "XRR")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000219> "CHMO:0000219")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000219> "X-ray reflectometry")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000219> <http://purl.obolibrary.org/obo/CHMO_0000209>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000228> (spectroscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.S05848") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000228> "The study of the interaction of a sample with radiation or particles for measurement or detection.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000228> "spectrometry")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000228> "CHMO:0000228")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000228> "spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000228> <http://purl.obolibrary.org/obo/OBI_0000070>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/CHMO_0000800>))
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000793> (assay output)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000793> "An information content entity that is output by an assay.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000793> "experimental data")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000793> "CHMO:0000793")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000793> "assay output")
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHMO_0000793> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000070>)))
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000793> <http://purl.obolibrary.org/obo/IAO_0000027>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000793> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000070>))
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000800> (spectrum)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000800> "A plot of a measured quantity against some experimental parameter.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000800> "spectra")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0000800> "spectrum plot")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000800> "CHMO:0000800")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000800> "spectrum")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000800> <http://purl.obolibrary.org/obo/CHMO_0000793>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000800> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/CHMO_0000228>))
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000953> (microscope)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000953> "A piece of apparatus which is used to generate an image of the surface of a specimen, whether by focusing reflected light onto where it can be collected or by scanning a given area of the surface.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000953> "CHMO:0000953")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000953> "microscope")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000953> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000993> (portion of material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000993> "An independent material continuant that is self-connected and retains its identity over time.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0000993> "CHMO:0000993")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000993> "portion of material")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000993> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001301> (synthesis method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001301> "A method used to synthesise a sample.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001301> "CHMO:0001301")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001301> "synthesis method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001301> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001310> (sample deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001310> "The process of the settling of particles (atoms or molecules) from a solution, suspension or vapour onto a pre-existing surface, resulting in the growth of a new phase.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/chmo#non-mining_synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHMO_0001310> "deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001310> "CHMO:0001310")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001310> "sample deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001310> <http://purl.obolibrary.org/obo/CHMO_0001301>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001311> (atomic layer deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001311> "A thin film deposition technique based on the sequential reaction of gaseous precursors at a surface to produce a monolayer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001311> "ALD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001311> "atomic-layer deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001311> "CHMO:0001311")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001311> "atomic layer deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001311> <http://purl.obolibrary.org/obo/CHMO_0001310>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001312> (chemical solution deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001312> "The process of the settling of particles (atoms or molecules) from a solution or suspension onto a pre-existing surface, resulting in the growth of a new phase.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001312> "CBD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001312> "CSD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001312> "chemical bath deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001312> "chemical deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001312> "chemical-bath deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001312> "chemical-solution deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001312> "CHMO:0001312")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001312> "chemical solution deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001312> <http://purl.obolibrary.org/obo/CHMO_0001310>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001313> (sol–gel method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001313> "The process of the settling of (nm sized) particles from a colloidal suspension onto a pre-existing surface, resulting in ceramic materials. The desired solid particles (e.g. metal alkoxides) are suspended in a liquid, forming the 'sol', which is deposited on a substrate by spinning, dipping or coating, or transferred to a mould. The particles in the sol are polymerised by partial evaporation of the solvent, or addition of an initiator, forming the 'gel', which is then heated at high temperature to give the final solid product.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "colloid process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "colloidal processing")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "sol-gel method")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "sol-gel process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "sol-gel processing")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "solgel method")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "solgel process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "solgel processing")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001313> "sol–gel processing")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001313> "CHMO:0001313")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001313> "sol–gel method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001313> <http://purl.obolibrary.org/obo/CHMO_0002063>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001314> (chemical vapour deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001314> "A synthesis method where the substrate is exposed to one or more volatile precursors, which react or decompose on the surface to produce a deposit.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001314> "CVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001314> "CVD (chemical vapour deposition) synthesis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001314> "chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001314> "chemical-vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001314> "chemical-vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001314> "CHMO:0001314")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001314> "chemical vapour deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001314> <http://purl.obolibrary.org/obo/CHMO_0001310>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001324> (metal–organic chemical vapour deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001324> "A synthesis method where the substrate is exposed to volatile precursors (one of which is an organometallic compound) which react or decompose on the surface to produce a deposit.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "MOCVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "OMCVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "metal-organic chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "metal-organic chemical vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "metalorganic CVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "metalorganic chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "metalorganic chemical vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "organometallic chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001324> "organometallic chemical vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001324> "CHMO:0001324")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001324> "metal–organic chemical vapour deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001324> <http://purl.obolibrary.org/obo/CHMO_0001314>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001325> (plasma-assisted chemical vapour deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1039/b816034a") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001325> "A synthesis method where the substrate is exposed to one or more volatile precursors, in the presence of a plasma (a partially ionised gas, containing free electrons), which react or decompose on the surface to produce a deposit. The plasma enhances the rate of reaction on the substrate surface.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "PACVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "PECVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma assisted CVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma assisted chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma assisted chemical vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma enhanced CVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma-assisted CVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma-assisted chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma-enhanced CVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma-enhanced chemical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma-enhanced chemical vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001325> "CHMO:0001325")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001325> "plasma-assisted chemical vapour deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001325> <http://purl.obolibrary.org/obo/CHMO_0001314>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001336> (epitaxy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001336> "A synthesis method which consists of depositing a monocrystalline film (from liquid or gaseous precursors) on a monocrystalline substrate.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001336> "CHMO:0001336")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001336> "epitaxy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001336> <http://purl.obolibrary.org/obo/CHMO_0001310>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001341> (molecular beam epitaxy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001341> "A synthesis method which consists of depositing a monocrystalline film (from a molecular beam) on a monocrystalline substrate under high vacuum (<10^{-8} Pa). Molecular beam epitaxy is very slow, with a deposition rate of <1000 nm per hour.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001341> "MBE")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001341> "molecular-beam epitaxy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001341> "CHMO:0001341")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001341> "molecular beam epitaxy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001341> <http://purl.obolibrary.org/obo/CHMO_0001336>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001349> (jet deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001349> "A synthesis method where a flow of precursors is projected onto a surface, resulting in a deposit.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001349> "JD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001349> "CHMO:0001349")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001349> "jet deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001349> <http://purl.obolibrary.org/obo/CHMO_0001310>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001350> (aerosol jet deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001350> "A synthesis method where an aerosol containing precursors is projected onto a surface, resulting in a deposit.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001350> "AJD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001350> "aerosol JD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001350> "CHMO:0001350")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001350> "aerosol jet deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001350> <http://purl.obolibrary.org/obo/CHMO_0001349>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001351> (gas jet deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1088/0256-307X/17/11/018") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001351> "A synthesis method where a flow of carrier gas containing vaporised precursors is projected onto a surface, resulting in a deposit.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "GJD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "JVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "PJD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "VJD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "gas-jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "jet vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "jet vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "jet-vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "jet-vapour deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "physical JD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "physical jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "physical-jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "vapor jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "vapor-jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "vapour jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001351> "vapour-jet deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001351> "CHMO:0001351")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001351> "gas jet deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001351> <http://purl.obolibrary.org/obo/CHMO_0001349>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001353> (plasma jet deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001353> "A synthesis method where a plasma (a partially ionised gas containing free electrons) containing precursors is projected onto a surface, resulting in a deposit.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001353> "plasma JD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001353> "CHMO:0001353")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001353> "plasma jet deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001353> <http://purl.obolibrary.org/obo/CHMO_0001349>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001356> (physical vapour deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001356> "A synthesis technique where vaporized molecules or atoms condense on a surface, forming a thin layer. The process is purely physical; no chemical reaction occurs at the surface.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001356> "PVD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001356> "physical vapor deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001356> "CHMO:0001356")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001356> "physical vapour deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001356> <http://purl.obolibrary.org/obo/CHMO_0001310>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001358> (electron-beam-induced deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001358> "A synthesis method where an electron beam is used to decompose gaseous molecules leading to deposition of a solid on a nearby substrate.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001358> "EB deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001358> "EBD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001358> "EBID")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001358> "electron beam deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001358> "electron beam-induced deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001358> "electron-beam deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001358> "CHMO:0001358")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001358> "electron-beam-induced deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001358> <http://purl.obolibrary.org/obo/CHMO_0001356>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001363> (pulsed laser deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001363> "A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target ('ablation') and deposited as a thin film on a substrate facing the target.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001363> "PLA deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001363> "PLD")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001363> "laser ablation growth")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001363> "pulsed laser ablation deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001363> "pulsed-laser ablation deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001363> "pulsed-laser deposition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001363> "CHMO:0001363")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001363> "pulsed laser deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001363> <http://purl.obolibrary.org/obo/CHMO_0001356>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001364> (sputter deposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001364> "A synthesis technique where a solid target is bombarded with electrons or energetic ions (e.g. Ar+) causing atoms to be ejected ('sputtering'). The ejected atoms then deposit, as a thin-film, on a substrate.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001364> "sputter coating")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001364> "sputtering")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001364> "CHMO:0001364")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001364> "sputter deposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001364> <http://purl.obolibrary.org/obo/CHMO_0001356>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001470> (coating method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001470> "The application of a thin cover to a sample.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001470> "CHMO:0001470")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001470> "coating method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001470> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001471> (dip coating)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001471> "The application of a thin cover to sample by immersing it in a tank containing coating material, allowing it to remain there for a certain 'dwell time', removing the piece from the tank ('withdrawal'), and allowing it to drain.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001471> "dip-coating")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001471> "CHMO:0001471")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001471> "dip coating")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001471> <http://purl.obolibrary.org/obo/CHMO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001472> (spin coating)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001472> "A coating method for applying a thin (<1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin film.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001472> "spin casting")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001472> "spin-casting")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001472> "spin-coating")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001472> "CHMO:0001472")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001472> "spin coating")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001472> <http://purl.obolibrary.org/obo/CHMO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001487> (decomposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.D01547") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001487> "The breakdown of a single phase into two or more phases by heating or treatment with acid, alkali or enzymes.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001487> "CHMO:0001487")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001487> "decomposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001487> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001500> (thermal decomposition)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001500> "The separation of a chemical compound into elements or smaller compounds by heating it to a high temperature (approx. 1000 °C).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001500> "CHMO:0001500")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001500> "thermal decomposition")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001500> <http://purl.obolibrary.org/obo/CHMO_0001487>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001500> <http://purl.obolibrary.org/obo/CHMO_0002770>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001502> (pyrolysis)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.P04961") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001502> "The chemical degradation of a sample by thermal energy. The term pyrolysis generally refers to heating in an inert environment.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001502> "destructive distillation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001502> "dry distillation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001502> "CHMO:0001502")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001502> "pyrolysis")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001502> <http://purl.obolibrary.org/obo/CHMO_0001500>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001516> (spray pyrolysis)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001516> "The chemical degradation of a sample caused by spraying it, as a liquid mixture, onto a heated substrate.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001516> "CHMO:0001516")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001516> "spray pyrolysis")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001516> <http://purl.obolibrary.org/obo/CHMO_0001502>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001558> (etching)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001558> "The process of chemically removing a thin layer from a sample surface, usually to leave behind a pattern.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001558> "CHMO:0001558")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001558> "etching")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001558> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001559> (dry etching)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001559> "The process of removing a thin layer of a sample surface by sputtering or dissolving using reactive ions or a vapour-phase etchant")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001559> "CHMO:0001559")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001559> "dry etching")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001559> <http://purl.obolibrary.org/obo/CHMO_0001558>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001560> (plasma etching)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001560> "The process of removing a thin layer of a sample surface using short pulses of a plasma (a partially ionised gas containing free electrons and radicals).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001560> "RIE")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001560> "reactive ion etching")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001560> "reactive-ion etching")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001560> "CHMO:0001560")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001560> "plasma etching")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001560> <http://purl.obolibrary.org/obo/CHMO_0001558>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001568> (sputter etching)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.S05895") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001568> "The process of removing a thin layer of a sample surface by bombarding it with energetic ions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001568> "ion etching")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001568> "ion milling")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001568> "CHMO:0001568")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001568> "sputter etching")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001568> <http://purl.obolibrary.org/obo/CHMO_0001558>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001685> (mixing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.M03945") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001685> "The combining of components, particles or layers into a more homogeneous state. The mixing may be achieved manually or mechanically by shifting the material with stirrers or pumps or by revolving or shaking the container. The process μst not permit segregation of particles of different size or properties. Homogeneity may be considered to have been achieved in a practical sense when the sampling error of the processed portion is negligible compared to the total error of the measurement system.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001685> "CHMO:0001685")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001685> "mixing")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001685> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001988> (aerosol method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815515804") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001988> "A method for the synthesis of solid particles from an aerosol. The desired solid particles are suspended in a liquid, which is heated to 275–330 °C under pressure and passed through an orifice so that an aerosol forms. The particles in the aerosol are polymerised by partial evaporation of the solvent.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CHMO_0001988> "https://orcid.org/0000-0001-5985-7429")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CHMO_0001988> "2009-06-18T10:08:38Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001988> "aerosol process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0001988> "aerosol processing")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0001988> "CHMO:0001988")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001988> "aerosol method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001988> <http://purl.obolibrary.org/obo/CHMO_0002063>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002063> (colloid method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002063> "Any method for the synthesis or processing of colloids (mixtures where one substance is dispersed evenly throughout another).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CHMO_0002063> "https://orcid.org/0000-0001-5985-7429")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CHMO_0002063> "2009-06-30T10:40:32Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002063> "CHMO:0002063")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002063> "colloid method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002063> <http://purl.obolibrary.org/obo/CHMO_0001301>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002163> (drop coating)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-0640-0422") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002163> "The application of a thin cover to a sample by depositing consecutive drops of a solution on its surface, and allowing the solvent to evaporate.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CHMO_0002163> "https://orcid.org/0000-0001-5985-7429")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CHMO_0002163> "2009-07-14T09:53:36Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0002163> "drop-coating")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002163> "CHMO:0002163")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002163> "drop coating")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002163> <http://purl.obolibrary.org/obo/CHMO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002530> (spray coating)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1039/b917294g") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002530> "The application of a thin cover to sample by converting the coating solution to an aerosol then allowing the droplets to settle on the sample surface under the influence of gravity or using an electrostatic field.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CHMO_0002530> "https://orcid.org/0000-0001-5985-7429")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CHMO_0002530> "2009-10-13T02:46:08Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHMO_0002530> "spray-coating")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002530> "CHMO:0002530")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002530> "spray coating")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002530> <http://purl.obolibrary.org/obo/CHMO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002770> (sample heating)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002770> "A sample preparation step involving the increase in temperature of a sample.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002770> "CHMO:0002770")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CHMO_0002770> "ought to be in OBI. Will put here pro tem.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002770> "sample heating")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002770> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002773> (dissolving)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002773> "A mixing step where a soluble component is mixed with a liquid component.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002773> "CHMO:0002773")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002773> "dissolving")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002773> <http://purl.obolibrary.org/obo/CHMO_0001685>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002774> (stirring)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002774> "Mixing involving the agitation of a solution through circular motion.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002774> "CHMO:0002774")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002774> "stirring")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002774> <http://purl.obolibrary.org/obo/CHMO_0001685>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002917> (sample quenching)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.britannica.com/technology/quenching-materials-processing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002917> "Material processing in which a sample is cooled by immersion in a fluid.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHMO_0002917> "CHMO:0002917")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002917> "sample quenching")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002917> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data item)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IAO_0000027> "IAO:0000027")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IAO_0000030> "IAO:0000030")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000011> "CHMO:0001840")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000011> "OBI:0000011")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:pppb") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000070> "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000070> "CHMO:0000000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000070> "CHMO:0001133")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000070> "measurement method")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000070> "OBI:0000070")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000070> "assay")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000094> (material processing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:bp") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:fg") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:jf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:mc") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:prs") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000094> "A planned process which results in physical changes in a specified input material.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000094> "CHMO:0001131")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000094> "CHMO:0001267")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000094> "CHMO:0001461")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000094> "FIX:0000258")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000094> "material transformations")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000094> "preparative method")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000094> "sample preparation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000094> "sample preparation step")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000094> "sample preparative method")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000094> "OBI:0000094")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000094> "material processing")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000185> (imaging assay)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:pppb") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000185> "An imaging assay is an assay to produce a picture of an entity.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000185> "CHMO:0000048")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBI_0000185> "imaging assay")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000185> "OBI:0000185")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000185> "imaging assay")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000185> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000968> (device)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obi:obi") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000968> "A material entity that is designed to perform a function in a scientific investigation, but is not a reagent.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/OBI_0000968> "CHMO:0000998")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/OBI_0000968> "OBI:0000968")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000968> "device")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000968> <http://purl.obolibrary.org/obo/CHMO_0000993>)
+
+
+)
