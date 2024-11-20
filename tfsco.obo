@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2024-11-13
+data-version: releases/2024-11-18
 subsetdef: attribute_slim ""
 subsetdef: hpo_slim ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
@@ -25,7 +25,7 @@ ontology: tfsco
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Thin-Film Solar Cell Ontology" xsd:string
-property_value: owl:versionInfo "2024-11-13" xsd:string
+property_value: owl:versionInfo "2024-11-18" xsd:string
 
 [Term]
 id: BFO:0000001

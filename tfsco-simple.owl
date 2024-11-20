@@ -9,11 +9,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/tfsco/tfsco-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/tfsco/releases/2024-11-13/tfsco-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/tfsco/releases/2024-11-18/tfsco-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Thin-Film Solar Cell Ontology</terms:title>
-        <owl:versionInfo>2024-11-13</owl:versionInfo>
+        <owl:versionInfo>2024-11-18</owl:versionInfo>
     </owl:Ontology>
     
 

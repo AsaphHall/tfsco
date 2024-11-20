@@ -13,9 +13,9 @@
         "val" : "Thin-Film Solar Cell Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-11-13"
+        "val" : "2024-11-18"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/tfsco/releases/2024-11-13/tfsco-full.json"
+      "version" : "http://purl.obolibrary.org/obo/tfsco/releases/2024-11-18/tfsco-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",

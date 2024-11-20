@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                9fa6b1cbad482ebdc71cd07b99a8e4476759027fbb5e4bd85d8b628983957558
+CONFIG_HASH=                6b5b48f194eee85b917479a2cea112bd93553645d0bfa290def3661bb5eb8843
 
 
 # ----------------------------------------
@@ -159,7 +159,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro pato chmo iao apollo_sv chebi uo
+IMPORTS =  bfo ro pato chmo iao apollo_sv
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -449,22 +449,6 @@ mirror-iao: | $(TMPDIR)
 mirror-apollo_sv: | $(TMPDIR)
 	curl -L $(OBOBASE)/apollo_sv.owl --create-dirs -o $(TMPDIR)/apollo_sv-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/apollo_sv-download.owl -o $(TMPDIR)/$@.owl
-
-
-## ONTOLOGY: chebi
-.PHONY: mirror-chebi
-.PRECIOUS: $(MIRRORDIR)/chebi.owl
-mirror-chebi: | $(TMPDIR)
-	curl -L $(OBOBASE)/chebi.owl --create-dirs -o $(TMPDIR)/chebi-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/chebi-download.owl -o $(TMPDIR)/$@.owl
-
-
-## ONTOLOGY: uo
-.PHONY: mirror-uo
-.PRECIOUS: $(MIRRORDIR)/uo.owl
-mirror-uo: | $(TMPDIR)
-	curl -L $(OBOBASE)/uo.owl --create-dirs -o $(TMPDIR)/uo-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/uo-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
