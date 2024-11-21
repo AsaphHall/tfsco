@@ -7,7 +7,7 @@
         "val" : "http://purl.obolibrary.org/obo/IAO_8000001"
       }, {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "None"
+        "val" : "Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO, APOLLO_SV."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/unspecified"
@@ -16,9 +16,9 @@
         "val" : "Thin-Film Solar Cell Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-11-18"
+        "val" : "2024-11-21"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/tfsco/releases/2024-11-18/tfsco-base.json"
+      "version" : "http://purl.obolibrary.org/obo/tfsco/releases/2024-11-21/tfsco-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/TFSCO_0000000",

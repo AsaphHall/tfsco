@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: tfsco/releases/2024-11-18/tfsco-simple.owl
+data-version: tfsco/releases/2024-11-21/tfsco-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: tfsco/tfsco-simple
-property_value: owl:versionInfo "2024-11-18" xsd:string
-property_value: terms:description "None" xsd:string
+property_value: owl:versionInfo "2024-11-21" xsd:string
+property_value: terms:description "Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO, APOLLO_SV." xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Thin-Film Solar Cell Ontology" xsd:string
 

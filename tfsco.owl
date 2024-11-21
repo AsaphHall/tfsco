@@ -19,11 +19,11 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/tfsco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/tfsco/releases/2024-11-18/tfsco.owl"/>
-        <dcterms:description>None</dcterms:description>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/tfsco/releases/2024-11-21/tfsco.owl"/>
+        <dcterms:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO, APOLLO_SV.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Thin-Film Solar Cell Ontology</dcterms:title>
-        <owl:versionInfo>2024-11-18</owl:versionInfo>
+        <owl:versionInfo>2024-11-21</owl:versionInfo>
     </owl:Ontology>
     
 
