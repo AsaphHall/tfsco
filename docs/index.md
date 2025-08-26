@@ -1,7 +1,10 @@
-# TFSCO Ontology Documentation
+# Ontology for thin-film solar cells - Documentation
 
-[//]: # "This file is meant to be edited by the ontology maintainer."
+## Introduction
 
-Welcome to the TFSCO documentation!
+The thin-film solar cell ontology is a domain ontology. It includes synthesis- and characterization processes from the thin-film solar cell domain.
 
-You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
+## Navigation
+- [TFSCO in 10 minutes](tfsco_10_min.md)
+
+## Process Overview
