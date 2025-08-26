@@ -102,4 +102,4 @@ The following blade coating-parameters are present in the TFSCO: <br>
 
 
 Sources:
-¹ Barry Smith Building Ontologies with Basic Formal Ontology
+¹ Arp, R., Smith, B., & Spear, A. D. (2015). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001
