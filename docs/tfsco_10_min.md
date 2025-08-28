@@ -57,7 +57,7 @@ The first date item we will look at are the *assay outputs*. *Assay outputs* des
 
 ## IRI (International Ressource Identifier) & PURL (Persistent Uniform Ressource Locator)
 The TFSCO's PURL [https://purl.archive.org/tfsco](https://purl.archive.org/tfsco) is a permanent link, that leads to the repository in which the TFSCO is currently stored.<br>
-Every Class and Relation within the TFSCO has an unique identifier. These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Caoting) looks like this: *https://purl.archive.org/tfsco/TFSCO_00002060*. <br>
+Every Class and Relation within the TFSCO has an unique identifier. These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: *https://purl.archive.org/tfsco/TFSCO_00002060*. <br>
 It consists of the PURL *https://purl.archive.org/tfsco* and a *TFSCO_* followed by a unique 8-digit number that identifies the entity within the TFSCO.
 
 ## Example of Usage
@@ -100,6 +100,17 @@ The following blade coating-parameters are present in the TFSCO: <br>
 | The deposited precursor solutions volume| precursor solution volume | https://purl.archive.org/tfsco/TFSCO_00007022 |
 || precursor solution volume setting datum | https://purl.archive.org/tfsco/TFSCO_00002160 |
 
+### Annotation of Datasets
+As of now, the TFSCO is being used to annotate database schemas for the local Nomad oases at HZB. Nomad is a open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see picture 4) in the custom-made HZB Nomad Schemas⁵. Additionally the IRIs can be found in retrieved from the built-in Nomad Metainfo Schema (see picture 5).
+
+|![Blade_Coating_Nomad_Schema](../assets/Blade_Coating_Schema.png)|
+|*Blade Coating Schema with Annotations*|
+
+|![Blade_Coating_Nomad_Metainfo](../assets/Nomad_Metainfo_Blade_Coating.png)|
+|*Nomad Metainfo with TFSCO IRIs*|
 
 Sources:
-¹ Arp, R., Smith, B., & Spear, A. D. (2015). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001
+¹ Arp, R., Smith, B., & Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001
+² NOMAD. (n.d.). https://nomad-lab.eu/nomad-lab/index.html
+³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/
+⁵ HZB Nomad Schemas
