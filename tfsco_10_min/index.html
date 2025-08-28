@@ -117,16 +117,16 @@
               
                 <h1 id="ontology-for-thin-film-solar-cells-tfsco">Ontology for thin-film solar cells (TFSCO)</h1>
 <h2 id="domain">Domain</h2>
-<p>The Ontology for thin-film solar cells (TFSCO) was created to create a collection of common terms from the thin-film solar cell domain. It includes measurement and characterization processes, their parameters and relations between the participating entities.</p>
+<p>The Ontology for thin-film solar cells (TFSCO) was created to provide a common terminology for the thin-film solar cell domain. It includes measurement and characterization processes, their parameters and relations between the participating entities.</p>
 <h2 id="additional-information">Additional Information</h2>
-<p>Before we jump right into the content here are some general informations about the TFSCO: <br>
+<p>Before we jump into the content here are some general informations about the TFSCO: <br>
 1. To browse the ontology visit the current repository of the TFSCO: <a href="https://purl.archive.org/tfsco">https://purl.archive.org/tfsco</a>. <br>
 2. You can find the latest version of the TFSCO at <a href="https://purl.archive.org/tfsco/latest">https://purl.archive.org/tfsco/latest</a><br>
 3. You can create an issue or contribute via <a href="https://purl.archive.org/tfsco/issues">https://purl.archive.org/tfsco/issues</a> <br>
 4. It has been created in August of 2022 at <a href="https://www.helmholtz-berlin.de/">Helmholtz-Zentrum Berlin für Materialien und Energie</a>. <br>
 5. It is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
 <h2 id="basic-structure">Basic Structure</h2>
-<p>The TFSCO uses the Basic Formal Ontology (<a href="https://www.ebi.ac.uk/ols4/ontologies/bfo">BFO</a>) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "helps integrate and organize information across different domains"¹. It provides a basic structure for the ontology by dividing everything in continuants ("things that persist through time"¹) and occurents ("things that occur or happen"¹ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.</p>
+<p>The TFSCO uses the Basic Formal Ontology (<a href="https://www.ebi.ac.uk/ols4/ontologies/bfo">BFO</a>) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "help integrate and organize information across different domains"¹. It provides a basic backbone structure for the ontology by dividing everything in continuants ("things that persist through time"¹) and occurents ("things that occur or happen"¹ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.</p>
 <table>
 <thead>
 <tr>
@@ -135,31 +135,31 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><em>The BFO classes</em></td>
+<td style="text-align: center;"><em>Fig. 1: The BFO classes</em></td>
 </tr>
 </tbody>
 </table>
 <h2 id="classes-and-relations">Classes and Relations</h2>
 <p>Central pieces of an ontology are the Classes and Relations. Classes describe all entities (continuants and occurents) while relations describe the connection between entities (e.g. the parthood between a solar cell and its different layers).</p>
 <h3 id="classes">Classes</h3>
-<p>All entities that are part of the TFSCO are classes. They represent common concepts of reality from the thin-film solar cell domain (terminologie). They also contain definitions, synonyms or alternative labels. </p>
+<p>All entities that are present in the TFSCO are classes. They represent common concepts of reality from the thin-film solar cell domain. They also contain definitions, synonyms or alternative labels. </p>
 <h3 id="relations">Relations</h3>
-<p>While the 'is_a' relation is a key-relation within thesauri and ontologies by providing a hierarchical (vertical) structure we provide further relations to describe the horizontal connections/interactions (e.g. the relation between a measurement and its input, which might include equipment settings and the device that is being measured)</p>
+<p>While the 'is_a' relation is a key-relation within thesauri and ontologies by providing a hierarchical (vertical) structure we provide further relations to describe the horizontal connections/interactions (e.g. the relation between a measurement and its input, which might include equipment settings and the device that is being measured).</p>
 <h2 id="data-items">Data Items</h2>
 <p>Within the TFSCO most measurement outputs, inputs and settings are <em>data items</em>.</p>
 <h3 id="assay-outputs">Assay Outputs</h3>
-<p>The first date item we will look at are the <em>assay outputs</em>. <em>Assay outputs</em> describe anything that is the result of a measurement (assay). For now they include <em>images</em> and <em>measurement datums</em>.</p>
+<p>The first data item we will look at are the <em>assay outputs</em>. <em>Assay outputs</em> describe anything that is the result of a measurement (assay). For now they include <em>images</em> and <em>measurement datums</em>.</p>
 <h3 id="measurement-datums">Measurement Datums</h3>
 <p><em>Measurement Datums</em> are <em>datums</em>, that are the result of a measurement process. (e.g. the measured temperature of a hotplate (e.g. 75°C))</p>
 <h3 id="data-sets">Data Sets</h3>
-<p><em>Data Sets</em> represent aggregations of data. Profiles, like the path of a <em>print head</em> or a <em>voltage profile</em> and curves, like the <em>JV-</em> or <em>UVVIS-Curves</em>, are describes as <em>data sets</em>. </p>
+<p><em>Data Sets</em> represent aggregations of data. Profiles, like the path of a <em>print head</em> or a <em>voltage profile</em>, and curves, like the <em>JV-</em> or <em>UVVIS-Curves</em>, are described as <em>data sets</em>. </p>
 <h3 id="scalar-datums">Scalar Datums</h3>
 <p><em>Scalar Datums</em> are <em>datums</em>, that consist of two parts. A numerical part and a unit part (e.g. 50nm, 15ml, 90°)</p>
 <h3 id="setting-datums">Setting Datums</h3>
-<p><em>Setting Datums</em> are <em>datums</em>, that specify the setting of a given machine. (e.g. turning the temperature knob that controls the hotplate to 180°C)</p>
+<p><em>Setting Datums</em> are <em>datums</em>, that specify the setting of a given machine. (e.g. turning the temperature knob that controls the temperature of a hotplate to 180°C)</p>
 <h2 id="iri-international-ressource-identifier-purl-persistent-uniform-ressource-locator">IRI (International Ressource Identifier) &amp; PURL (Persistent Uniform Ressource Locator)</h2>
 <p>The TFSCO's PURL <a href="https://purl.archive.org/tfsco">https://purl.archive.org/tfsco</a> is a permanent link, that leads to the repository in which the TFSCO is currently stored.<br>
-Every Class and Relation within the TFSCO has an unique identifier. These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: <em>https://purl.archive.org/tfsco/TFSCO_00002060</em>. <br>
+Every Class and Relation within the TFSCO has an unique IRI (International Ressource Identifier). These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: <em>https://purl.archive.org/tfsco/TFSCO_00002060</em>. <br>
 It consists of the PURL <em>https://purl.archive.org/tfsco</em> and a <em>TFSCO_</em> followed by a unique 8-digit number that identifies the entity within the TFSCO.</p>
 <h2 id="example-of-usage">Example of Usage</h2>
 <h3 id="blade-coating">Blade Coating</h3>
@@ -175,13 +175,13 @@ The blade coating parameters and identificators can be found below the picture.<
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><em>Blade Coating Classes</em></td>
+<td style="text-align: center;"><em>Fig. 2: Blade Coating Classes</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><img alt="BladeCoating_Arcs" src="../assets/Blade_Coating_Arcs_cut.png" /></td>
 </tr>
 <tr>
-<td style="text-align: center;"><em>Relation Explanation</em></td>
+<td style="text-align: center;"><em>Fig. 3: Relation Explanation</em></td>
 </tr>
 </tbody>
 </table>
@@ -284,16 +284,30 @@ The blade coating parameters and identificators can be found below the picture.<
 </tbody>
 </table>
 <h3 id="annotation-of-datasets">Annotation of Datasets</h3>
-<p>As of now, the TFSCO is being used to annotate database schemas for the local Nomad oases at HZB. Nomad is a open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see picture 4) in the custom-made HZB Nomad Schemas⁵. Additionally the IRIs can be found in retrieved from the built-in Nomad Metainfo Schema (see picture 5).</p>
-<p>|<img alt="Blade_Coating_Nomad_Schema" src="../assets/Blade_Coating_Schema.png" />|
-|<em>Blade Coating Schema with Annotations</em>|</p>
-<p>|<img alt="Blade_Coating_Nomad_Metainfo" src="../assets/Nomad_Metainfo_Blade_Coating.png" />|
-|<em>Nomad Metainfo with TFSCO IRIs</em>|</p>
-<p>Sources:
-¹ Arp, R., Smith, B., &amp; Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001
-² NOMAD. (n.d.). https://nomad-lab.eu/nomad-lab/index.html
-³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/
-⁵ HZB Nomad Schemas</p>
+<p>The TFSCO is currently being used to annotate database schemas for the local Nomad oases at HZB. Nomad is an open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see figure 4) in the custom-made HZB Nomad Schemas⁴. Additionally the IRIs can be retrieved from the built-in Nomad Metainfo Schema (see figure 5).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Blade_Coating_Nomad_Schema" src="../assets/Blade_Coating_Schema.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>Fig. 4: Blade Coating Schema with Annotations</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Blade_Coating_Nomad_Metainfo" src="../assets/Nomad_Metainfo_Blade_Coating.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Fig. 5: Nomad Metainfo with TFSCO IRIs</em></td>
+</tr>
+</tbody>
+</table>
+<p>Sources:<br>
+¹ Arp, R., Smith, B., &amp; Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001 <br>
+² NOMAD. https://nomad-lab.eu/nomad-lab/index.html <br>
+³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/ <br>
+⁴ HZB GitHub with Nomad Schemas https://github.com/nomad-hzb <br></p>
               
             </div>
           </div><footer>
