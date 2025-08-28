@@ -2,11 +2,11 @@
 
 ## Domain
 
-The Ontology for thin-film solar cells (TFSCO) was created to create a collection of common terms from the thin-film solar cell domain. It includes measurement and characterization processes, their parameters and relations between the participating entities.
+The Ontology for thin-film solar cells (TFSCO) was created to provide a common terminology for the thin-film solar cell domain. It includes measurement and characterization processes, their parameters and relations between the participating entities.
 
 ## Additional Information
 
-Before we jump right into the content here are some general informations about the TFSCO: <br>
+Before we jump into the content here are some general informations about the TFSCO: <br>
 1. To browse the ontology visit the current repository of the TFSCO: [https://purl.archive.org/tfsco](https://purl.archive.org/tfsco). <br>
 2. You can find the latest version of the TFSCO at [https://purl.archive.org/tfsco/latest](https://purl.archive.org/tfsco/latest)<br>
 3. You can create an issue or contribute via [https://purl.archive.org/tfsco/issues](https://purl.archive.org/tfsco/issues) <br>
@@ -15,11 +15,11 @@ Before we jump right into the content here are some general informations about t
 
 ## Basic Structure
 
-The TFSCO uses the Basic Formal Ontology ([BFO](https://www.ebi.ac.uk/ols4/ontologies/bfo)) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "helps integrate and organize information across different domains"¹. It provides a basic structure for the ontology by dividing everything in continuants ("things that persist through time"¹) and occurents ("things that occur or happen"¹ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.
+The TFSCO uses the Basic Formal Ontology ([BFO](https://www.ebi.ac.uk/ols4/ontologies/bfo)) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "help integrate and organize information across different domains"¹. It provides a basic backbone structure for the ontology by dividing everything in continuants ("things that persist through time"¹) and occurents ("things that occur or happen"¹ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.
 
 |![BFO](assets/bfo_complete.png)|
 |:--:| 
-|*The BFO classes*|
+|*Fig. 1: The BFO classes*|
 
 ## Classes and Relations
 
@@ -27,25 +27,25 @@ Central pieces of an ontology are the Classes and Relations. Classes describe al
 
 ### Classes
 
-All entities that are part of the TFSCO are classes. They represent common concepts of reality from the thin-film solar cell domain (terminologie). They also contain definitions, synonyms or alternative labels. 
+All entities that are present in the TFSCO are classes. They represent common concepts of reality from the thin-film solar cell domain. They also contain definitions, synonyms or alternative labels. 
 
 ### Relations
 
-While the 'is_a' relation is a key-relation within thesauri and ontologies by providing a hierarchical (vertical) structure we provide further relations to describe the horizontal connections/interactions (e.g. the relation between a measurement and its input, which might include equipment settings and the device that is being measured)
+While the 'is_a' relation is a key-relation within thesauri and ontologies by providing a hierarchical (vertical) structure we provide further relations to describe the horizontal connections/interactions (e.g. the relation between a measurement and its input, which might include equipment settings and the device that is being measured).
 
 ## Data Items
 Within the TFSCO most measurement outputs, inputs and settings are *data items*.
 
 ### Assay Outputs
 
-The first date item we will look at are the *assay outputs*. *Assay outputs* describe anything that is the result of a measurement (assay). For now they include *images* and *measurement datums*.
+The first data item we will look at are the *assay outputs*. *Assay outputs* describe anything that is the result of a measurement (assay). For now they include *images* and *measurement datums*.
 
 ### Measurement Datums
 
 *Measurement Datums* are *datums*, that are the result of a measurement process. (e.g. the measured temperature of a hotplate (e.g. 75°C))
 
 ### Data Sets
-*Data Sets* represent aggregations of data. Profiles, like the path of a *print head* or a *voltage profile* and curves, like the *JV-* or *UVVIS-Curves*, are describes as *data sets*. 
+*Data Sets* represent aggregations of data. Profiles, like the path of a *print head* or a *voltage profile*, and curves, like the *JV-* or *UVVIS-Curves*, are described as *data sets*. 
 
 ### Scalar Datums
 
@@ -53,11 +53,11 @@ The first date item we will look at are the *assay outputs*. *Assay outputs* des
 
 ### Setting Datums
 
-*Setting Datums* are *datums*, that specify the setting of a given machine. (e.g. turning the temperature knob that controls the hotplate to 180°C)
+*Setting Datums* are *datums*, that specify the setting of a given machine. (e.g. turning the temperature knob that controls the temperature of a hotplate to 180°C)
 
 ## IRI (International Ressource Identifier) & PURL (Persistent Uniform Ressource Locator)
 The TFSCO's PURL [https://purl.archive.org/tfsco](https://purl.archive.org/tfsco) is a permanent link, that leads to the repository in which the TFSCO is currently stored.<br>
-Every Class and Relation within the TFSCO has an unique identifier. These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: *https://purl.archive.org/tfsco/TFSCO_00002060*. <br>
+Every Class and Relation within the TFSCO has an unique IRI (International Ressource Identifier). These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: *https://purl.archive.org/tfsco/TFSCO_00002060*. <br>
 It consists of the PURL *https://purl.archive.org/tfsco* and a *TFSCO_* followed by a unique 8-digit number that identifies the entity within the TFSCO.
 
 ## Example of Usage
@@ -71,9 +71,9 @@ The blade coating parameters and identificators can be found below the picture.
 
 |![BladeCoating](assets/Blade_Coating_3_0.png)|
 |:--:| 
-|*Blade Coating Classes*|
+|*Fig. 2: Blade Coating Classes*|
 |![BladeCoating_Arcs](assets/Blade_Coating_Arcs_cut.png)|
-|*Relation Explanation*|
+|*Fig. 3: Relation Explanation*|
 
 
 
@@ -101,16 +101,18 @@ The following blade coating-parameters are present in the TFSCO: <br>
 || precursor solution volume setting datum | https://purl.archive.org/tfsco/TFSCO_00002160 |
 
 ### Annotation of Datasets
-As of now, the TFSCO is being used to annotate database schemas for the local Nomad oases at HZB. Nomad is a open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see picture 4) in the custom-made HZB Nomad Schemas⁵. Additionally the IRIs can be found in retrieved from the built-in Nomad Metainfo Schema (see picture 5).
+The TFSCO is currently being used to annotate database schemas for the local Nomad oases at HZB. Nomad is an open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see figure 4) in the custom-made HZB Nomad Schemas⁴. Additionally the IRIs can be retrieved from the built-in Nomad Metainfo Schema (see figure 5).
 
 |![Blade_Coating_Nomad_Schema](../assets/Blade_Coating_Schema.png)|
-|*Blade Coating Schema with Annotations*|
-
+|:--:|
+|*Fig. 4: Blade Coating Schema with Annotations*|
 |![Blade_Coating_Nomad_Metainfo](../assets/Nomad_Metainfo_Blade_Coating.png)|
-|*Nomad Metainfo with TFSCO IRIs*|
+|*Fig. 5: Nomad Metainfo with TFSCO IRIs*|
 
-Sources:
-¹ Arp, R., Smith, B., & Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001
-² NOMAD. (n.d.). https://nomad-lab.eu/nomad-lab/index.html
-³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/
-⁵ HZB Nomad Schemas
+
+
+Sources:<br>
+¹ Arp, R., Smith, B., & Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001 <br>
+² NOMAD. https://nomad-lab.eu/nomad-lab/index.html <br>
+³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/ <br>
+⁴ HZB GitHub with Nomad Schemas https://github.com/nomad-hzb <br>
