@@ -10,12 +10,12 @@ Before we jump into the content here are some general informations about the TFS
 1. To browse the ontology visit the current repository of the TFSCO: [https://purl.archive.org/tfsco](https://purl.archive.org/tfsco). <br>
 2. You can find the latest version of the TFSCO at [https://purl.archive.org/tfsco/latest](https://purl.archive.org/tfsco/latest)<br>
 3. You can create an issue or contribute via [https://purl.archive.org/tfsco/issues](https://purl.archive.org/tfsco/issues) <br>
-4. It has been created in August of 2022 at [Helmholtz-Zentrum Berlin für Materialien und Energie](https://www.helmholtz-berlin.de/). <br>
-5. It is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+4. It has been created in August of 2022 at [Helmholtz-Zentrum Berlin für Materialien und Energie](https://www.helmholtz-berlin.de/)¹. <br>
+5. It is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)².
 
 ## Basic Structure
 
-The TFSCO uses the Basic Formal Ontology ([BFO](https://www.ebi.ac.uk/ols4/ontologies/bfo)) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "help integrate and organize information across different domains"¹. It provides a basic backbone structure for the ontology by dividing everything in continuants ("things that persist through time"¹) and occurents ("things that occur or happen"¹ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.
+The TFSCO uses the Basic Formal Ontology ([BFO](https://www.ebi.ac.uk/ols4/ontologies/bfo)) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "help integrate and organize information across different domains"³. It provides a basic backbone structure for the ontology by dividing everything in continuants ("things that persist through time"³) and occurents ("things that occur or happen"³ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.
 
 |![BFO](assets/bfo_complete.png)|
 |:--:| 
@@ -101,7 +101,7 @@ The following blade coating-parameters are present in the TFSCO: <br>
 || precursor solution volume setting datum | https://purl.archive.org/tfsco/TFSCO_00002160 |
 
 ### Annotation of Datasets
-The TFSCO is currently being used to annotate database schemas for the local Nomad oases at HZB. Nomad is an open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see figure 4) in the custom-made HZB Nomad Schemas⁴. Additionally the IRIs can be retrieved from the built-in Nomad Metainfo Schema (see figure 5).
+The TFSCO is currently being used to annotate database schemas for the local Nomad oases at HZB. Nomad⁴ is an open source web-based research data management platform developed by FAIRmat⁵. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see figure 4) in the custom-made HZB Nomad Schemas⁶. Additionally the IRIs can be retrieved from the built-in Nomad Metainfo Schema (see figure 5).
 
 |![Blade_Coating_Nomad_Schema](../assets/Blade_Coating_Schema.png)|
 |:--:|
@@ -112,7 +112,9 @@ The TFSCO is currently being used to annotate database schemas for the local Nom
 
 
 Sources:<br>
-¹ Arp, R., Smith, B., & Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001 <br>
-² NOMAD. https://nomad-lab.eu/nomad-lab/index.html <br>
-³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/ <br>
-⁴ HZB GitHub with Nomad Schemas https://github.com/nomad-hzb <br>
+¹ Helmholtz-Zentrum Berlin (HZB). https://www.helmholtz-berlin.de/ <br>
+² Creative Commons. https://creativecommons.org/licenses/by/4.0/ <br>
+³ Arp, R., Smith, B., & Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001 <br>
+⁴ NOMAD. https://nomad-lab.eu/nomad-lab/index.html <br>
+⁵ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/ <br>
+⁶ HZB GitHub with Nomad Schemas https://github.com/nomad-hzb <br>
