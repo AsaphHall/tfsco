@@ -93,7 +93,7 @@ The following blade coating-parameters are present in the TFSCO: <br>
 | The shape of the blades edge | blade edge shape | https://purl.archive.org/tfsco/TFSCO_00007017 |
 | The distance between the blade and the substrate | blade distance to substrate | https://purl.archive.org/tfsco/TFSCO_00007007 |
 || blade distance to substrate setting datum | https://purl.archive.org/tfsco/TFSCO_00007008 |
-| The blade coatings duration | process time | https://purl.archive.org/tfsco/TFSCO_00001063 |
+| The duration of the blade coating | process time | https://purl.archive.org/tfsco/TFSCO_00001063 |
 || process time setting datum | https://purl.archive.org/tfsco/TFSCO_00002072   |
 | The temperature of the precursor solution | precursor solution temperature | https://purl.archive.org/tfsco/TFSCO_00007019 |
 || precursor solution temperature setting datum | https://purl.archive.org/tfsco/TFSCO_00007021 |
