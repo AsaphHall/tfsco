@@ -82,7 +82,7 @@ The following blade coating-parameters are present in the TFSCO: <br>
 
 | Parameter | Ontology Class | Link |
 | --------- | -------------- | ---- |
-| Blade Coating Process | Blade Coating | https://purl.archive.org/tfsco/TFSCO_00002060 |
+| Blade Coating Process | blade coating | https://purl.archive.org/tfsco/TFSCO_00002060 |
 | The Angle of the blade | blade angle | https://purl.archive.org/tfsco/TFSCO_00007011 |
 | | blade angle setting datum | https://purl.archive.org/tfsco/TFSCO_00007012 |
 | The pressure applied by the blade | blade pressure | https://purl.archive.org/tfsco/TFSCO_00007013 |
