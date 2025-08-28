@@ -84,6 +84,8 @@
     </li>
         </ul>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#annotation-of-datasets">Annotation of Datasets</a>
+    </li>
         </ul>
     </li>
     </ul>
@@ -157,7 +159,7 @@
 <p><em>Setting Datums</em> are <em>datums</em>, that specify the setting of a given machine. (e.g. turning the temperature knob that controls the hotplate to 180°C)</p>
 <h2 id="iri-international-ressource-identifier-purl-persistent-uniform-ressource-locator">IRI (International Ressource Identifier) &amp; PURL (Persistent Uniform Ressource Locator)</h2>
 <p>The TFSCO's PURL <a href="https://purl.archive.org/tfsco">https://purl.archive.org/tfsco</a> is a permanent link, that leads to the repository in which the TFSCO is currently stored.<br>
-Every Class and Relation within the TFSCO has an unique identifier. These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Caoting) looks like this: <em>https://purl.archive.org/tfsco/TFSCO_00002060</em>. <br>
+Every Class and Relation within the TFSCO has an unique identifier. These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: <em>https://purl.archive.org/tfsco/TFSCO_00002060</em>. <br>
 It consists of the PURL <em>https://purl.archive.org/tfsco</em> and a <em>TFSCO_</em> followed by a unique 8-digit number that identifies the entity within the TFSCO.</p>
 <h2 id="example-of-usage">Example of Usage</h2>
 <h3 id="blade-coating">Blade Coating</h3>
@@ -281,8 +283,17 @@ The blade coating parameters and identificators can be found below the picture.<
 </tr>
 </tbody>
 </table>
+<h3 id="annotation-of-datasets">Annotation of Datasets</h3>
+<p>As of now, the TFSCO is being used to annotate database schemas for the local Nomad oases at HZB. Nomad is a open source web-based research data management platform developed by FAIRmat³. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see picture 4) in the custom-made HZB Nomad Schemas⁵. Additionally the IRIs can be found in retrieved from the built-in Nomad Metainfo Schema (see picture 5).</p>
+<p>|<img alt="Blade_Coating_Nomad_Schema" src="../assets/Blade_Coating_Schema.png" />|
+|<em>Blade Coating Schema with Annotations</em>|</p>
+<p>|<img alt="Blade_Coating_Nomad_Metainfo" src="../assets/Nomad_Metainfo_Blade_Coating.png" />|
+|<em>Nomad Metainfo with TFSCO IRIs</em>|</p>
 <p>Sources:
-¹ Barry Smith Building Ontologies with Basic Formal Ontology</p>
+¹ Arp, R., Smith, B., &amp; Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001
+² NOMAD. (n.d.). https://nomad-lab.eu/nomad-lab/index.html
+³ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/
+⁵ HZB Nomad Schemas</p>
               
             </div>
           </div><footer>
