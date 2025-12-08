@@ -7,5 +7,5 @@ theme: readthedocs
 nav:
   - Home: index.md
   - 'TFSCO in 10 minutes': tfsco_10_min.md
-  - 'Full Documenation' : index-en.html
+  - 'Full Documenation' : full_doc.md
   - 'Issue Tracker': https://github.com/nomad-hzb/autoperosol/issues
