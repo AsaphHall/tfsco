@@ -18,10 +18,7 @@ bin/
 /tfsco.obo
 /tfsco.json
 /tfsco.db
-/tfsco-base.*
 /tfsco-basic.*
-/tfsco-full.*
-/tfsco-simple.*
 /tfsco-simple-non-classified.*
 /mappings/
 /patterns/
@@ -37,6 +34,9 @@ src/ontology/tfsco.obo
 src/ontology/tfsco.json
 src/ontology/tfsco.db
 src/ontology/tfsco-base.*
+src/ontology/tfsco-basic.*
+src/ontology/tfsco-full.*
+src/ontology/tfsco-simple.*
 src/ontology/tfsco-simple-non-classified.*
 
 src/ontology/seed.txt
