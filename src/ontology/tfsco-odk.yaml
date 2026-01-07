@@ -14,6 +14,11 @@ export_formats:
   - json
 import_group:
   products:
+    - id: bfo
+    - id: ro
+    - id: chmo
+    - id: pato
+    - id: iao
 robot_java_args: '-Xmx4G'
 robot_report:
   use_labels: TRUE
