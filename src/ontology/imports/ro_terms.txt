@@ -24,3 +24,20 @@ http://purl.obolibrary.org/obo/RO_0002351 # has member
 http://purl.obolibrary.org/obo/RO_0002505 # has intermediate
 http://purl.obolibrary.org/obo/RO_0003000 # produces
 http://purl.obolibrary.org/obo/RO_0003001 # produced by
+
+# we need these imports for the inclusion of domains and ranges
+# (SUBSET method does not do that automatically)
+#
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/BFO_0000020 # specifically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/BFO_0000017 # realizable entity
+http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://purl.obolibrary.org/obo/BFO_0000034 # function
+http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/BFO_0000003 # occurrent
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/BFO_0000006 # spacial region

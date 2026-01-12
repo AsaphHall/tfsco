@@ -20,3 +20,19 @@ http://purl.obolibrary.org/obo/IAO_0000416 # time measurement datum
 http://purl.obolibrary.org/obo/IAO_0000582 # time stamped measurement datum
 http://purl.obolibrary.org/obo/IAO_0000584 # time sampled measurement data set
 
+http://purl.obolibrary.org/obo/IAO_0000039 # has unit label
+http://purl.obolibrary.org/obo/IAO_0000136 # is about
+http://purl.obolibrary.org/obo/IAO_0000221 # is quality measurement of
+http://purl.obolibrary.org/obo/IAO_0000413 # is duration of
+http://purl.obolibrary.org/obo/IAO_0000417 # is quality measured as
+http://purl.obolibrary.org/obo/IAO_0000418 # is quality specification of
+http://purl.obolibrary.org/obo/IAO_0000419 # quality is specified as
+http://purl.obolibrary.org/obo/IAO_0000581 # has time stamp
+http://purl.obolibrary.org/obo/IAO_0000583 # has measurement datum
+
+
+# we need these imports for the inclusion of domains and ranges
+# (SUBSET method does not do that automatically)
+#
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant

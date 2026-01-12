@@ -38,6 +38,21 @@ $(IMPORTDIR)/chmo_import.owl: $(MIRRORDIR)/chmo.owl $(IMPORTDIR)/chmo_terms.txt 
 		         --individuals exclude \
 		         --method SUBSET \
 		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
-		        --term-file $(IMPORTDIR)/ro_terms.txt  \
+		        --term-file $(IMPORTDIR)/chmo_terms.txt  \
+		        --select complement --select annotation-properties \
+		 $(ANNOTATE_CONVERT_FILE)
+
+
+# Module for ontology: iao
+
+$(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl $(IMPORTDIR)/iao_terms.txt \
+			   $(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 extract --term-file $(IMPORTDIR)/iao_terms.txt  \
+		         --force true --copy-ontology-annotations true \
+		         --individuals exclude \
+		         --method SUBSET \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term-file $(IMPORTDIR)/iao_terms.txt  \
 		        --select complement --select annotation-properties \
 		 $(ANNOTATE_CONVERT_FILE)

@@ -4,13 +4,11 @@
 <http://purl.obolibrary.org/obo/CHMO_0000219>		
 <http://purl.obolibrary.org/obo/CHMO_0001472>		
 <http://purl.obolibrary.org/obo/BFO_0000140>	"b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])"@en	
-<http://purl.obolibrary.org/obo/UO_0000003>		
 <http://purl.obolibrary.org/obo/BFO_0000006>		
 <http://purl.obolibrary.org/obo/CHMO_0001311>		
 <http://purl.obolibrary.org/obo/BFO_0000018>		
 <http://purl.obolibrary.org/obo/BFO_0000034>		
 <http://purl.obolibrary.org/obo/BFO_0000035>	"p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])"@en	
-<http://purl.obolibrary.org/obo/PATO_0000122>	"A 1-D extent quality which is equal to the distance between two points."	
 <http://purl.obolibrary.org/obo/IAO_0000005>	"A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en	
 <http://purl.obolibrary.org/obo/TFSCO_0000000>		
 <http://purl.obolibrary.org/obo/CHMO_0001364>		
@@ -19,31 +17,23 @@
 <http://purl.obolibrary.org/obo/BFO_0000029>		
 <http://purl.obolibrary.org/obo/CHMO_0001324>		
 <http://purl.obolibrary.org/obo/BFO_0000003>	"An entity that has temporal parts and that happens, unfolds or develops through time."@en	
-<http://purl.obolibrary.org/obo/IAO_0000078>	"The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
 <http://purl.obolibrary.org/obo/IAO_0000064>	"A plan specification which describes the inputs and output of mathematical functions as well as workflow of execution for achieving an predefined objective. Algorithms are realized usually by means of implementation as computer programs for execution by automata."@en	
 <http://purl.obolibrary.org/obo/BFO_0000142>		
 <http://purl.obolibrary.org/obo/IAO_0000100>	"A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en	
-<http://purl.obolibrary.org/obo/BFO_0000182>		
 <http://purl.obolibrary.org/obo/BFO_0000015>	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en	
+<http://purl.obolibrary.org/obo/BFO_0000182>		
 <http://purl.obolibrary.org/obo/IAO_0000028>	"An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."@en	
 <http://purl.obolibrary.org/obo/IAO_0000109>	"A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device."@en	
-<http://purl.obolibrary.org/obo/IAO_0000308>	"An information content entity consisting of a two dimensional arrangement of information content entities such that the arrangement itself is about something."@en	
 <http://purl.obolibrary.org/obo/CHMO_0001559>		
 <http://purl.obolibrary.org/obo/BFO_0000008>		
-<http://purl.obolibrary.org/obo/UO_0000001>		
 <http://purl.obolibrary.org/obo/BFO_0000024>		
-<http://purl.obolibrary.org/obo/PATO_0001018>	"A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities."	
 <http://purl.obolibrary.org/obo/CHMO_0002163>		
-<http://purl.obolibrary.org/obo/IAO_0000102>	"Data about an ontology part is a data item about a part of an ontology, for example a term"@en	
-<http://purl.obolibrary.org/obo/PATO_0000125>	"A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter."	
 <http://purl.obolibrary.org/obo/CHMO_0000067>		
 <http://purl.obolibrary.org/obo/CHMO_0002773>		
 <http://purl.obolibrary.org/obo/BFO_0000023>	"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en	
-<http://purl.obolibrary.org/obo/IAO_0000225>	"The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
 <http://purl.obolibrary.org/obo/CHMO_0001350>		
 <http://purl.obolibrary.org/obo/CHMO_0001471>		
 <http://purl.obolibrary.org/obo/CHMO_0001358>		
-<http://purl.obolibrary.org/obo/UO_0000002>		
 <http://purl.obolibrary.org/obo/CHMO_0001685>		
 <http://purl.obolibrary.org/obo/CHMO_0001310>		
 <http://purl.obolibrary.org/obo/BFO_0000019>		
@@ -60,7 +50,6 @@
 <http://purl.obolibrary.org/obo/BFO_0000030>		
 <http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
 <http://purl.obolibrary.org/obo/BFO_0000009>		
-<http://purl.obolibrary.org/obo/PATO_0000051>	"A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure."	
 <http://purl.obolibrary.org/obo/IAO_0000007>	"A directive information entity that describes an action the bearer will take."@en	
 <http://purl.obolibrary.org/obo/CHMO_0001558>		
 <http://purl.obolibrary.org/obo/CHMO_0001356>		
@@ -69,7 +58,6 @@
 <http://purl.obolibrary.org/obo/BFO_0000146>		
 <http://purl.obolibrary.org/obo/CHMO_0002530>		
 <http://purl.obolibrary.org/obo/IAO_0000033>	"An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en	
-<http://purl.obolibrary.org/obo/PATO_0001241>	"A quality which inheres in a continuant."	
 <http://purl.obolibrary.org/obo/BFO_0000031>	"b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])"@en	
 <http://purl.obolibrary.org/obo/IAO_0000098>	"A data format specification is the information content borne by the document published defining the specification.\nExample: The ISO document specifying what encompasses an XML document; The instructions in a XSD file"@en	
 <http://purl.obolibrary.org/obo/CHMO_0000209>		
@@ -103,9 +91,8 @@
 <http://purl.obolibrary.org/obo/CHMO_0002770>		
 <http://purl.obolibrary.org/obo/CHMO_0001516>		
 <http://purl.obolibrary.org/obo/IAO_0000408>	"A scalar measurement datum that is the result of measurement of length quality"@en	
-<http://purl.obolibrary.org/obo/IAO_0000003>	"A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure."@en	
 <http://purl.obolibrary.org/obo/IAO_0000030>	"A generically dependent continuant that is about some thing."@en	
+<http://purl.obolibrary.org/obo/IAO_0000003>	"A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure."@en	
 <http://purl.obolibrary.org/obo/BFO_0000040>	"An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en	
 <http://purl.obolibrary.org/obo/CHMO_0000793>		
 <http://purl.obolibrary.org/obo/IAO_0000101>	"An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface."@en	
-<http://purl.obolibrary.org/obo/IAO_0000409>	"A denotator type indicates how a term should be interpreted from an ontological perspective."@en	
