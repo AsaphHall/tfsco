@@ -80,6 +80,7 @@
 <http://purl.obolibrary.org/obo/CHMO_0001988>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CHMO_0001301>
 <http://purl.obolibrary.org/obo/IAO_0000033>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000030>
 <http://purl.obolibrary.org/obo/IAO_0000416>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000032>
+<http://purl.obolibrary.org/obo/IAO_0000582>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	_:B3f97f7d8X2Db9b2X2D4b58X2Dbe61X2D34be45ff25cbgenid9
 <http://purl.obolibrary.org/obo/IAO_0000032>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000109>
 <http://purl.obolibrary.org/obo/IAO_0000584>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000100>
 <http://purl.obolibrary.org/obo/IAO_0000009>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000030>
@@ -94,7 +95,6 @@
 <http://purl.obolibrary.org/obo/IAO_0000005>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000033>
 <http://purl.obolibrary.org/obo/IAO_0000140>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000027>
 <http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000030>
-<http://purl.obolibrary.org/obo/IAO_0000582>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	_:B01603604X2D0af3X2D47f7X2D8541X2Daff98fe9e7fegenid9
 <http://purl.obolibrary.org/obo/IAO_0000582>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000109>
 <http://purl.obolibrary.org/obo/IAO_0000104>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000033>
 <http://purl.obolibrary.org/obo/IAO_0000098>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/IAO_0000033>

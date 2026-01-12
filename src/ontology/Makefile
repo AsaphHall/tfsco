@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                45f199c1e712f394e03fb0e0eabc3bbc7e335ef0766a7467bcca9faff998384b
+CONFIG_HASH=                3ad48b400790a386bd0439febd1191259aa3b9a9fea977681b30615b277180ea
 
 
 # ----------------------------------------
@@ -432,6 +432,12 @@ $(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl
 ## Module for ontology: chmo (custom)
 $(IMPORTDIR)/chmo_import.owl: $(MIRRORDIR)/chmo.owl
 	@echo "ERROR: You have configured chmo as a custom module;"
+	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
+	@false
+
+## Module for ontology: iao (custom)
+$(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl
+	@echo "ERROR: You have configured iao as a custom module;"
 	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
 	@false
 
