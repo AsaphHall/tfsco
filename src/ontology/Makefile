@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                7dbe9f51e738c91190c376f1769d9bf5e2f35239026c554d9afdd9f0e43424a6
+CONFIG_HASH=                45f199c1e712f394e03fb0e0eabc3bbc7e335ef0766a7467bcca9faff998384b
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro chmo
+IMPORTS =  bfo ro chmo iao
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -490,6 +490,14 @@ mirror-ro: | $(TMPDIR)
 mirror-chmo: | $(TMPDIR)
 	curl -L $(OBOBASE)/chmo.owl --create-dirs -o $(TMPDIR)/chmo-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/chmo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: iao
+.PHONY: mirror-iao
+.PRECIOUS: $(MIRRORDIR)/iao.owl
+mirror-iao: | $(TMPDIR)
+	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

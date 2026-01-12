@@ -33,8 +33,11 @@ $(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl $(IMPORTDIR)/ro_terms.txt \
 $(IMPORTDIR)/chmo_import.owl: $(MIRRORDIR)/chmo.owl $(IMPORTDIR)/chmo_terms.txt \
 			   $(IMPORTSEED) | all_robot_plugins
 	$(ROBOT) annotate --input $< --remove-annotations \
-		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
-		               --subset-decls true --synonym-decls true \
-		               --add-source true \
-		 repair --merge-axiom-annotations true \
+		 extract --term-file $(IMPORTDIR)/chmo_terms.txt  \
+		         --force true --copy-ontology-annotations true \
+		         --individuals exclude \
+		         --method SUBSET \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term-file $(IMPORTDIR)/ro_terms.txt  \
+		        --select complement --select annotation-properties \
 		 $(ANNOTATE_CONVERT_FILE)

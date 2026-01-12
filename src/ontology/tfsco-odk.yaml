@@ -18,6 +18,7 @@ import_group:
       module_type: custom
     - id: chmo
       module_type: custom
+    - id: iao
 robot_java_args: '-Xmx4G'
 robot_report:
   use_labels: TRUE
