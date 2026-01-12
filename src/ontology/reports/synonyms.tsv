@@ -1,0 +1,37 @@
+?cls	?pred	?val	?synType
+<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000144>	<http://www.w3.org/2000/01/rdf-schema#label>	"process profile"@en	
+<http://purl.obolibrary.org/obo/BFO_0000035>	<http://www.w3.org/2000/01/rdf-schema#label>	"process boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"@en	
+<http://purl.obolibrary.org/obo/BFO_0000148>	<http://www.w3.org/2000/01/rdf-schema#label>	"zero-dimensional temporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000026>	<http://www.w3.org/2000/01/rdf-schema#label>	"one-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000008>	<http://www.w3.org/2000/01/rdf-schema#label>	"temporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"immaterial entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"function"@en	
+<http://purl.obolibrary.org/obo/BFO_0000024>	<http://www.w3.org/2000/01/rdf-schema#label>	"fiat object part"@en	
+<http://purl.obolibrary.org/obo/BFO_0000006>	<http://www.w3.org/2000/01/rdf-schema#label>	"spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"@en	
+<http://purl.obolibrary.org/obo/BFO_0000038>	<http://www.w3.org/2000/01/rdf-schema#label>	"one-dimensional temporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"three-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"generically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000029>	<http://www.w3.org/2000/01/rdf-schema#label>	"site"@en	
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
+<http://purl.obolibrary.org/obo/BFO_0000147>	<http://www.w3.org/2000/01/rdf-schema#label>	"zero-dimensional continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"role"@en	
+<http://purl.obolibrary.org/obo/BFO_0000182>	<http://www.w3.org/2000/01/rdf-schema#label>	"history"@en	
+<http://purl.obolibrary.org/obo/BFO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"object aggregate"@en	
+<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"spatiotemporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000009>	<http://www.w3.org/2000/01/rdf-schema#label>	"two-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000145>	<http://www.w3.org/2000/01/rdf-schema#label>	"relational quality"@en	
+<http://purl.obolibrary.org/obo/BFO_0000142>	<http://www.w3.org/2000/01/rdf-schema#label>	"one-dimensional continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"object"@en	
+<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"@en	
+<http://purl.obolibrary.org/obo/BFO_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"zero-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000146>	<http://www.w3.org/2000/01/rdf-schema#label>	"two-dimensional continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/TFSCO_0000000>	<http://www.w3.org/2000/01/rdf-schema#label>	"root node"@en	

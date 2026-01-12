@@ -1,0 +1,25 @@
+id: tfsco
+title: "Ontology for thin-film solar cells"
+github_org: AsaphHall
+git_main_branch: main
+repo: odk_test
+release_artefacts:
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+  - json
+import_group:
+  products:
+    - id: bfo
+      module_type: mirror
+    - id: ro
+      use_base: true
+robot_java_args: '-Xmx4G'
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit
