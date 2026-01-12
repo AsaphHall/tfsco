@@ -1449,6 +1449,266 @@
       "lbl" : "root node",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "lbl" : "characteristic of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "lbl" : "has characteristic",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Inverse of characteristic_of"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "lbl" : "participates in",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a continuant and a process, in which the continuant is somehow involved in the process"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "lbl" : "has participant",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a process and a continuant, in which the continuant is somehow involved in the process"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000058",
+      "lbl" : "is concretized as",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000059",
+      "lbl" : "concretizes",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship between a specifically dependent continuant or process and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. Multiple specifically dependent continuants or processes can concretize the same generically dependent continuant."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "lbl" : "function of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000080",
+      "lbl" : "quality of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "lbl" : "role of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000085",
+      "lbl" : "has function",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "lbl" : "has quality",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "lbl" : "has role",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000091",
+      "lbl" : "has disposition",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000092",
+      "lbl" : "disposition of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "inverse of has disposition"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "lbl" : "derives from",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001001",
+      "lbl" : "derives into",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001015",
+      "lbl" : "location of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between two independent continuants, the location and the target, in which the target is entirely within the location"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002000",
+      "lbl" : "2D boundary of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a 2D immaterial entity (the boundary) and a material entity, in which the boundary delimits the material entity"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002002",
+      "lbl" : "has 2D boundary",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a material entity and a 2D immaterial entity (the boundary), in which the boundary delimits the material entity"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002233",
+      "lbl" : "has input",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002234",
+      "lbl" : "has output",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002350",
+      "lbl" : "member of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "is member of is a mereological relation between a item and a collection."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002351",
+      "lbl" : "has member",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "has member is a mereological relation between a collection and an item."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002505",
+      "lbl" : "has intermediate",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "p has intermediate c if and only if p has parts p1, p2 and p1 has output c, and p2 has input c"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0003000",
+      "lbl" : "produces",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0003001",
+      "lbl" : "produced by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "a produced_by b iff some process that occurs_in b has_output a."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000179",
       "lbl" : "BFO OWL specification label",
       "type" : "PROPERTY",
@@ -1507,6 +1767,9 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION",
       "meta" : {
+        "definition" : {
+          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/iao.owl"
@@ -1806,6 +2069,94 @@
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000182",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000080",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000085",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000091",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000092",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002233",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002234",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002505",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000058",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000080",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000087"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000091",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0001001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002000",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002350",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002351"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0003000",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0003001"
     } ]
   } ]
 }

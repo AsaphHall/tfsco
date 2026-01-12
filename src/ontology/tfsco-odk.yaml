@@ -15,7 +15,7 @@ import_group:
     - id: bfo
       module_type: mirror
     - id: ro
-      use_base: true
+      module_type: custom
 robot_java_args: '-Xmx4G'
 robot_report:
   use_labels: TRUE

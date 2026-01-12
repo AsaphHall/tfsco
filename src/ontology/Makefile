@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                b75fc24d9d381a6c4b68e4b7fbe5365f8a29fba390bd9917ea37ad67f8a81158
+CONFIG_HASH=                d7a771803021ca064ebc1890733900722adb6b162513ffc043d1b45f7a7f203f
 
 
 # ----------------------------------------
@@ -423,6 +423,12 @@ $(IMPORTDIR)/bfo_import.owl: $(MIRRORDIR)/bfo.owl | all_robot_plugins
 		 repair --merge-axiom-annotations true \
 		 $(ANNOTATE_CONVERT_FILE)
 
+## Module for ontology: ro (custom)
+$(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl
+	@echo "ERROR: You have configured ro as a custom module;"
+	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
+	@false
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -468,7 +474,7 @@ mirror-bfo: | $(TMPDIR)
 .PHONY: mirror-ro
 .PRECIOUS: $(MIRRORDIR)/ro.owl
 mirror-ro: | $(TMPDIR)
-	curl -L $(OBOBASE)/ro/ro-base.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
 
 
