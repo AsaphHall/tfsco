@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                d7a771803021ca064ebc1890733900722adb6b162513ffc043d1b45f7a7f203f
+CONFIG_HASH=                7dbe9f51e738c91190c376f1769d9bf5e2f35239026c554d9afdd9f0e43424a6
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro
+IMPORTS =  bfo ro chmo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -429,6 +429,12 @@ $(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl
 	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
 	@false
 
+## Module for ontology: chmo (custom)
+$(IMPORTDIR)/chmo_import.owl: $(MIRRORDIR)/chmo.owl
+	@echo "ERROR: You have configured chmo as a custom module;"
+	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
+	@false
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -476,6 +482,14 @@ mirror-bfo: | $(TMPDIR)
 mirror-ro: | $(TMPDIR)
 	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: chmo
+.PHONY: mirror-chmo
+.PRECIOUS: $(MIRRORDIR)/chmo.owl
+mirror-chmo: | $(TMPDIR)
+	curl -L $(OBOBASE)/chmo.owl --create-dirs -o $(TMPDIR)/chmo-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/chmo-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

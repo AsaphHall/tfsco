@@ -1,0 +1,57 @@
+http://purl.obolibrary.org/obo/CHMO_0000067 # microscopy
+http://purl.obolibrary.org/obo/CHMO_0000208 # reflection method
+http://purl.obolibrary.org/obo/CHMO_0000209 # reflectometry
+http://purl.obolibrary.org/obo/CHMO_0000219 # X-ray reflectometry
+http://purl.obolibrary.org/obo/CHMO_0000228 # spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000793 # assay output
+http://purl.obolibrary.org/obo/CHMO_0000800 # spectrum
+http://purl.obolibrary.org/obo/CHMO_0001301 # synthesis method
+http://purl.obolibrary.org/obo/CHMO_0001310 # sample deposition
+http://purl.obolibrary.org/obo/CHMO_0001311 # atomic layer deposition
+http://purl.obolibrary.org/obo/CHMO_0001312 # Chemical solution deposition
+http://purl.obolibrary.org/obo/CHMO_0001313 # sol–gel method
+http://purl.obolibrary.org/obo/CHMO_0001314 # chemical vapour deposition
+http://purl.obolibrary.org/obo/CHMO_0001324 # metal–organic chemical vapour deposition
+http://purl.obolibrary.org/obo/CHMO_0001325 # plasma-assisted chemical vapour deposition
+http://purl.obolibrary.org/obo/CHMO_0001341 # molecular beam epitaxy
+http://purl.obolibrary.org/obo/CHMO_0001349 # Jet deposition
+http://purl.obolibrary.org/obo/CHMO_0001350 # aerosol jet deposition
+http://purl.obolibrary.org/obo/CHMO_0001351 # gas jet deposition
+http://purl.obolibrary.org/obo/CHMO_0001353 # plasma jet deposition
+http://purl.obolibrary.org/obo/CHMO_0001356 # physical vapour deposition
+http://purl.obolibrary.org/obo/CHMO_0001358 # electron-beam-induced deposition
+http://purl.obolibrary.org/obo/CHMO_0001363 # pulsed laser deposition
+http://purl.obolibrary.org/obo/CHMO_0001364 # sputter deposition
+http://purl.obolibrary.org/obo/CHMO_0001471 # Dip coating
+http://purl.obolibrary.org/obo/CHMO_0001472 # spin coating
+http://purl.obolibrary.org/obo/CHMO_0001516 # Spray pyrolysis
+http://purl.obolibrary.org/obo/CHMO_0001558 # etching
+http://purl.obolibrary.org/obo/CHMO_0001559 # dry etching
+http://purl.obolibrary.org/obo/CHMO_0001560 # plasma etching
+http://purl.obolibrary.org/obo/CHMO_0001568 # sputter etching
+http://purl.obolibrary.org/obo/CHMO_0001685 # mixing
+http://purl.obolibrary.org/obo/CHMO_0001988 # aerosol method
+http://purl.obolibrary.org/obo/CHMO_0002163 # drop coating
+http://purl.obolibrary.org/obo/CHMO_0002530 # Spray coating
+http://purl.obolibrary.org/obo/CHMO_0002770 # sample heating
+http://purl.obolibrary.org/obo/CHMO_0002773 # dissolving
+http://purl.obolibrary.org/obo/CHMO_0002774 # stirring
+http://purl.obolibrary.org/obo/CHMO_0002793 # sensor
+http://purl.obolibrary.org/obo/CHMO_0002917 # sample quenching
+
+# we need these imports for the inclusion of domains and ranges
+# (SUBSET method does not do that automatically)
+#
+http://purl.obolibrary.org/obo/BFO_0000002 #continuant
+http://purl.obolibrary.org/obo/BFO_0000031 #'generically dependent continuant'
+http://purl.obolibrary.org/obo/BFO_0000004 #'independent continuant'
+http://purl.obolibrary.org/obo/BFO_0000040 #'material entity'
+http://purl.obolibrary.org/obo/BFO_0000020 #'specifically dependent continuant'
+http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/BFO_0000017 #'realizable entity'
+http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/BFO_0000034 # function
+http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/BFO_0000003 # occurrent
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/BFO_0000006 # spacial region
