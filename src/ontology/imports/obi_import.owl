@@ -1,0 +1,410 @@
+Prefix(:=<http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl>
+<http://purl.obolibrary.org/obo/tfsco/releases/2026-01-12/imports/obi_import.owl>
+Annotation(owl:versionInfo "2026-01-12")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000339>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000372>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000378>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000441>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000456>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000806>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000838>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000932>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000968>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001138>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001755>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001928>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002900>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002901>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002902>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0200000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0200166>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302893>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600013>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000295>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000417>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000833>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "textual definition")
+
+# Annotation Property: rdfs:label (label)
+
+AnnotationAssertion(rdfs:label rdfs:label "label")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000293> (has specified input)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000293> "The inverse property of is specified input of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000293> "has specified input"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000295>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000295> (is specified input of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000295> "A relation between a completely executed planned process and a continuant participating in that process that is not created during the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000295> "is specified input of"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000299> (has specified output)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000299> "The inverse property of is specified output of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000299> "has specified output"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000312>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000312> (is specified output of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000312> "A relation between a completely executed planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000312> "is specified output of"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000417> (achieves_planned_objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000417> "This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000417> "achieves_planned_objective")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000833>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000833> (objective_achieved_by)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000833> "This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000833> "objective_achieved_by")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000833> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000016> "disposition"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000017> (realizable entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000034> (function)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000034> "function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000005> (objective specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000005> "A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000005> "objective specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000005> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000033> (directive information entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000033> "An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000033> "directive information entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (obsolete planned process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000011> "A process that realizes a plan which is the concretization of a plan specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "obsolete planned process")
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (obsolete processed material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000047> "Is a material entity that is created or changed during material processing."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000047> "obsolete processed material")
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000067> (evaluant role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000067> "a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000067> "evaluant role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000067> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000070> "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000070> "assay"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000441>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/BFO_0000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000441>))
+DisjointClasses(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0000339>)
+DisjointClasses(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0200000>)
+DisjointClasses(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0600013>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000086> (reagent role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000086> "A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000086> "reagent role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000086> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000094> (obsolete material processing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000094> "A planned process which results in physical changes in a specified input material"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000094> "obsolete material processing")
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000185> (imaging assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000185> "An assay that produces a picture of an entity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000185> "imaging assay")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000185> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000339> (planning)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000339> "a process of creating or modifying a plan specification"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000339> "planning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000339> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000367> (light emission function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000367> "A light emission function is an excitation function to excite a material to a specific excitation state that it emits light."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000367> "light emission function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000367> <http://purl.obolibrary.org/obo/OBI_0000374>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000372> (material separation function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000372> "A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000372> "material separation function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000372> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000374> (excitation function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000374> "A excitation function is a function  to inject energy by bombarding a material with energetic particles (e.g., photons) thereby imbuing internal material components such as electrons with additional energy.  These internal, 'excited' particles may lead to the rupturing of covalent chemical bonds or may quickly relax back to there unexcited state with an exponential time course thereby locally emitting energy in the form of photons."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000374> "excitation function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000374> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000378> (filter function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000378> "A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000378> "filter function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000378> <http://purl.obolibrary.org/obo/OBI_0000372>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000441> (assay objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000441> "an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000441> "assay objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000441> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000456> (material transformation objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000456> "an objective specifiction that creates an specific output object from input materials."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000456> "material transformation objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000456> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000458> (manufacturing objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000458> "is the objective to manufacture a material of a certain function (device)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000458> "manufacturing objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000458> <http://purl.obolibrary.org/obo/OBI_0000456>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000806> (material maintenance objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000806> "An objective specification maintains some or all of the qualities of a material over time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000806> "material maintenance objective")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000806> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000838> (material maintenance)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000838> "A planned process with the objective to maintain some or all of the characteristics of an input material over time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000838> "material maintenance")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000838> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000806>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000838> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000838> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000806>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000932> (material separation device)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000932> "A device with a separation function realized in a planed process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000932> "material separation device")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000932> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000932> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/BFO_0000015>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000968> (obsolete device)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000968> "A material entity that is designed to perform a function in a scientific investigation, but is not a reagent."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000968> "obsolete device")
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001032> (light emission device)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001032> "A device which has a function to emit light."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001032> "light emission device")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001032> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/BFO_0000015>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001138> (X-ray source)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001138> "A device that is used to generate X-rays."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001138> "X-ray source")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001138> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001138> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/BFO_0000015>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001755> (selection criterion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001755> "A directive information entity which defines and states a principle of standard by which selection process may take place."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001755> "selection criterion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001755> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001928> (selection)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001928> "A planned process with the objective to create a group of entities by applying a predefined criteria to a larger group of entities."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001928> "selection"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001928> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002900> (ultraviolet light source)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002900> "A light source that provides ultraviolet (UV) light for use in a distant area using a delivery system."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002900> "ultraviolet light source")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002900> <http://purl.obolibrary.org/obo/OBI_0400065>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002901> (visible light source)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002901> "A light source that provides visible light for use in a distant area using a delivery system."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002901> "visible light source")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002901> <http://purl.obolibrary.org/obo/OBI_0400065>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002902> (solar light source)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002902> "A light source that light is produced from solar energy."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002902> "solar light source")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002902> <http://purl.obolibrary.org/obo/OBI_0400065>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0200000> (data transformation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0200000> "A completely executed planned process that produces output data from input data."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0200000> "data transformation"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200166>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200166>))
+DisjointClasses(<http://purl.obolibrary.org/obo/OBI_0200000> <http://purl.obolibrary.org/obo/OBI_0600013>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0200166> (data transformation objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0200166> "An objective specification to transformation input data into output data"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0200166> "data transformation objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0200166> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0302893> (storage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0302893> "A planned process with the objective to preserve and protect material entities by placing them in an identified location which may have a controlled environment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0302893> "storage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302893> <http://purl.obolibrary.org/obo/OBI_0000838>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302893> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/BFO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400013> (band pass filter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400013> "A band pass filter is an optical filter that passes wavelengths of light within a certain range and rejects (attenuates) frequencies outside that range. The passed wavelengths are indicated in the specifications of the filter and its name. A 480/20 band-pass filter pass light with at wavelengths of 460 to 500 nm and attenuates all others."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400013> "band pass filter")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400013> <http://purl.obolibrary.org/obo/OBI_0400079>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400064> (laser)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400064> "A laser (acronym for light amplification by the stimulated emission of radiation) is a light source that emits photons of the same characteristics in a coherent beam. A laser uses a solid, liquid or gaseous lasing medium, that contains molecules, of which some atoms have electrons that emit photons of the same frequency when falling back to their normal orbital after excitation (pumping) by external means A laser is the most common way to irradiate a cell in a flow cytometer."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400064> "laser")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400064> <http://purl.obolibrary.org/obo/OBI_0400065>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400065> (light source)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400065> "A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400065> "light source")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400065> <http://purl.obolibrary.org/obo/OBI_0001032>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400067> (long pass filter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400067> "A long pass filter is an optical filter that passes high wavelengths of light but attenuates (or reduces) wavelengths lower than the cutoff frequency. A long pass filter with a cutoff of 500 nm would pass all wavelengths greater than 500 nm."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400067> "long pass filter")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400067> <http://purl.obolibrary.org/obo/OBI_0400079>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400079> (optical filter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400079> "An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400079> "optical filter")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400079> <http://purl.obolibrary.org/obo/OBI_0000932>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400095> (short pass filter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400095> "A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400095> "short pass filter")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400095> <http://purl.obolibrary.org/obo/OBI_0400079>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400142> (power supply)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400142> "A power supply is an device or part of a device that permits the required application of a defined electrical charge to an instrument. The power supply may permit the defined application of a given amount of current for a defined length of time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400142> "power supply")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400142> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400142> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/BFO_0000015>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0600008> (acquisition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0600008> "A planned process with the objective of gaining possession of an entity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600008> "acquisition"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600008> <http://purl.obolibrary.org/obo/OBI_0001928>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0600010> (material acquisition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0600010> "An acquisition in which possession of a material entity is gained."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600010> "material acquisition"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600010> <http://purl.obolibrary.org/obo/OBI_0600008>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/BFO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0600013> (information acquisition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0600013> "An acquisition in which possession of information is gained."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600013> "information acquisition"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600013> <http://purl.obolibrary.org/obo/OBI_0600008>)
+
+
+)

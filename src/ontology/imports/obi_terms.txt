@@ -1,0 +1,65 @@
+# Object Properties
+http://purl.obolibrary.org/obo/OBI_0000293 # has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000295 # is_specified_input_of
+http://purl.obolibrary.org/obo/OBI_0000299 # has_specified_output
+http://purl.obolibrary.org/obo/OBI_0000312 # is_specified_output_of
+http://purl.obolibrary.org/obo/OBI_0000417 # achieves_planned_objective
+http://purl.obolibrary.org/obo/OBI_0000833 # objective_achieved_by
+
+# Classes
+http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://purl.obolibrary.org/obo/OBI_0000047 # processed material
+http://purl.obolibrary.org/obo/OBI_0000067 # evaluant role
+http://purl.obolibrary.org/obo/OBI_0000070 # assay
+http://purl.obolibrary.org/obo/OBI_0000086 # reagent role
+http://purl.obolibrary.org/obo/OBI_0000094 # material processing
+http://purl.obolibrary.org/obo/OBI_0000185 # imaging assay
+http://purl.obolibrary.org/obo/OBI_0000339 # planning
+http://purl.obolibrary.org/obo/OBI_0000367 # ight emission function
+http://purl.obolibrary.org/obo/OBI_0000372 # material separation function
+http://purl.obolibrary.org/obo/OBI_0000374 # excitation function
+http://purl.obolibrary.org/obo/OBI_0000378 # filter function
+http://purl.obolibrary.org/obo/OBI_0000441 # assay objective
+http://purl.obolibrary.org/obo/OBI_0000456 # material transformation objective
+http://purl.obolibrary.org/obo/OBI_0000458 # manufacturing objective
+http://purl.obolibrary.org/obo/OBI_0000806 # material maintenance objective
+http://purl.obolibrary.org/obo/OBI_0000838 # material maintenance
+http://purl.obolibrary.org/obo/OBI_0000932 # material separation device
+http://purl.obolibrary.org/obo/OBI_0000968 # device
+http://purl.obolibrary.org/obo/OBI_0001032 # light emission device
+http://purl.obolibrary.org/obo/OBI_0001138 # X-ray source
+http://purl.obolibrary.org/obo/OBI_0001755 # selection criterion
+http://purl.obolibrary.org/obo/OBI_0001928 # selection
+http://purl.obolibrary.org/obo/OBI_0002900 # ultraviolet light source
+http://purl.obolibrary.org/obo/OBI_0002901 # visible light source
+http://purl.obolibrary.org/obo/OBI_0002902 # solar light source
+http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
+http://purl.obolibrary.org/obo/OBI_0200166 # data transformation objective
+http://purl.obolibrary.org/obo/OBI_0302893 # storage
+http://purl.obolibrary.org/obo/OBI_0400013 # band pass filter
+http://purl.obolibrary.org/obo/OBI_0400064 # laser
+http://purl.obolibrary.org/obo/OBI_0400065 # light source
+http://purl.obolibrary.org/obo/OBI_0400067 # long pass filter
+http://purl.obolibrary.org/obo/OBI_0400079 # optical filter
+http://purl.obolibrary.org/obo/OBI_0400095 # short pass filter
+http://purl.obolibrary.org/obo/OBI_0400142 # power supply
+http://purl.obolibrary.org/obo/OBI_0600008 # acquisition
+http://purl.obolibrary.org/obo/OBI_0600010 # material acquisition
+http://purl.obolibrary.org/obo/OBI_0600013 # information acquisition
+
+
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+# http://purl.obolibrary.org/obo/BFO_0000020 # specifically dependent continuant
+# http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/BFO_0000017 # realizable entity
+http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://purl.obolibrary.org/obo/BFO_0000034 # function
+# http://purl.obolibrary.org/obo/BFO_0000023 # role
+# http://purl.obolibrary.org/obo/BFO_0000003 # occurrent
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+# http://purl.obolibrary.org/obo/BFO_0000006 # spacial region
+http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
+http://purl.obolibrary.org/obo/IAO_0000033 # directive information entity

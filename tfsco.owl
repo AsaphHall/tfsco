@@ -225,6 +225,14 @@
     
 
 
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
@@ -354,6 +362,65 @@
         </rdfs:range>
         <obo:IAO_0000115 xml:lang="en">relates a time stamped measurement datum to the measurement datum that was measured</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has measurement datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+        <obo:IAO_0000115>The inverse property of is specified input of</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has specified input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000295 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000295">
+        <obo:IAO_0000115>A relation between a completely executed planned process and a continuant participating in that process that is not created during the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">is specified input of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+        <obo:IAO_0000115>The inverse property of is specified output of</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has specified output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
+        <obo:IAO_0000115 xml:lang="en">A relation between a completely executed planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">is specified output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000833"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.</obo:IAO_0000115>
+        <rdfs:label>achieves_planned_objective</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000833 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000833">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process.</obo:IAO_0000115>
+        <rdfs:label>objective_achieved_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2708,6 +2775,474 @@ Example: The ISO document specifying what encompasses an XML document; The instr
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
         <obo:IAO_0000115 xml:lang="en">A data set that is an aggregate of data recording some measurement at a number of time points. The time series data set is an ordered list of pairs of time measurement data and the corresponding measurement data acquired at that time.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time sampled measurement data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+        <obo:IAO_0000115 xml:lang="en">A process that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
+        <rdfs:label>obsolete planned process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+        <obo:IAO_0000115 xml:lang="en">Is a material entity that is created or changed during material processing.</obo:IAO_0000115>
+        <rdfs:label>obsolete processed material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">evaluant role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000441"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000441"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0000339"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0600013"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that has the objective to produce information about a material entity (the evaluant) by examining it.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">reagent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+        <obo:IAO_0000115 xml:lang="en">A planned process which results in physical changes in a specified input material</obo:IAO_0000115>
+        <rdfs:label>obsolete material processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that produces a picture of an entity.</obo:IAO_0000115>
+        <rdfs:label>imaging assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">a process of creating or modifying a plan specification</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">planning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">A light emission function is an excitation function to excite a material to a specific excitation state that it emits light.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">light emission function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <obo:IAO_0000115 xml:lang="en">A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material separation function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <obo:IAO_0000115 xml:lang="en">A excitation function is a function  to inject energy by bombarding a material with energetic particles (e.g., photons) thereby imbuing internal material components such as electrons with additional energy.  These internal, &apos;excited&apos; particles may lead to the rupturing of covalent chemical bonds or may quickly relax back to there unexcited state with an exponential time course thereby locally emitting energy in the form of photons.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">excitation function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000372"/>
+        <obo:IAO_0000115 xml:lang="en">A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">filter function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">assay objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">an objective specifiction that creates an specific output object from input materials.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material transformation objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+        <obo:IAO_0000115 xml:lang="en">is the objective to manufacture a material of a certain function (device)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">manufacturing objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification maintains some or all of the qualities of a material over time.</obo:IAO_0000115>
+        <rdfs:label>material maintenance objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000838">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to maintain some or all of the characteristics of an input material over time.</obo:IAO_0000115>
+        <rdfs:label>material maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A device with a separation function realized in a planed process</obo:IAO_0000115>
+        <rdfs:label>material separation device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968">
+        <obo:IAO_0000115 xml:lang="en">A material entity that is designed to perform a function in a scientific investigation, but is not a reagent.</obo:IAO_0000115>
+        <rdfs:label>obsolete device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A device which has a function to emit light.</obo:IAO_0000115>
+        <rdfs:label>light emission device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A device that is used to generate X-rays.</obo:IAO_0000115>
+        <rdfs:label>X-ray source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity which defines and states a principle of standard by which selection process may take place.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">selection criterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to create a group of entities by applying a predefined criteria to a larger group of entities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002900">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
+        <obo:IAO_0000115 xml:lang="en">A light source that provides ultraviolet (UV) light for use in a distant area using a delivery system.</obo:IAO_0000115>
+        <rdfs:label>ultraviolet light source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002901">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
+        <obo:IAO_0000115 xml:lang="en">A light source that provides visible light for use in a distant area using a delivery system.</obo:IAO_0000115>
+        <rdfs:label>visible light source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002902">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
+        <obo:IAO_0000115 xml:lang="en">A light source that light is produced from solar energy.</obo:IAO_0000115>
+        <rdfs:label>solar light source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0600013"/>
+        <obo:IAO_0000115 xml:lang="en">A completely executed planned process that produces output data from input data.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">data transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification to transformation input data into output data</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">data transformation objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to preserve and protect material entities by placing them in an identified location which may have a controlled environment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <obo:IAO_0000115 xml:lang="en">A band pass filter is an optical filter that passes wavelengths of light within a certain range and rejects (attenuates) frequencies outside that range. The passed wavelengths are indicated in the specifications of the filter and its name. A 480/20 band-pass filter pass light with at wavelengths of 460 to 500 nm and attenuates all others.</obo:IAO_0000115>
+        <rdfs:label>band pass filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
+        <obo:IAO_0000115 xml:lang="en">A laser (acronym for light amplification by the stimulated emission of radiation) is a light source that emits photons of the same characteristics in a coherent beam. A laser uses a solid, liquid or gaseous lasing medium, that contains molecules, of which some atoms have electrons that emit photons of the same frequency when falling back to their normal orbital after excitation (pumping) by external means A laser is the most common way to irradiate a cell in a flow cytometer.</obo:IAO_0000115>
+        <rdfs:label>laser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001032"/>
+        <obo:IAO_0000115 xml:lang="en">A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser.</obo:IAO_0000115>
+        <rdfs:label>light source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <obo:IAO_0000115 xml:lang="en">A long pass filter is an optical filter that passes high wavelengths of light but attenuates (or reduces) wavelengths lower than the cutoff frequency. A long pass filter with a cutoff of 500 nm would pass all wavelengths greater than 500 nm.</obo:IAO_0000115>
+        <rdfs:label>long pass filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000932"/>
+        <obo:IAO_0000115 xml:lang="en">An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length.</obo:IAO_0000115>
+        <rdfs:label>optical filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <obo:IAO_0000115 xml:lang="en">A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm.</obo:IAO_0000115>
+        <rdfs:label>short pass filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A power supply is an device or part of a device that permits the required application of a defined electrical charge to an instrument. The power supply may permit the defined application of a given amount of current for a defined length of time.</obo:IAO_0000115>
+        <rdfs:label>power supply</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001928"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective of gaining possession of an entity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An acquisition in which possession of a material entity is gained.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600008"/>
+        <obo:IAO_0000115 xml:lang="en">An acquisition in which possession of information is gained.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">information acquisition</rdfs:label>
     </owl:Class>
     
 

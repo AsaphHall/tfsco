@@ -74,13 +74,52 @@
 <http://purl.obolibrary.org/obo/CHMO_0002770>	<http://www.w3.org/2000/01/rdf-schema#label>	"sample heating"	
 <http://purl.obolibrary.org/obo/CHMO_0001356>	<http://www.w3.org/2000/01/rdf-schema#label>	"physical vapour deposition"	
 <http://purl.obolibrary.org/obo/CHMO_0002163>	<http://www.w3.org/2000/01/rdf-schema#label>	"drop coating"	
+<http://purl.obolibrary.org/obo/OBI_0400065>	<http://www.w3.org/2000/01/rdf-schema#label>	"light source"	
+<http://purl.obolibrary.org/obo/OBI_0001032>	<http://www.w3.org/2000/01/rdf-schema#label>	"light emission device"	
+<http://purl.obolibrary.org/obo/OBI_0000339>	<http://www.w3.org/2000/01/rdf-schema#label>	"planning"@en	
+<http://purl.obolibrary.org/obo/OBI_0000086>	<http://www.w3.org/2000/01/rdf-schema#label>	"reagent role"@en	
+<http://purl.obolibrary.org/obo/OBI_0000378>	<http://www.w3.org/2000/01/rdf-schema#label>	"filter function"@en	
+<http://purl.obolibrary.org/obo/OBI_0000458>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturing objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0400079>	<http://www.w3.org/2000/01/rdf-schema#label>	"optical filter"	
+<http://purl.obolibrary.org/obo/OBI_0002901>	<http://www.w3.org/2000/01/rdf-schema#label>	"visible light source"	
+<http://purl.obolibrary.org/obo/OBI_0001755>	<http://www.w3.org/2000/01/rdf-schema#label>	"selection criterion"@en	
+<http://purl.obolibrary.org/obo/OBI_0000968>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete device"	
+<http://purl.obolibrary.org/obo/OBI_0001928>	<http://www.w3.org/2000/01/rdf-schema#label>	"selection"@en	
+<http://purl.obolibrary.org/obo/IAO_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"directive information entity"@en	
+<http://purl.obolibrary.org/obo/OBI_0000806>	<http://www.w3.org/2000/01/rdf-schema#label>	"material maintenance objective"	
+<http://purl.obolibrary.org/obo/OBI_0000047>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete processed material"	
+<http://purl.obolibrary.org/obo/OBI_0400095>	<http://www.w3.org/2000/01/rdf-schema#label>	"short pass filter"	
+<http://purl.obolibrary.org/obo/OBI_0000067>	<http://www.w3.org/2000/01/rdf-schema#label>	"evaluant role"@en	
+<http://purl.obolibrary.org/obo/OBI_0400064>	<http://www.w3.org/2000/01/rdf-schema#label>	"laser"	
+<http://purl.obolibrary.org/obo/OBI_0302893>	<http://www.w3.org/2000/01/rdf-schema#label>	"storage"@en	
+<http://purl.obolibrary.org/obo/OBI_0600013>	<http://www.w3.org/2000/01/rdf-schema#label>	"information acquisition"@en	
+<http://purl.obolibrary.org/obo/OBI_0400013>	<http://www.w3.org/2000/01/rdf-schema#label>	"band pass filter"	
+<http://purl.obolibrary.org/obo/OBI_0000094>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete material processing"	
+<http://purl.obolibrary.org/obo/OBI_0000367>	<http://www.w3.org/2000/01/rdf-schema#label>	"light emission function"@en	
+<http://purl.obolibrary.org/obo/OBI_0000456>	<http://www.w3.org/2000/01/rdf-schema#label>	"material transformation objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0000185>	<http://www.w3.org/2000/01/rdf-schema#label>	"imaging assay"	
+<http://purl.obolibrary.org/obo/OBI_0600010>	<http://www.w3.org/2000/01/rdf-schema#label>	"material acquisition"@en	
+<http://purl.obolibrary.org/obo/OBI_0001138>	<http://www.w3.org/2000/01/rdf-schema#label>	"X-ray source"	
+<http://purl.obolibrary.org/obo/OBI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete planned process"	
+<http://purl.obolibrary.org/obo/OBI_0000932>	<http://www.w3.org/2000/01/rdf-schema#label>	"material separation device"	
+<http://purl.obolibrary.org/obo/OBI_0002902>	<http://www.w3.org/2000/01/rdf-schema#label>	"solar light source"	
+<http://purl.obolibrary.org/obo/OBI_0600008>	<http://www.w3.org/2000/01/rdf-schema#label>	"acquisition"@en	
+<http://purl.obolibrary.org/obo/OBI_0200166>	<http://www.w3.org/2000/01/rdf-schema#label>	"data transformation objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0200000>	<http://www.w3.org/2000/01/rdf-schema#label>	"data transformation"@en	
+<http://purl.obolibrary.org/obo/OBI_0000374>	<http://www.w3.org/2000/01/rdf-schema#label>	"excitation function"@en	
+<http://purl.obolibrary.org/obo/OBI_0002900>	<http://www.w3.org/2000/01/rdf-schema#label>	"ultraviolet light source"	
+<http://purl.obolibrary.org/obo/OBI_0000838>	<http://www.w3.org/2000/01/rdf-schema#label>	"material maintenance"	
+<http://purl.obolibrary.org/obo/OBI_0400067>	<http://www.w3.org/2000/01/rdf-schema#label>	"long pass filter"	
+<http://purl.obolibrary.org/obo/OBI_0000070>	<http://www.w3.org/2000/01/rdf-schema#label>	"assay"@en	
+<http://purl.obolibrary.org/obo/OBI_0000441>	<http://www.w3.org/2000/01/rdf-schema#label>	"assay objective"@en	
+<http://purl.obolibrary.org/obo/IAO_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"objective specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0400142>	<http://www.w3.org/2000/01/rdf-schema#label>	"power supply"	
+<http://purl.obolibrary.org/obo/OBI_0000372>	<http://www.w3.org/2000/01/rdf-schema#label>	"material separation function"@en	
 <http://purl.obolibrary.org/obo/IAO_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"setting datum"@en	
 <http://purl.obolibrary.org/obo/IAO_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"symbol"@en	
 <http://purl.obolibrary.org/obo/IAO_0000007>	<http://www.w3.org/2000/01/rdf-schema#label>	"action specification"@en	
 <http://purl.obolibrary.org/obo/IAO_0000098>	<http://www.w3.org/2000/01/rdf-schema#label>	"data format specification"@en	
 <http://purl.obolibrary.org/obo/IAO_0000100>	<http://www.w3.org/2000/01/rdf-schema#label>	"data set"@en	
-<http://purl.obolibrary.org/obo/IAO_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"directive information entity"@en	
-<http://purl.obolibrary.org/obo/IAO_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"objective specification"@en	
 <http://purl.obolibrary.org/obo/IAO_0000109>	<http://www.w3.org/2000/01/rdf-schema#label>	"measurement datum"@en	
 <http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"@en	
 <http://purl.obolibrary.org/obo/IAO_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"scalar measurement datum"@en	

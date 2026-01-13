@@ -1804,6 +1804,357 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000011",
+      "lbl" : "obsolete planned process",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A process that realizes a plan which is the concretization of a plan specification."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000047",
+      "lbl" : "obsolete processed material",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Is a material entity that is created or changed during material processing."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000067",
+      "lbl" : "evaluant role",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000070",
+      "lbl" : "assay",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000086",
+      "lbl" : "reagent role",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000094",
+      "lbl" : "obsolete material processing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process which results in physical changes in a specified input material"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000185",
+      "lbl" : "imaging assay",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An assay that produces a picture of an entity."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000339",
+      "lbl" : "planning",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "a process of creating or modifying a plan specification"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000367",
+      "lbl" : "light emission function",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A light emission function is an excitation function to excite a material to a specific excitation state that it emits light."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000372",
+      "lbl" : "material separation function",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000374",
+      "lbl" : "excitation function",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A excitation function is a function  to inject energy by bombarding a material with energetic particles (e.g., photons) thereby imbuing internal material components such as electrons with additional energy.  These internal, 'excited' particles may lead to the rupturing of covalent chemical bonds or may quickly relax back to there unexcited state with an exponential time course thereby locally emitting energy in the form of photons."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000378",
+      "lbl" : "filter function",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000441",
+      "lbl" : "assay objective",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000456",
+      "lbl" : "material transformation objective",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "an objective specifiction that creates an specific output object from input materials."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000458",
+      "lbl" : "manufacturing objective",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "is the objective to manufacture a material of a certain function (device)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000806",
+      "lbl" : "material maintenance objective",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An objective specification maintains some or all of the qualities of a material over time."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000838",
+      "lbl" : "material maintenance",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process with the objective to maintain some or all of the characteristics of an input material over time."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000932",
+      "lbl" : "material separation device",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A device with a separation function realized in a planed process"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000968",
+      "lbl" : "obsolete device",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A material entity that is designed to perform a function in a scientific investigation, but is not a reagent."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001032",
+      "lbl" : "light emission device",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A device which has a function to emit light."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001138",
+      "lbl" : "X-ray source",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A device that is used to generate X-rays."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001755",
+      "lbl" : "selection criterion",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A directive information entity which defines and states a principle of standard by which selection process may take place."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001928",
+      "lbl" : "selection",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process with the objective to create a group of entities by applying a predefined criteria to a larger group of entities."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0002900",
+      "lbl" : "ultraviolet light source",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A light source that provides ultraviolet (UV) light for use in a distant area using a delivery system."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0002901",
+      "lbl" : "visible light source",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A light source that provides visible light for use in a distant area using a delivery system."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0002902",
+      "lbl" : "solar light source",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A light source that light is produced from solar energy."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0200000",
+      "lbl" : "data transformation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A completely executed planned process that produces output data from input data."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0200166",
+      "lbl" : "data transformation objective",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An objective specification to transformation input data into output data"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0302893",
+      "lbl" : "storage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process with the objective to preserve and protect material entities by placing them in an identified location which may have a controlled environment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400013",
+      "lbl" : "band pass filter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A band pass filter is an optical filter that passes wavelengths of light within a certain range and rejects (attenuates) frequencies outside that range. The passed wavelengths are indicated in the specifications of the filter and its name. A 480/20 band-pass filter pass light with at wavelengths of 460 to 500 nm and attenuates all others."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400064",
+      "lbl" : "laser",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A laser (acronym for light amplification by the stimulated emission of radiation) is a light source that emits photons of the same characteristics in a coherent beam. A laser uses a solid, liquid or gaseous lasing medium, that contains molecules, of which some atoms have electrons that emit photons of the same frequency when falling back to their normal orbital after excitation (pumping) by external means A laser is the most common way to irradiate a cell in a flow cytometer."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400065",
+      "lbl" : "light source",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400067",
+      "lbl" : "long pass filter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A long pass filter is an optical filter that passes high wavelengths of light but attenuates (or reduces) wavelengths lower than the cutoff frequency. A long pass filter with a cutoff of 500 nm would pass all wavelengths greater than 500 nm."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400079",
+      "lbl" : "optical filter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400095",
+      "lbl" : "short pass filter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0400142",
+      "lbl" : "power supply",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A power supply is an device or part of a device that permits the required application of a defined electrical charge to an instrument. The power supply may permit the defined application of a given amount of current for a defined length of time."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0600008",
+      "lbl" : "acquisition",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process with the objective of gaining possession of an entity."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0600010",
+      "lbl" : "material acquisition",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An acquisition in which possession of a material entity is gained."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0600013",
+      "lbl" : "information acquisition",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An acquisition in which possession of information is gained."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/TFSCO_0000000",
       "lbl" : "root node",
       "type" : "CLASS"
@@ -1890,6 +2241,66 @@
       "meta" : {
         "definition" : {
           "val" : "relates a time stamped measurement datum to the measurement datum that was measured"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "lbl" : "has specified input",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "The inverse property of is specified input of"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "lbl" : "is specified input of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "A relation between a completely executed planned process and a continuant participating in that process that is not created during the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "lbl" : "has specified output",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "The inverse property of is specified output of"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "lbl" : "is specified output of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "A relation between a completely executed planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "lbl" : "achieves_planned_objective",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000833",
+      "lbl" : "objective_achieved_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process."
         }
       }
     }, {
@@ -2372,6 +2783,9 @@
       "id" : "http://xmlns.com/foaf/0.1/mbox",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "lbl" : "label"
     } ],
     "edges" : [ {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -2770,6 +3184,186 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000100"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000441"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000339",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000374"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000372",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000374",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000372"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000441",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000456",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000458",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000456"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000806",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000838",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000838",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000806"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000932",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001032",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001138",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001138",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001755",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001928",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002900",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002901",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002902",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0200166"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0200166",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0302893",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000838"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0302893",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0001032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000932"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400095",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0400079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400142",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0400142",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0600008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0001928"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0600010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0600008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0600010",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0600013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0600008"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000221",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000136"
@@ -2834,6 +3428,18 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000419"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000295"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000312"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000833"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
@@ -2895,6 +3501,9 @@
       "predicateId" : "http://purl.obolibrary.org/obo/IAO_0000583",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/IAO_0000582" ]
     }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000833",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/IAO_0000005" ]
+    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000056",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
@@ -2937,6 +3546,9 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/IAO_0000039",
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/IAO_0000003" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/IAO_0000005" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000053",
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000020" ]

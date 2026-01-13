@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                3ad48b400790a386bd0439febd1191259aa3b9a9fea977681b30615b277180ea
+CONFIG_HASH=                8302569ef9e00bfeb6bdfd4c93120dde4a451bae210998f42763d8ddc52f2b22
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro chmo iao
+IMPORTS =  bfo ro chmo iao obi
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -441,6 +441,12 @@ $(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl
 	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
 	@false
 
+## Module for ontology: obi (custom)
+$(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl
+	@echo "ERROR: You have configured obi as a custom module;"
+	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
+	@false
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -504,6 +510,14 @@ mirror-chmo: | $(TMPDIR)
 mirror-iao: | $(TMPDIR)
 	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: obi
+.PHONY: mirror-obi
+.PRECIOUS: $(MIRRORDIR)/obi.owl
+mirror-obi: | $(TMPDIR)
+	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/obi-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

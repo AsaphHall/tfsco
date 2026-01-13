@@ -56,3 +56,18 @@ $(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl $(IMPORTDIR)/iao_terms.txt \
 		        --term-file $(IMPORTDIR)/iao_terms.txt  \
 		        --select complement --select annotation-properties \
 		 $(ANNOTATE_CONVERT_FILE)
+
+
+# Module for ontology: obi
+
+$(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt \
+			   $(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 extract --term-file $(IMPORTDIR)/obi_terms.txt  \
+		         --force true --copy-ontology-annotations true \
+		         --individuals exclude \
+		         --method SUBSET \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term-file $(IMPORTDIR)/obi_terms.txt  \
+		        --select complement --select annotation-properties \
+		 $(ANNOTATE_CONVERT_FILE)
