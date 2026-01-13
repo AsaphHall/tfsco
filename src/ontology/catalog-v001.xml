@@ -6,5 +6,6 @@
     <uri name="http://purl.obolibrary.org/obo/tfsco/imports/chmo_import.owl" uri="imports/chmo_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/tfsco/imports/iao_import.owl" uri="imports/iao_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl" uri="imports/obi_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/tfsco/imports/pato_import.owl" uri="imports/pato_import.owl" />
   </group>
 </catalog>

@@ -71,3 +71,18 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt \
 		        --term-file $(IMPORTDIR)/obi_terms.txt  \
 		        --select complement --select annotation-properties \
 		 $(ANNOTATE_CONVERT_FILE)
+
+
+# Module for ontology: pato
+
+$(IMPORTDIR)/pato_import.owl: $(MIRRORDIR)/pato.owl $(IMPORTDIR)/pato_terms.txt \
+			   $(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 extract --term-file $(IMPORTDIR)/pato_terms.txt  \
+		         --force true --copy-ontology-annotations true \
+		         --individuals exclude \
+		         --method SUBSET \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term-file $(IMPORTDIR)/pato_terms.txt  \
+		        --select complement --select annotation-properties \
+		 $(ANNOTATE_CONVERT_FILE)

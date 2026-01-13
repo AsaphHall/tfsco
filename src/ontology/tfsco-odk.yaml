@@ -23,6 +23,7 @@ import_group:
     - id: obi
       module_type: custom
     - id: pato
+      module_type: custom
 robot_java_args: '-Xmx4G'
 robot_report:
   use_labels: TRUE

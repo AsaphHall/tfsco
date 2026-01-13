@@ -1,137 +1,198 @@
 ?cls	?def	?xrefs
-<http://purl.obolibrary.org/obo/CHMO_0001351>		
-<http://purl.obolibrary.org/obo/CHMO_0001363>		
-<http://purl.obolibrary.org/obo/CHMO_0000219>		
-<http://purl.obolibrary.org/obo/CHMO_0001472>		
-<http://purl.obolibrary.org/obo/BFO_0000140>	"b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])"@en	
+<http://purl.obolibrary.org/obo/PATO_0001547>		
 <http://purl.obolibrary.org/obo/BFO_0000006>		
 <http://purl.obolibrary.org/obo/CHMO_0001311>		
 <http://purl.obolibrary.org/obo/OBI_0000070>	"A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en	
+<http://purl.obolibrary.org/obo/PATO_0001709>		
 <http://purl.obolibrary.org/obo/BFO_0000018>		
-<http://purl.obolibrary.org/obo/BFO_0000034>		
-<http://purl.obolibrary.org/obo/BFO_0000035>	"p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])"@en	
-<http://purl.obolibrary.org/obo/IAO_0000005>	"A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en	
-<http://purl.obolibrary.org/obo/TFSCO_0000000>		
+<http://purl.obolibrary.org/obo/PATO_0000119>		
+<http://purl.obolibrary.org/obo/PATO_0002244>		
 <http://purl.obolibrary.org/obo/OBI_0001755>	"A directive information entity which defines and states a principle of standard by which selection process may take place."@en	
-<http://purl.obolibrary.org/obo/CHMO_0001364>		
-<http://purl.obolibrary.org/obo/BFO_0000144>	"b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])"@en	
+<http://purl.obolibrary.org/obo/PATO_0001035>		
+<http://purl.obolibrary.org/obo/PATO_0015009>		
 <http://purl.obolibrary.org/obo/CHMO_0001312>		
 <http://purl.obolibrary.org/obo/BFO_0000029>		
+<http://purl.obolibrary.org/obo/PATO_0000140>		
 <http://purl.obolibrary.org/obo/CHMO_0001324>		
 <http://purl.obolibrary.org/obo/BFO_0000003>	"An entity that has temporal parts and that happens, unfolds or develops through time."@en	
 <http://purl.obolibrary.org/obo/OBI_0400013>	"A band pass filter is an optical filter that passes wavelengths of light within a certain range and rejects (attenuates) frequencies outside that range. The passed wavelengths are indicated in the specifications of the filter and its name. A 480/20 band-pass filter pass light with at wavelengths of 460 to 500 nm and attenuates all others."@en	
 <http://purl.obolibrary.org/obo/OBI_0000372>	"A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality."@en	
 <http://purl.obolibrary.org/obo/IAO_0000064>	"A plan specification which describes the inputs and output of mathematical functions as well as workflow of execution for achieving an predefined objective. Algorithms are realized usually by means of implementation as computer programs for execution by automata."@en	
 <http://purl.obolibrary.org/obo/OBI_0600010>	"An acquisition in which possession of a material entity is gained."@en	
-<http://purl.obolibrary.org/obo/BFO_0000142>		
-<http://purl.obolibrary.org/obo/IAO_0000100>	"A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en	
-<http://purl.obolibrary.org/obo/OBI_0000932>	"A device with a separation function realized in a planed process"@en	
 <http://purl.obolibrary.org/obo/BFO_0000015>	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en	
 <http://purl.obolibrary.org/obo/BFO_0000182>		
-<http://purl.obolibrary.org/obo/IAO_0000028>	"An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."@en	
-<http://purl.obolibrary.org/obo/OBI_0000339>	"a process of creating or modifying a plan specification"@en	
-<http://purl.obolibrary.org/obo/OBI_0000047>	"Is a material entity that is created or changed during material processing."@en	
+<http://purl.obolibrary.org/obo/PATO_0001241>		
+<http://purl.obolibrary.org/obo/PATO_0001350>		
 <http://purl.obolibrary.org/obo/IAO_0000109>	"A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device."@en	
-<http://purl.obolibrary.org/obo/OBI_0400095>	"A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm."@en	
-<http://purl.obolibrary.org/obo/CHMO_0001559>		
 <http://purl.obolibrary.org/obo/OBI_0400067>	"A long pass filter is an optical filter that passes high wavelengths of light but attenuates (or reduces) wavelengths lower than the cutoff frequency. A long pass filter with a cutoff of 500 nm would pass all wavelengths greater than 500 nm."@en	
 <http://purl.obolibrary.org/obo/BFO_0000008>		
-<http://purl.obolibrary.org/obo/BFO_0000024>		
+<http://purl.obolibrary.org/obo/PATO_0000161>		
+<http://purl.obolibrary.org/obo/PATO_0000052>		
+<http://purl.obolibrary.org/obo/PATO_0000008>		
+<http://purl.obolibrary.org/obo/PATO_0002242>		
+<http://purl.obolibrary.org/obo/PATO_0000117>		
 <http://purl.obolibrary.org/obo/CHMO_0002163>		
-<http://purl.obolibrary.org/obo/CHMO_0000067>		
+<http://purl.obolibrary.org/obo/PATO_0000921>		
 <http://purl.obolibrary.org/obo/CHMO_0002773>		
-<http://purl.obolibrary.org/obo/OBI_0000441>	"an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)"@en	
 <http://purl.obolibrary.org/obo/BFO_0000023>	"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en	
-<http://purl.obolibrary.org/obo/OBI_0200166>	"An objective specification to transformation input data into output data"@en	
-<http://purl.obolibrary.org/obo/CHMO_0001350>		
-<http://purl.obolibrary.org/obo/OBI_0001138>	"A device that is used to generate X-rays."@en	
+<http://purl.obolibrary.org/obo/PATO_0001021>		
 <http://purl.obolibrary.org/obo/OBI_0000094>	"A planned process which results in physical changes in a specified input material"@en	
-<http://purl.obolibrary.org/obo/CHMO_0001471>		
+<http://purl.obolibrary.org/obo/PATO_0001413>		
 <http://purl.obolibrary.org/obo/CHMO_0001358>		
-<http://purl.obolibrary.org/obo/OBI_0000067>	"a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role"@en	
 <http://purl.obolibrary.org/obo/CHMO_0001685>		
 <http://purl.obolibrary.org/obo/CHMO_0001310>		
-<http://purl.obolibrary.org/obo/OBI_0000838>	"A planned process with the objective to maintain some or all of the characteristics of an input material over time."@en	
 <http://purl.obolibrary.org/obo/BFO_0000019>		
-<http://purl.obolibrary.org/obo/OBI_0000458>	"is the objective to manufacture a material of a certain function (device)"@en	
-<http://purl.obolibrary.org/obo/BFO_0000011>		
-<http://purl.obolibrary.org/obo/OBI_0200000>	"A completely executed planned process that produces output data from input data."@en	
+<http://purl.obolibrary.org/obo/PATO_0001708>		
+<http://purl.obolibrary.org/obo/PATO_0002122>		
+<http://purl.obolibrary.org/obo/PATO_0002243>		
 <http://purl.obolibrary.org/obo/CHMO_0002774>		
-<http://purl.obolibrary.org/obo/CHMO_0000228>		
 <http://purl.obolibrary.org/obo/OBI_0001032>	"A device which has a function to emit light."@en	
-<http://purl.obolibrary.org/obo/IAO_0000584>	"A data set that is an aggregate of data recording some measurement at a number of time points. The time series data set is an ordered list of pairs of time measurement data and the corresponding measurement data acquired at that time."@en	
+<http://purl.obolibrary.org/obo/PATO_0001309>		
+<http://purl.obolibrary.org/obo/PATO_0001757>		
 <http://purl.obolibrary.org/obo/BFO_0000017>	"A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en	
 <http://purl.obolibrary.org/obo/OBI_0400064>	"A laser (acronym for light amplification by the stimulated emission of radiation) is a light source that emits photons of the same characteristics in a coherent beam. A laser uses a solid, liquid or gaseous lasing medium, that contains molecules, of which some atoms have electrons that emit photons of the same frequency when falling back to their normal orbital after excitation (pumping) by external means A laser is the most common way to irradiate a cell in a flow cytometer."@en	
 <http://purl.obolibrary.org/obo/IAO_0000032>	"A scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label."@en	
+<http://purl.obolibrary.org/obo/PATO_0001026>		
 <http://purl.obolibrary.org/obo/CHMO_0002917>		
+<http://purl.obolibrary.org/obo/BFO_0000030>		
+<http://purl.obolibrary.org/obo/OBI_0000806>	"An objective specification maintains some or all of the qualities of a material over time."@en	
+<http://purl.obolibrary.org/obo/PATO_0001595>		
+<http://purl.obolibrary.org/obo/PATO_0000915>		
+<http://purl.obolibrary.org/obo/PATO_0002062>		
+<http://purl.obolibrary.org/obo/PATO_0001710>		
+<http://purl.obolibrary.org/obo/BFO_0000009>		
+<http://purl.obolibrary.org/obo/IAO_0000007>	"A directive information entity that describes an action the bearer will take."@en	
+<http://purl.obolibrary.org/obo/CHMO_0001558>		
+<http://purl.obolibrary.org/obo/CHMO_0000800>		
+<http://purl.obolibrary.org/obo/OBI_0000378>	"A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through"@en	
+<http://purl.obolibrary.org/obo/BFO_0000031>	"b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])"@en	
+<http://purl.obolibrary.org/obo/OBI_0000968>	"A material entity that is designed to perform a function in a scientific investigation, but is not a reagent."@en	
+<http://purl.obolibrary.org/obo/IAO_0000098>	"A data format specification is the information content borne by the document published defining the specification.\nExample: The ISO document specifying what encompasses an XML document; The instructions in a XSD file"@en	
+<http://purl.obolibrary.org/obo/PATO_0002390>		
+<http://purl.obolibrary.org/obo/PATO_0001024>		
+<http://purl.obolibrary.org/obo/CHMO_0001325>		
+<http://purl.obolibrary.org/obo/PATO_0000044>		
+<http://purl.obolibrary.org/obo/PATO_0000165>		
+<http://purl.obolibrary.org/obo/CHMO_0001349>		
+<http://purl.obolibrary.org/obo/PATO_0000141>		
+<http://purl.obolibrary.org/obo/CHMO_0001301>		
+<http://purl.obolibrary.org/obo/CHMO_0001313>		
+<http://purl.obolibrary.org/obo/BFO_0000141>		
+<http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
+<http://purl.obolibrary.org/obo/PATO_0001242>		
+<http://purl.obolibrary.org/obo/OBI_0400079>	"An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length."@en	
+<http://purl.obolibrary.org/obo/OBI_0302893>	"A planned process with the objective to preserve and protect material entities by placing them in an identified location which may have a controlled environment."@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	"b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en	
+<http://purl.obolibrary.org/obo/PATO_0001756>		
+<http://purl.obolibrary.org/obo/PATO_0001025>		
+<http://purl.obolibrary.org/obo/CHMO_0001314>		
+<http://purl.obolibrary.org/obo/PATO_0000033>		
+<http://purl.obolibrary.org/obo/OBI_0002902>	"A light source that light is produced from solar energy."@en	
+<http://purl.obolibrary.org/obo/PATO_0001906>		
+<http://purl.obolibrary.org/obo/CHMO_0001568>		
+<http://purl.obolibrary.org/obo/OBI_0400065>	"A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser."@en	
+<http://purl.obolibrary.org/obo/IAO_0000030>	"A generically dependent continuant that is about some thing."@en	
+<http://purl.obolibrary.org/obo/CHMO_0000793>		
+<http://purl.obolibrary.org/obo/OBI_0000367>	"A light emission function is an excitation function to excite a material to a specific excitation state that it emits light."@en	
+<http://purl.obolibrary.org/obo/OBI_0002900>	"A light source that provides ultraviolet (UV) light for use in a distant area using a delivery system."@en	
+<http://purl.obolibrary.org/obo/PATO_0002182>		
+<http://purl.obolibrary.org/obo/CHMO_0001351>		
+<http://purl.obolibrary.org/obo/CHMO_0001363>		
+<http://purl.obolibrary.org/obo/CHMO_0000219>		
+<http://purl.obolibrary.org/obo/CHMO_0001472>		
+<http://purl.obolibrary.org/obo/BFO_0000140>	"b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])"@en	
+<http://purl.obolibrary.org/obo/PATO_0001236>		
+<http://purl.obolibrary.org/obo/BFO_0000034>		
+<http://purl.obolibrary.org/obo/BFO_0000035>	"p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])"@en	
+<http://purl.obolibrary.org/obo/PATO_0001018>		
+<http://purl.obolibrary.org/obo/IAO_0000005>	"A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en	
+<http://purl.obolibrary.org/obo/TFSCO_0000000>		
+<http://purl.obolibrary.org/obo/CHMO_0001364>		
+<http://purl.obolibrary.org/obo/PATO_0002326>		
+<http://purl.obolibrary.org/obo/BFO_0000144>	"b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])"@en	
+<http://purl.obolibrary.org/obo/BFO_0000142>		
+<http://purl.obolibrary.org/obo/IAO_0000100>	"A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en	
+<http://purl.obolibrary.org/obo/PATO_0001334>		
+<http://purl.obolibrary.org/obo/OBI_0000932>	"A device with a separation function realized in a planed process"@en	
+<http://purl.obolibrary.org/obo/PATO_0001019>		
+<http://purl.obolibrary.org/obo/IAO_0000028>	"An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."@en	
+<http://purl.obolibrary.org/obo/OBI_0000339>	"a process of creating or modifying a plan specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0000047>	"Is a material entity that is created or changed during material processing."@en	
+<http://purl.obolibrary.org/obo/PATO_0001711>		
+<http://purl.obolibrary.org/obo/OBI_0400095>	"A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm."@en	
+<http://purl.obolibrary.org/obo/PATO_0000133>		
+<http://purl.obolibrary.org/obo/CHMO_0001559>		
+<http://purl.obolibrary.org/obo/BFO_0000024>		
+<http://purl.obolibrary.org/obo/PATO_0001028>		
+<http://purl.obolibrary.org/obo/PATO_0001464>		
+<http://purl.obolibrary.org/obo/PATO_0001585>		
+<http://purl.obolibrary.org/obo/CHMO_0000067>		
+<http://purl.obolibrary.org/obo/OBI_0000441>	"an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)"@en	
+<http://purl.obolibrary.org/obo/OBI_0200166>	"An objective specification to transformation input data into output data"@en	
+<http://purl.obolibrary.org/obo/CHMO_0001350>		
+<http://purl.obolibrary.org/obo/OBI_0001138>	"A device that is used to generate X-rays."@en	
+<http://purl.obolibrary.org/obo/CHMO_0001471>		
+<http://purl.obolibrary.org/obo/PATO_0000146>		
+<http://purl.obolibrary.org/obo/PATO_0000025>		
+<http://purl.obolibrary.org/obo/OBI_0000067>	"a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role"@en	
+<http://purl.obolibrary.org/obo/PATO_0000001>		
+<http://purl.obolibrary.org/obo/PATO_0000122>		
+<http://purl.obolibrary.org/obo/OBI_0000838>	"A planned process with the objective to maintain some or all of the characteristics of an input material over time."@en	
+<http://purl.obolibrary.org/obo/PATO_0002198>		
+<http://purl.obolibrary.org/obo/OBI_0000458>	"is the objective to manufacture a material of a certain function (device)"@en	
+<http://purl.obolibrary.org/obo/BFO_0000011>		
+<http://purl.obolibrary.org/obo/OBI_0200000>	"A completely executed planned process that produces output data from input data."@en	
+<http://purl.obolibrary.org/obo/PATO_0001029>		
+<http://purl.obolibrary.org/obo/PATO_0001574>		
+<http://purl.obolibrary.org/obo/CHMO_0000228>		
+<http://purl.obolibrary.org/obo/PATO_0000918>		
+<http://purl.obolibrary.org/obo/IAO_0000584>	"A data set that is an aggregate of data recording some measurement at a number of time points. The time series data set is an ordered list of pairs of time measurement data and the corresponding measurement data acquired at that time."@en	
 <http://purl.obolibrary.org/obo/BFO_0000038>		
 <http://purl.obolibrary.org/obo/BFO_0000026>		
 <http://purl.obolibrary.org/obo/BFO_0000147>		
-<http://purl.obolibrary.org/obo/BFO_0000030>		
-<http://purl.obolibrary.org/obo/OBI_0000806>	"An objective specification maintains some or all of the qualities of a material over time."@en	
 <http://purl.obolibrary.org/obo/OBI_0000374>	"A excitation function is a function  to inject energy by bombarding a material with energetic particles (e.g., photons) thereby imbuing internal material components such as electrons with additional energy.  These internal, 'excited' particles may lead to the rupturing of covalent chemical bonds or may quickly relax back to there unexcited state with an exponential time course thereby locally emitting energy in the form of photons."@en	
 <http://purl.obolibrary.org/obo/OBI_0002901>	"A light source that provides visible light for use in a distant area using a delivery system."@en	
 <http://purl.obolibrary.org/obo/OBI_0000011>	"A process that realizes a plan which is the concretization of a plan specification."@en	
 <http://purl.obolibrary.org/obo/OBI_0400142>	"A power supply is an device or part of a device that permits the required application of a defined electrical charge to an instrument. The power supply may permit the defined application of a given amount of current for a defined length of time."@en	
 <http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
 <http://purl.obolibrary.org/obo/OBI_0001928>	"A planned process with the objective to create a group of entities by applying a predefined criteria to a larger group of entities."@en	
-<http://purl.obolibrary.org/obo/BFO_0000009>		
 <http://purl.obolibrary.org/obo/OBI_0000456>	"an objective specifiction that creates an specific output object from input materials."@en	
-<http://purl.obolibrary.org/obo/IAO_0000007>	"A directive information entity that describes an action the bearer will take."@en	
-<http://purl.obolibrary.org/obo/CHMO_0001558>		
+<http://purl.obolibrary.org/obo/PATO_0000051>		
 <http://purl.obolibrary.org/obo/CHMO_0001356>		
-<http://purl.obolibrary.org/obo/CHMO_0000800>		
 <http://purl.obolibrary.org/obo/OBI_0000086>	"A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer."@en	
 <http://purl.obolibrary.org/obo/BFO_0000001>		
 <http://purl.obolibrary.org/obo/BFO_0000146>		
 <http://purl.obolibrary.org/obo/CHMO_0002530>		
 <http://purl.obolibrary.org/obo/IAO_0000033>	"An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en	
+<http://purl.obolibrary.org/obo/PATO_0000128>		
 <http://purl.obolibrary.org/obo/OBI_0600008>	"A planned process with the objective of gaining possession of an entity."@en	
-<http://purl.obolibrary.org/obo/OBI_0000378>	"A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through"@en	
-<http://purl.obolibrary.org/obo/BFO_0000031>	"b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])"@en	
-<http://purl.obolibrary.org/obo/OBI_0000968>	"A material entity that is designed to perform a function in a scientific investigation, but is not a reagent."@en	
-<http://purl.obolibrary.org/obo/IAO_0000098>	"A data format specification is the information content borne by the document published defining the specification.\nExample: The ISO document specifying what encompasses an XML document; The instructions in a XSD file"@en	
 <http://purl.obolibrary.org/obo/CHMO_0000209>		
 <http://purl.obolibrary.org/obo/CHMO_0001341>		
 <http://purl.obolibrary.org/obo/CHMO_0001353>		
 <http://purl.obolibrary.org/obo/BFO_0000002>	"An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en	
-<http://purl.obolibrary.org/obo/CHMO_0001325>		
 <http://purl.obolibrary.org/obo/IAO_0000140>	"A settings datum is a datum that denotes some configuration of an instrument."@en	
-<http://purl.obolibrary.org/obo/CHMO_0001349>		
 <http://purl.obolibrary.org/obo/BFO_0000028>		
 <http://purl.obolibrary.org/obo/BFO_0000016>		
-<http://purl.obolibrary.org/obo/CHMO_0001301>		
-<http://purl.obolibrary.org/obo/CHMO_0001313>		
 <http://purl.obolibrary.org/obo/IAO_0000582>		
 <http://purl.obolibrary.org/obo/CHMO_0002793>		
-<http://purl.obolibrary.org/obo/BFO_0000141>		
+<http://purl.obolibrary.org/obo/PATO_0000125>		
 <http://purl.obolibrary.org/obo/IAO_0000416>	"A scalar measurement datum that is the result of measuring a temporal interval"@en	
-<http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
+<http://purl.obolibrary.org/obo/PATO_0001323>		
 <http://purl.obolibrary.org/obo/OBI_0600013>	"An acquisition in which possession of information is gained."@en	
 <http://purl.obolibrary.org/obo/BFO_0000020>	"b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en	
 <http://purl.obolibrary.org/obo/IAO_0000009>	"A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label"@en	
 <http://purl.obolibrary.org/obo/CHMO_0000208>		
-<http://purl.obolibrary.org/obo/OBI_0400079>	"An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length."@en	
-<http://purl.obolibrary.org/obo/OBI_0302893>	"A planned process with the objective to preserve and protect material entities by placing them in an identified location which may have a controlled environment."@en	
-<http://purl.obolibrary.org/obo/BFO_0000004>	"b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en	
 <http://purl.obolibrary.org/obo/CHMO_0001560>		
-<http://purl.obolibrary.org/obo/CHMO_0001314>		
 <http://purl.obolibrary.org/obo/BFO_0000145>	"b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])"@en	
 <http://purl.obolibrary.org/obo/BFO_0000148>		
 <http://purl.obolibrary.org/obo/BFO_0000027>		
-<http://purl.obolibrary.org/obo/OBI_0002902>	"A light source that light is produced from solar energy."@en	
-<http://purl.obolibrary.org/obo/CHMO_0001568>		
 <http://purl.obolibrary.org/obo/CHMO_0001988>		
 <http://purl.obolibrary.org/obo/IAO_0000414>	"A scalar measurement datum that is the result of measurement of mass quality"@en	
-<http://purl.obolibrary.org/obo/OBI_0400065>	"A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser."@en	
 <http://purl.obolibrary.org/obo/CHMO_0002770>		
 <http://purl.obolibrary.org/obo/CHMO_0001516>		
 <http://purl.obolibrary.org/obo/IAO_0000408>	"A scalar measurement datum that is the result of measurement of length quality"@en	
-<http://purl.obolibrary.org/obo/IAO_0000030>	"A generically dependent continuant that is about some thing."@en	
 <http://purl.obolibrary.org/obo/IAO_0000003>	"A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure."@en	
 <http://purl.obolibrary.org/obo/OBI_0000185>	"An assay that produces a picture of an entity."@en	
 <http://purl.obolibrary.org/obo/BFO_0000040>	"An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en	
-<http://purl.obolibrary.org/obo/CHMO_0000793>		
-<http://purl.obolibrary.org/obo/OBI_0000367>	"A light emission function is an excitation function to excite a material to a specific excitation state that it emits light."@en	
 <http://purl.obolibrary.org/obo/IAO_0000101>	"An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface."@en	
-<http://purl.obolibrary.org/obo/OBI_0002900>	"A light source that provides ultraviolet (UV) light for use in a distant area using a delivery system."@en	
+<http://purl.obolibrary.org/obo/PATO_0050000>		
