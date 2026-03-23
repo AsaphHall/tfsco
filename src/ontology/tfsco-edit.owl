@@ -614,11 +614,11 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.allotrope.org/ontologies/equipment#AFE_0002222> (nozzle)
+# Class: <http://purl.allotrope.org/ontologies/equipment#AFE_0002222> (<http://purl.allotrope.org/ontologies/equipment#AFE_0002222>)
 
 SubClassOf(<http://purl.allotrope.org/ontologies/equipment#AFE_0002222> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00003304>))
 
-# Class: <http://purl.allotrope.org/ontologies/role#AFRL_0000216> (additive role)
+# Class: <http://purl.allotrope.org/ontologies/role#AFRL_0000216> (<http://purl.allotrope.org/ontologies/role#AFRL_0000216>)
 
 SubClassOf(<http://purl.allotrope.org/ontologies/role#AFRL_0000216> <https://purl.archive.org/tfsco/TFSCO_00002152>)
 
@@ -714,7 +714,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000086> <https://purl.archive.org/tfsco/TFSCO_00002152>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000094> (material processing)
+# Class: <http://purl.obolibrary.org/obo/OBI_0000094> (obsolete material processing)
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00009995>))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002116>))
@@ -949,7 +949,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000021> <http://purl.obolibra
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <https://purl.archive.org/tfsco/TFSCO_00000067>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <https://purl.archive.org/tfsco/TFSCO_00002044>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000022> (illumination process)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000022> (<https://purl.archive.org/tfsco/TFSCO_00000022>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002032>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002034>))
@@ -966,7 +966,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000023> <https://purl.archive
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001066>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <https://purl.archive.org/tfsco/TFSCO_00001081>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000027> (Mixture of solvents)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000027> (<https://purl.archive.org/tfsco/TFSCO_00000027>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001076>))
 
@@ -1073,17 +1073,17 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00000064> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000064> <http://purl.obolibrary.org/obo/PATO_0001018>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000417> <https://purl.archive.org/tfsco/TFSCO_00005061>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000067> (layer deposition)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000067> (<https://purl.archive.org/tfsco/TFSCO_00000067>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <https://purl.archive.org/tfsco/TFSCO_00000021>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002110>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <https://purl.archive.org/tfsco/TFSCO_00000007>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000068> (cleaning)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000068> (<https://purl.archive.org/tfsco/TFSCO_00000068>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002072>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000075> (slot die coating)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000075> (<https://purl.archive.org/tfsco/TFSCO_00000075>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005042>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005044>))
@@ -1094,7 +1094,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000075> ObjectSomeValuesFrom(
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://purl.archive.org/tfsco/TFSCO_00005031>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005039>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000087> (external quantum efficiency measurement)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000087> (<https://purl.archive.org/tfsco/TFSCO_00000087>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002086>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002124>))
@@ -1104,7 +1104,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000087> ObjectSomeValuesFrom(
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <https://purl.archive.org/tfsco/TFSCO_00000001>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <https://purl.archive.org/tfsco/TFSCO_00002085>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00000088> (iv measurement)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00000088> (<https://purl.archive.org/tfsco/TFSCO_00000088>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002071>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002074>))
@@ -1169,7 +1169,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.a
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00000094> "Photon"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000094> <http://purl.obolibrary.org/obo/BFO_0000141>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001000> (thermal annealing)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001000> (<https://purl.archive.org/tfsco/TFSCO_00001000>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002073>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005744>))
@@ -1283,17 +1283,17 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001026> ObjectSomeValuesFrom(
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001004>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001026> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00000001>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001030> (Pipetting)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001030> (<https://purl.archive.org/tfsco/TFSCO_00001030>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005741>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://purl.archive.org/tfsco/TFSCO_00005712>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001031> (Solution aspiration)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001031> (<https://purl.archive.org/tfsco/TFSCO_00001031>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002017>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002019>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001033> (annealing)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001033> (<https://purl.archive.org/tfsco/TFSCO_00001033>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002073>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005744>))
@@ -1309,7 +1309,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001034> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001034> <http://purl.obolibrary.org/obo/PATO_0001464>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002063>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001035> (photoluminescence (PL) imaging)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001035> (<https://purl.archive.org/tfsco/TFSCO_00001035>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002034>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002093>))
@@ -1329,23 +1329,23 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001037> <http://purl.obolibra
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002016>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00002042>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001042> (solvent cleaning)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001042> (<https://purl.archive.org/tfsco/TFSCO_00001042>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002071>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001064>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001044> (plasma cleaning)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001044> (<https://purl.archive.org/tfsco/TFSCO_00001044>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005018>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://purl.archive.org/tfsco/TFSCO_00005019>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005016>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001045> (solution manufacturing)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001045> (<https://purl.archive.org/tfsco/TFSCO_00001045>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002158>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005020>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001046> (shaking)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001046> (<https://purl.archive.org/tfsco/TFSCO_00001046>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002000>))
 
@@ -1356,7 +1356,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.a
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001047> "purity"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001047> <http://purl.obolibrary.org/obo/PATO_0000025>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001052> (anti solvent quenching)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001052> (<https://purl.archive.org/tfsco/TFSCO_00001052>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002151>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002159>))
@@ -1467,7 +1467,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001076> "Mixing ratio"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001076> <https://purl.archive.org/tfsco/TFSCO_00001075>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001077> (gas quenching)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001077> (<https://purl.archive.org/tfsco/TFSCO_00001077>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002108>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005732>))
@@ -1480,7 +1480,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001077> ObjectSomeValuesFrom(
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005731>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00008005>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001081> (precursor solution)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001081> (<https://purl.archive.org/tfsco/TFSCO_00001081>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001081> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007019>))
 
@@ -1521,7 +1521,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.a
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001096> "certified"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001096> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001100> (calibration)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001100> (<https://purl.archive.org/tfsco/TFSCO_00001100>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00001145>))
 
@@ -1570,7 +1570,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001107> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001108> "short circuit current density"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001108> <https://purl.archive.org/tfsco/TFSCO_00000064>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001117> (Solution dispense)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001117> (<https://purl.archive.org/tfsco/TFSCO_00001117>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002018>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002020>))
@@ -1642,7 +1642,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001145> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001145> <http://purl.obolibrary.org/obo/IAO_0000027>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://purl.archive.org/tfsco/TFSCO_00001100>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00001147> (jv analysis)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00001147> (<https://purl.archive.org/tfsco/TFSCO_00001147>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002063>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002064>))
@@ -1705,7 +1705,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002006> <http://purl.obolibra
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001309>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002008> (thermal physical vapour deposition)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002008> (<https://purl.archive.org/tfsco/TFSCO_00002008>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002111>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://purl.archive.org/tfsco/TFSCO_00002113>))
@@ -1983,11 +1983,11 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002050> <https://purl.archive
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000186>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001107>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002051> (Wet chemical deposition)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002051> (<https://purl.archive.org/tfsco/TFSCO_00002051>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002160>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002053> (ink jet printing)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002053> (<https://purl.archive.org/tfsco/TFSCO_00002053>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005083>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005084>))
@@ -2010,7 +2010,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002058> "
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://purl.archive.org/tfsco/TFSCO_00002058> "is a setting datum, which indicates the settings for the scan rate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002058> <http://purl.obolibrary.org/obo/IAO_0000140>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002060> (Blade coating)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002060> (<https://purl.archive.org/tfsco/TFSCO_00002060>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007008>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007010>))
@@ -2127,7 +2127,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002078> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002079> "scan direction"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002079> <http://purl.obolibrary.org/obo/PATO_0001236>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002080> (process logging)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002080> (<https://purl.archive.org/tfsco/TFSCO_00002080>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002102>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002120>))
@@ -2151,7 +2151,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002083> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002083> <https://purl.archive.org/tfsco/TFSCO_00002149>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002091>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002084> (illuminated iv measurement)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002084> (<https://purl.archive.org/tfsco/TFSCO_00002084>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <https://purl.archive.org/tfsco/TFSCO_00002042>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <https://purl.archive.org/tfsco/TFSCO_00002085>))
@@ -2225,7 +2225,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002094> <http://purl.obolibra
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <https://purl.archive.org/tfsco/TFSCO_00002068>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002078>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002095> (pvd process logging)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002095> (<https://purl.archive.org/tfsco/TFSCO_00002095>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002103>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002117>))
@@ -2300,7 +2300,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002106> <http://purl.obolibra
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000186>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002109>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002107> (gas mixture)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002107> (<https://purl.archive.org/tfsco/TFSCO_00002107>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001065>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001094>))
@@ -2475,7 +2475,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002130> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002131> "time quality of a process"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002131> <http://purl.obolibrary.org/obo/PATO_0002062>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002132> (eqe analysis)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002132> (<https://purl.archive.org/tfsco/TFSCO_00002132>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002133>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002134>))
@@ -2776,7 +2776,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003114> <https://purl.archive
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003108>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <https://purl.archive.org/tfsco/TFSCO_00001035>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00003300> (gas quenching with round nozzle)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00003300> (<https://purl.archive.org/tfsco/TFSCO_00003300>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00003308>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00003314>))
@@ -2872,7 +2872,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003314> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003314> <https://purl.archive.org/tfsco/TFSCO_00003307>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003313>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00003500> (maximum power point tracking)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00003500> (<https://purl.archive.org/tfsco/TFSCO_00003500>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002006>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002034>))
@@ -2895,7 +2895,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003501> ObjectSomeValuesFrom(
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00005005>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://purl.archive.org/tfsco/TFSCO_00003500>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00003502> (maximum power point tracking analysis)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00003502> (<https://purl.archive.org/tfsco/TFSCO_00003502>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00003503>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00003504>))
@@ -2946,7 +2946,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003508> <https://purl.archive
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005000> "sample"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005000> <http://purl.obolibrary.org/obo/COB_0000026>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005001> (uv/vis spectroscopy)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005001> (<https://purl.archive.org/tfsco/TFSCO_00005001>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002086>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005014>))
@@ -3094,7 +3094,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005023> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005023> <https://purl.archive.org/tfsco/TFSCO_00003303>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005028>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005024> (air knife impingement angle)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005024> (<https://purl.archive.org/tfsco/TFSCO_00005024>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005024> <https://purl.archive.org/tfsco/TFSCO_00005746>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000417> <https://purl.archive.org/tfsco/TFSCO_00005756>))
@@ -3157,7 +3157,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005034>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005038>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005032> (air knife gas quenching)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005032> (<https://purl.archive.org/tfsco/TFSCO_00005032>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005026>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005027>))
@@ -3302,7 +3302,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005049> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005049> <http://purl.obolibrary.org/obo/COB_0000026>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00000007>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005050> (illuminated jv analysis)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005050> (<https://purl.archive.org/tfsco/TFSCO_00005050>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002016>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002050>))
@@ -3357,7 +3357,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005058> <https://purl.archive
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005059> "C60 electron transport layer"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005059> <https://purl.archive.org/tfsco/TFSCO_00000010>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005060> (thermal pvd process logging)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005060> (<https://purl.archive.org/tfsco/TFSCO_00005060>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <https://purl.archive.org/tfsco/TFSCO_00002102>))
 
@@ -3721,7 +3721,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005704> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005708> "infrared light source"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005708> <http://purl.obolibrary.org/obo/OBI_0400065>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005711> (radiation quenching)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005711> (<https://purl.archive.org/tfsco/TFSCO_00005711>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005711> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00008010>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005711> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://purl.archive.org/tfsco/TFSCO_00005708>))
@@ -3893,7 +3893,7 @@ AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005751> "
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005751> <https://purl.archive.org/tfsco/TFSCO_00005043>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005751> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00008005>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005753> (round nozzle impingement angle)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005753> (<https://purl.archive.org/tfsco/TFSCO_00005753>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005753> <https://purl.archive.org/tfsco/TFSCO_00005746>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005753> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000417> <https://purl.archive.org/tfsco/TFSCO_00005757>))
@@ -4133,7 +4133,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007026> ObjectExactCardinalit
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007026> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007047>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007026> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007064>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00007027> (luminescence imaging)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00007027> (<https://purl.archive.org/tfsco/TFSCO_00007027>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002042>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007036>))
@@ -4403,7 +4403,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://pur
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007069> <https://purl.archive.org/tfsco/TFSCO_00003309>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007068>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00008000> (fluid based quenching)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00008000> (<https://purl.archive.org/tfsco/TFSCO_00008000>)
 
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005739>))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00005747>))
@@ -4552,11 +4552,11 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00009999> ObjectSomeValuesFrom(
 #   Named Individuals
 ############################
 
-# Individual: <https://purl.archive.org/tfsco/TFSCONamedIndividual_00001086> (pin)
+# Individual: <https://purl.archive.org/tfsco/TFSCONamedIndividual_00001086> (<https://purl.archive.org/tfsco/TFSCONamedIndividual_00001086>)
 
 ClassAssertion(<https://purl.archive.org/tfsco/TFSCO_00001020> <https://purl.archive.org/tfsco/TFSCONamedIndividual_00001086>)
 
-# Individual: <https://purl.archive.org/tfsco/TFSCONamedIndividual_00001087> (nip)
+# Individual: <https://purl.archive.org/tfsco/TFSCONamedIndividual_00001087> (<https://purl.archive.org/tfsco/TFSCONamedIndividual_00001087>)
 
 ClassAssertion(<https://purl.archive.org/tfsco/TFSCO_00001020> <https://purl.archive.org/tfsco/TFSCONamedIndividual_00001087>)
 

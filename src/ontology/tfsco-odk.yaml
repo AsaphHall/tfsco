@@ -21,8 +21,8 @@ rights_holder: https://ror.org/02aj13c28
 ## general ODK Settings ##
 
 github_org: AsaphHall
-git_main_branch: main
-repo: odk_test
+git_main_branch: master
+repo: tfsco
 release_artefacts:
   - base
   - full
