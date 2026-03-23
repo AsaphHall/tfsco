@@ -1,0 +1,61 @@
+http://purl.obolibrary.org/obo/PATO_0000001 # quality
+http://purl.obolibrary.org/obo/PATO_0000008 # speed
+http://purl.obolibrary.org/obo/PATO_0000025 # composition
+http://purl.obolibrary.org/obo/PATO_0000033 # concentration of
+http://purl.obolibrary.org/obo/PATO_0000044 # frequency
+http://purl.obolibrary.org/obo/PATO_0000051 # morphology
+http://purl.obolibrary.org/obo/PATO_0000052 # shape
+http://purl.obolibrary.org/obo/PATO_0000117 # size
+http://purl.obolibrary.org/obo/PATO_0000119 # height
+http://purl.obolibrary.org/obo/PATO_0000122 # length
+http://purl.obolibrary.org/obo/PATO_0000125 # mass
+http://purl.obolibrary.org/obo/PATO_0000128 # weight
+http://purl.obolibrary.org/obo/PATO_0000133 # orientation
+http://purl.obolibrary.org/obo/PATO_0000140 # position
+http://purl.obolibrary.org/obo/PATO_0000141 # structure
+http://purl.obolibrary.org/obo/PATO_0000146 # temperature
+http://purl.obolibrary.org/obo/PATO_0000161 # rate
+http://purl.obolibrary.org/obo/PATO_0000165 # time
+http://purl.obolibrary.org/obo/PATO_0000915 # thickness
+http://purl.obolibrary.org/obo/PATO_0000918 # volume
+http://purl.obolibrary.org/obo/PATO_0000921 # width
+http://purl.obolibrary.org/obo/PATO_0001018 # physical quality
+http://purl.obolibrary.org/obo/PATO_0001019 # mass density
+http://purl.obolibrary.org/obo/PATO_0001021 # energy
+http://purl.obolibrary.org/obo/PATO_0001024 # power
+http://purl.obolibrary.org/obo/PATO_0001025 # pressure
+http://purl.obolibrary.org/obo/PATO_0001026 # work
+http://purl.obolibrary.org/obo/PATO_0001028 # acceleration
+http://purl.obolibrary.org/obo/PATO_0001029 # efficiency
+http://purl.obolibrary.org/obo/PATO_0001035 # force
+http://purl.obolibrary.org/obo/PATO_0001236 # process quality
+http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality
+http://purl.obolibrary.org/obo/PATO_0001242 # wavelength
+http://purl.obolibrary.org/obo/PATO_0001309 # duration
+http://purl.obolibrary.org/obo/PATO_0001323 # area
+http://purl.obolibrary.org/obo/PATO_0001334 # diameter
+http://purl.obolibrary.org/obo/PATO_0001350 # angular acceleration
+http://purl.obolibrary.org/obo/PATO_0001413 # angular velocity
+http://purl.obolibrary.org/obo/PATO_0001464 # electric potential
+http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas
+http://purl.obolibrary.org/obo/PATO_0001574 # flow rate
+http://purl.obolibrary.org/obo/PATO_0001585 # conductivity
+http://purl.obolibrary.org/obo/PATO_0001595 # depth
+http://purl.obolibrary.org/obo/PATO_0001708 # 1-D extent
+http://purl.obolibrary.org/obo/PATO_0001709 # 2-D extent
+http://purl.obolibrary.org/obo/PATO_0001710 # 3-D extent
+http://purl.obolibrary.org/obo/PATO_0001711 # perimeter
+http://purl.obolibrary.org/obo/PATO_0001756 # heat conductivity
+http://purl.obolibrary.org/obo/PATO_0001757 # electrical conductivity
+http://purl.obolibrary.org/obo/PATO_0001906 # movement quality
+http://purl.obolibrary.org/obo/PATO_0002062 # physical quality of a process
+http://purl.obolibrary.org/obo/PATO_0002122 # mixed
+http://purl.obolibrary.org/obo/PATO_0002182 # molecular quality
+http://purl.obolibrary.org/obo/PATO_0002198 # quality of a substance
+http://purl.obolibrary.org/obo/PATO_0002242 # velocity
+http://purl.obolibrary.org/obo/PATO_0002243 # fluid flow rate
+http://purl.obolibrary.org/obo/PATO_0002244 # mass flow rate
+http://purl.obolibrary.org/obo/PATO_0002326 # angle
+http://purl.obolibrary.org/obo/PATO_0002390 # radius
+http://purl.obolibrary.org/obo/PATO_0015009 # humidity
+http://purl.obolibrary.org/obo/PATO_0050000 # rate of occurence

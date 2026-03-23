@@ -1,0 +1,284 @@
+?cls	?def	?xrefs
+<http://purl.obolibrary.org/obo/CHMO_0001568>	"The process of removing a thin layer of a sample surface by bombarding it with energetic ions."	
+<http://purl.obolibrary.org/obo/UO_0000095>		
+<http://purl.obolibrary.org/obo/PATO_0001547>		
+<https://purl.archive.org/tfsco/TFSCO_00002119>	"The thin-film deposition rate measurement datum is a scalar measurement datum, that quantifies the result of some thin-film deposition rate measurement"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002010>		
+<http://purl.obolibrary.org/obo/UO_0000003>		
+<https://purl.archive.org/tfsco/TFSCO_00000063>		
+<http://purl.obolibrary.org/obo/BFO_0000006>		
+<http://purl.obolibrary.org/obo/OBI_0000070>	"A planned process that has the objective to produce information about a material entity (the evaluant) by examining it."@en	
+<http://purl.obolibrary.org/obo/PATO_0001709>		
+<http://purl.obolibrary.org/obo/CHMO_0001349>	"A synthesis method where a flow of precursors is projected onto a surface, resulting in a deposit."	
+<http://purl.obolibrary.org/obo/BFO_0000018>		
+<https://purl.archive.org/tfsco/TFSCO_00005760>		
+<http://purl.obolibrary.org/obo/PATO_0000119>		
+<http://purl.obolibrary.org/obo/PATO_0002244>		
+<http://purl.obolibrary.org/obo/PATO_0000122>	"A 1-D extent quality which is equal to the distance between two points."	
+<http://purl.obolibrary.org/obo/CHMO_0002163>	"The application of a thin cover to a sample by depositing consecutive drops of a solution on its surface, and allowing the solvent to evaporate."	
+<http://purl.obolibrary.org/obo/OBI_0001755>	"A directive information entity which defines and states a principle of standard by which selection process may take place."@en	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	"A synthesis method where the substrate is exposed to volatile precursors (one of which is an organometallic compound) which react or decompose on the surface to produce a deposit."	
+<https://purl.archive.org/tfsco/TFSCO_00000088>		
+<http://purl.obolibrary.org/obo/PATO_0001035>		
+<https://purl.archive.org/tfsco/TFSCO_00000064>		
+<http://purl.obolibrary.org/obo/CHMO_0001516>	"The chemical degradation of a sample caused by spraying it, as a liquid mixture, onto a heated substrate."	
+<http://purl.obolibrary.org/obo/UO_0000113>		
+<http://purl.obolibrary.org/obo/PATO_0015009>		
+<http://purl.obolibrary.org/obo/CHMO_0000793>	"An information content entity that is output by an assay."	
+<http://purl.obolibrary.org/obo/CHMO_0002063>	"Any method for the synthesis or processing of colloids (mixtures where one substance is dispersed evenly throughout another)."	
+<https://purl.archive.org/tfsco/TFSCO_00005008>	"The transmittance measurement datum is a scalar measurement datum, that quantifies the result of some transmittance measurement"@en	
+<http://purl.obolibrary.org/obo/BFO_0000029>		
+<http://purl.obolibrary.org/obo/PATO_0000140>		
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000033>	"The planned process of finding the number of elements in a finite set of objects."@en	
+<http://purl.obolibrary.org/obo/BFO_0000003>	"An entity that has temporal parts and that happens, unfolds or develops through time."@en	
+<http://purl.obolibrary.org/obo/OBI_0400013>	"A band pass filter is an optical filter that passes wavelengths of light within a certain range and rejects (attenuates) frequencies outside that range. The passed wavelengths are indicated in the specifications of the filter and its name. A 480/20 band-pass filter pass light with at wavelengths of 460 to 500 nm and attenuates all others."@en	
+<http://purl.obolibrary.org/obo/OBI_0000372>	"A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality."@en	
+<http://purl.obolibrary.org/obo/IAO_0000064>	"A plan specification which describes the inputs and output of mathematical functions as well as workflow of execution for achieving an predefined objective. Algorithms are realized usually by means of implementation as computer programs for execution by automata."@en	
+<http://purl.obolibrary.org/obo/COB_0000082>	"A process that is initiated by an agent who intends to carry out a plan to achieve an objective through one or more actions as described in a plan specification."@en	
+<http://purl.obolibrary.org/obo/OBI_0600010>	"An acquisition in which possession of a material entity is gained."@en	
+<http://purl.obolibrary.org/obo/BFO_0000015>	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en	
+<http://purl.obolibrary.org/obo/BFO_0000182>		
+<http://purl.obolibrary.org/obo/PATO_0001350>		
+<http://purl.obolibrary.org/obo/CHMO_0001358>	"A synthesis method where an electron beam is used to decompose gaseous molecules leading to deposition of a solid on a nearby substrate."	
+<http://purl.obolibrary.org/obo/UO_0000280>	"A unit which represents a standard measurement occurrence of a process per unit time."@en	
+<https://purl.archive.org/tfsco/TFSCO_00005007>		
+<http://purl.obolibrary.org/obo/CHMO_0000067>	"Any technique where a microscope is used to view a small object (or specimen) by producing a magnified image."	
+<https://purl.archive.org/tfsco/TFSCO_00002068>		
+<http://purl.obolibrary.org/obo/IAO_0000109>	"A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device."@en	
+<http://purl.obolibrary.org/obo/IAO_0000308>	"An information content entity consisting of a two dimensional arrangement of information content entities such that the arrangement itself is about something."@en	
+<https://purl.archive.org/tfsco/TFSCO_00007026>		
+<http://purl.obolibrary.org/obo/OBI_0400067>	"A long pass filter is an optical filter that passes high wavelengths of light but attenuates (or reduces) wavelengths lower than the cutoff frequency. A long pass filter with a cutoff of 500 nm would pass all wavelengths greater than 500 nm."@en	
+<http://purl.obolibrary.org/obo/BFO_0000008>		
+<http://purl.obolibrary.org/obo/PATO_0000161>		
+<http://purl.obolibrary.org/obo/UO_0000001>		
+<http://purl.obolibrary.org/obo/PATO_0000052>		
+<https://purl.archive.org/tfsco/TFSCO_00002102>	"The temperature measurement datum is a  scalar measurement datum, that quantifies the result of some temperature measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0000008>		
+<https://purl.archive.org/tfsco/TFSCO_00005756>	"the air knife  impingement angle measurement datum is a angle measurement datum, that quantifies the result of some air knife impingement angle measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0002242>		
+<http://purl.obolibrary.org/obo/PATO_0000117>		
+<http://purl.obolibrary.org/obo/PATO_0000125>	"A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter."	
+<http://purl.obolibrary.org/obo/PATO_0000921>		
+<https://purl.archive.org/tfsco/TFSCO_00005757>	"the nozzle impingement angle measurement datum is a angle measurement datum, that quantifies the result of some round nozzle impingement angle measurement"@en	
+<http://purl.obolibrary.org/obo/BFO_0000040>		
+<https://purl.archive.org/tfsco/TFSCO_00005702>		
+<http://purl.obolibrary.org/obo/CHMO_0002774>	"Mixing involving the agitation of a solution through circular motion."	
+<http://purl.obolibrary.org/obo/BFO_0000023>	"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en	
+<http://purl.obolibrary.org/obo/UO_0000186>	"A unit which is a standard measure of physical quantity consisting of only a numerical number without any units."@en	
+<https://purl.archive.org/tfsco/TFSCO_00003501>		
+<http://purl.obolibrary.org/obo/IAO_0000225>	"The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
+<http://purl.obolibrary.org/obo/PATO_0001021>		
+<http://purl.obolibrary.org/obo/CHMO_0001685>	"The combining of components, particles or layers into a more homogeneous state. The mixing may be achieved manually or mechanically by shifting the material with stirrers or pumps or by revolving or shaking the container. The process μst not permit segregation of particles of different size or properties. Homogeneity may be considered to have been achieved in a practical sense when the sampling error of the processed portion is negligible compared to the total error of the measurement system."	
+<http://purl.obolibrary.org/obo/PATO_0001413>		
+<http://purl.obolibrary.org/obo/CHMO_0001325>	"A synthesis method where the substrate is exposed to one or more volatile precursors, in the presence of a plasma (a partially ionised gas, containing free electrons), which react or decompose on the surface to produce a deposit. The plasma enhances the rate of reaction on the substrate surface."	
+<http://purl.obolibrary.org/obo/IAO_0000032>	"a scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label."@en	
+<http://purl.obolibrary.org/obo/UO_0000002>		
+<http://purl.obolibrary.org/obo/COB_0000110>	"A completely executed planned process that intends to output material entities from input material entities"@en	
+<http://purl.obolibrary.org/obo/BFO_0000019>		
+<https://purl.archive.org/tfsco/TFSCO_00002147>	"The electric potential measurement datum is a scalar measurement datum, that quantifies the result of some electric potential measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0001708>		
+<http://purl.obolibrary.org/obo/CHMO_0001301>	"A method used to synthesise a sample."	
+<http://purl.obolibrary.org/obo/PATO_0002122>		
+<http://purl.obolibrary.org/obo/PATO_0002243>		
+<http://purl.obolibrary.org/obo/CHMO_0001356>	"A synthesis technique where vaporized molecules or atoms condense on a surface, forming a thin layer. The process is purely physical; no chemical reaction occurs at the surface."	
+<http://purl.obolibrary.org/obo/CHMO_0001350>	"A synthesis method where an aerosol containing precursors is projected onto a surface, resulting in a deposit."	
+<http://purl.obolibrary.org/obo/CHMO_0001310>	"The process of the settling of particles (atoms or molecules) from a solution, suspension or vapour onto a pre-existing surface, resulting in the growth of a new phase."	
+<https://purl.archive.org/tfsco/TFSCO_00003500>		
+<http://purl.obolibrary.org/obo/OBI_0001032>	"A device which has a function to emit light."@en	
+<http://purl.obolibrary.org/obo/PATO_0001309>		
+<http://purl.obolibrary.org/obo/PATO_0001757>		
+<http://purl.obolibrary.org/obo/BFO_0000017>	"A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en	
+<http://purl.obolibrary.org/obo/OBI_0400064>	"A laser (acronym for light amplification by the stimulated emission of radiation) is a light source that emits photons of the same characteristics in a coherent beam. A laser uses a solid, liquid or gaseous lasing medium, that contains molecules, of which some atoms have electrons that emit photons of the same frequency when falling back to their normal orbital after excitation (pumping) by external means A laser is the most common way to irradiate a cell in a flow cytometer."@en	
+<http://purl.obolibrary.org/obo/IAO_0000032>	"A scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label."@en	
+<http://purl.obolibrary.org/obo/PATO_0001026>		
+<http://purl.obolibrary.org/obo/CHMO_0000228>	"The study of the interaction of a sample with radiation or particles for measurement or detection."	
+<http://purl.obolibrary.org/obo/BFO_0000030>		
+<https://purl.archive.org/tfsco/TFSCO_00005060>		
+<http://purl.obolibrary.org/obo/OBI_0000806>	"An objective specification maintains some or all of the qualities of a material over time."@en	
+<http://purl.obolibrary.org/obo/PATO_0001595>		
+<http://purl.obolibrary.org/obo/PATO_0000915>		
+<https://purl.archive.org/tfsco/TFSCO_00005062>	"The external quantum efficiency measurement datum is a scalar measurement datum that quantifies the result of some external quantum efficiency measurement"@en	
+<http://purl.obolibrary.org/obo/OBI_0000260>	"A plan is a realizable entity that is the inheres in a bearer who is committed to realizing it as a completely executed planned process."@en	
+<http://purl.obolibrary.org/obo/PATO_0002062>		
+<http://purl.obolibrary.org/obo/PATO_0000146>	"A physical quality of the thermal energy of a system."	
+<https://purl.archive.org/tfsco/TFSCO_00005006>		
+<http://purl.obolibrary.org/obo/PATO_0001710>		
+<http://purl.obolibrary.org/obo/CHMO_0002793>	"A piece of apparatus that is used to measure a physical quantity."	
+<http://purl.obolibrary.org/obo/BFO_0000009>		
+<http://purl.obolibrary.org/obo/IAO_0000007>	"A directive information entity that describes an action the bearer will take."@en	
+<http://purl.obolibrary.org/obo/CHMO_0002773>	"A mixing step where a soluble component is mixed with a liquid component."	
+<http://purl.obolibrary.org/obo/CHMO_0001364>	"A synthesis technique where a solid target is bombarded with electrons or energetic ions (e.g. Ar+) causing atoms to be ejected ('sputtering'). The ejected atoms then deposit, as a thin-film, on a substrate."	
+<http://purl.obolibrary.org/obo/PATO_0001241>	"A quality which inheres in a continuant."	
+<http://purl.obolibrary.org/obo/CHMO_0002770>	"A sample preparation step involving the increase in temperature of a sample."	
+<http://purl.obolibrary.org/obo/OBI_0000378>	"A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through"@en	
+<http://purl.obolibrary.org/obo/BFO_0000031>	"b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])"@en	
+<http://purl.obolibrary.org/obo/IAO_0000098>	"A data format specification is the information content borne by the document published defining the specification.\nExample: The ISO document specifying what encompasses an XML document; The instructions in a XSD file"@en	
+<https://purl.archive.org/tfsco/TFSCO_00001024>		
+<https://purl.archive.org/tfsco/TFSCO_00002098>	"The current measurement datum is a scalar measurement datum, that quantifies the result of some current measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0002390>		
+<http://purl.obolibrary.org/obo/CHMO_0001312>	"The process of the settling of particles (atoms or molecules) from a solution or suspension onto a pre-existing surface, resulting in the growth of a new phase."	
+<http://purl.obolibrary.org/obo/COB_0000035>		
+<http://purl.obolibrary.org/obo/PATO_0001024>		
+<http://purl.obolibrary.org/obo/PATO_0000044>		
+<http://purl.obolibrary.org/obo/PATO_0000165>		
+<http://purl.obolibrary.org/obo/PATO_0000141>		
+<https://purl.archive.org/tfsco/TFSCO_00002103>	"The power measurement datum is a scalar measurement datum, that quantifies the result of some power measurement"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002117>		
+<http://purl.obolibrary.org/obo/CHMO_0001560>	"The process of removing a thin layer of a sample surface using short pulses of a plasma (a partially ionised gas containing free electrons and radicals)."	
+<http://purl.obolibrary.org/obo/CHMO_0001472>	"A coating method for applying a thin (<1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin film."	
+<http://purl.obolibrary.org/obo/BFO_0000141>		
+<http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
+<http://purl.obolibrary.org/obo/CHMO_0000209>	"Any method for determining structure by directing a beam of particles or X-rays onto an extremely flat surface and measuring the intensity of the reflected radiation as a function of angle."	
+<http://purl.obolibrary.org/obo/PATO_0001242>		
+<http://purl.obolibrary.org/obo/CHMO_0002917>	"Material processing in which a sample is cooled by immersion in a fluid."	
+<http://purl.obolibrary.org/obo/OBI_0400079>	"An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length."@en	
+<http://purl.obolibrary.org/obo/OBI_0302893>	"A planned process with the objective to preserve and protect material entities by placing them in an identified location which may have a controlled environment."@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	"b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en	
+<http://purl.obolibrary.org/obo/CHMO_0001336>	"A synthesis method which consists of depositing a monocrystalline film (from liquid or gaseous precursors) on a monocrystalline substrate."	
+<http://purl.obolibrary.org/obo/PATO_0001756>		
+<http://purl.obolibrary.org/obo/PATO_0001025>		
+<http://purl.obolibrary.org/obo/PATO_0000033>		
+<http://purl.obolibrary.org/obo/CHMO_0001341>	"A synthesis method which consists of depositing a monocrystalline film (from a molecular beam) on a monocrystalline substrate under high vacuum (<10^{-8} Pa). Molecular beam epitaxy is very slow, with a deposition rate of <1000 nm per hour."	
+<http://purl.obolibrary.org/obo/OBI_0002902>	"A light source that light is produced from solar energy."@en	
+<http://purl.obolibrary.org/obo/PATO_0001906>		
+<http://purl.obolibrary.org/obo/OBI_0400065>	"A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser."@en	
+<https://purl.archive.org/tfsco/TFSCO_00001094>		
+<http://purl.obolibrary.org/obo/IAO_0000030>	"A generically dependent continuant that is about some thing."@en	
+<http://purl.obolibrary.org/obo/OBI_0000367>	"A light emission function is an excitation function to excite a material to a specific excitation state that it emits light."@en	
+<http://purl.obolibrary.org/obo/OBI_0002900>	"A light source that provides ultraviolet (UV) light for use in a distant area using a delivery system."@en	
+<http://purl.obolibrary.org/obo/OBI_0003610>	"A role borne by a biological or chemical entity that participates or has molecular components that participate in a chemical reaction."@en	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	"The process of the settling of (nm sized) particles from a colloidal suspension onto a pre-existing surface, resulting in ceramic materials. The desired solid particles (e.g. metal alkoxides) are suspended in a liquid, forming the 'sol', which is deposited on a substrate by spinning, dipping or coating, or transferred to a mould. The particles in the sol are polymerised by partial evaporation of the solvent, or addition of an initiator, forming the 'gel', which is then heated at high temperature to give the final solid product."	
+<http://purl.obolibrary.org/obo/PATO_0002182>		
+<http://purl.obolibrary.org/obo/PATO_0000070>		
+<http://purl.obolibrary.org/obo/CHMO_0000800>	"A plot of a measured quantity against some experimental parameter."	
+<http://purl.obolibrary.org/obo/COB_0000502>		
+<http://purl.obolibrary.org/obo/BFO_0000140>	"b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])"@en	
+<http://purl.obolibrary.org/obo/PATO_0001236>		
+<http://purl.obolibrary.org/obo/BFO_0000034>		
+<http://purl.obolibrary.org/obo/UO_0000109>		
+<http://purl.obolibrary.org/obo/CHMO_0001311>	"A thin film deposition technique based on the sequential reaction of gaseous precursors at a surface to produce a monolayer"	
+<http://purl.obolibrary.org/obo/BFO_0000035>	"p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])"@en	
+<https://purl.archive.org/tfsco/TFSCO_00001100>		
+<http://purl.obolibrary.org/obo/IAO_0000005>	"A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en	
+<http://purl.obolibrary.org/obo/TFSCO_0000000>		
+<https://purl.archive.org/tfsco/TFSCO_00002097>		
+<http://purl.obolibrary.org/obo/PATO_0002326>		
+<http://purl.obolibrary.org/obo/BFO_0000144>	"b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])"@en	
+<https://purl.archive.org/tfsco/TFSCO_00007045>	"The sensor temperature measurement datum is a temperature measurement datum, that specifies the result of some sensor temperature measurement"@en	
+<http://purl.obolibrary.org/obo/IAO_0000078>	"The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
+<http://purl.obolibrary.org/obo/BFO_0000142>		
+<https://purl.archive.org/tfsco/TFSCO_00001096>		
+<http://purl.obolibrary.org/obo/IAO_0000100>	"A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en	
+<http://purl.obolibrary.org/obo/PATO_0001334>		
+<http://purl.obolibrary.org/obo/OBI_0000932>	"A device with a separation function realized in a planed process"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005743>	"the contact angle measurement datum is a angle measurement datum, that quantifies the result of some contact angle measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0001019>		
+<https://purl.archive.org/tfsco/TFSCO_00001004>		
+<http://purl.obolibrary.org/obo/IAO_0000028>	"An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."@en	
+<http://purl.obolibrary.org/obo/OBI_0000339>	"a process of creating or modifying a plan specification"@en	
+<http://purl.obolibrary.org/obo/PATO_0001711>		
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000032>	"A measurement datum that is the output of counting."@en	
+<http://purl.obolibrary.org/obo/OBI_0400095>	"A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm."@en	
+<http://purl.obolibrary.org/obo/PATO_0000133>		
+<https://purl.archive.org/tfsco/TFSCO_00001145>	"a data tranformation output, that interprets a measurement output to calculate a devices deviation"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002028>		
+<http://purl.obolibrary.org/obo/COB_0000026>	"A material entity processed by human activity with an intent to produce it."@en	
+<http://purl.obolibrary.org/obo/BFO_0000024>		
+<http://purl.obolibrary.org/obo/PATO_0001018>	"A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities."	
+<https://purl.archive.org/tfsco/TFSCO_00007006>	"the conductivity measurement datum is a scalar measurement datum, that quantifies the output of some conductivity measurement"@en	
+<https://purl.archive.org/tfsco/TFSCO_00001061>		
+<http://purl.obolibrary.org/obo/IAO_0000102>	"Data about an ontology part is a data item about a part of an ontology, for example a term"@en	
+<http://purl.obolibrary.org/obo/PATO_0001028>		
+<http://purl.obolibrary.org/obo/CHMO_0002530>	"The application of a thin cover to sample by converting the coating solution to an aerosol then allowing the droplets to settle on the sample surface under the influence of gravity or using an electrostatic field."	
+<http://purl.obolibrary.org/obo/PATO_0001464>		
+<http://purl.obolibrary.org/obo/PATO_0001585>		
+<http://purl.obolibrary.org/obo/OBI_0000441>	"an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)"@en	
+<http://purl.obolibrary.org/obo/OBI_0200166>	"An objective specification to transformation input data into output data"@en	
+<http://purl.obolibrary.org/obo/OBI_0001138>	"A device that is used to generate X-rays."@en	
+<https://purl.archive.org/tfsco/TFSCO_00002095>		
+<http://purl.obolibrary.org/obo/PATO_0000025>		
+<https://purl.archive.org/tfsco/TFSCO_00002003>		
+<http://purl.obolibrary.org/obo/OBI_0000067>	"a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role"@en	
+<http://purl.obolibrary.org/obo/PATO_0000001>		
+<http://purl.obolibrary.org/obo/CHMO_0001558>	"The process of chemically removing a thin layer from a sample surface, usually to leave behind a pattern."	
+<http://purl.obolibrary.org/obo/OBI_0000838>	"A planned process with the objective to maintain some or all of the characteristics of an input material over time."@en	
+<https://purl.archive.org/tfsco/TFSCO_00005024>		
+<http://purl.obolibrary.org/obo/PATO_0002198>		
+<http://purl.obolibrary.org/obo/OBI_0000458>	"is the objective to manufacture a material of a certain function (device)"@en	
+<http://purl.obolibrary.org/obo/CHMO_0000208>	"Any method for determining structure where the change in direction or intensity of reflected radiation or particles is detected."	
+<http://purl.obolibrary.org/obo/BFO_0000011>		
+<http://purl.obolibrary.org/obo/CHMO_0001353>	"A synthesis method where a plasma (a partially ionised gas containing free electrons) containing precursors is projected onto a surface, resulting in a deposit."	
+<http://purl.obolibrary.org/obo/OBI_0200000>	"A completely executed planned process that produces output data from input data."@en	
+<http://purl.obolibrary.org/obo/UO_0000217>		
+<http://purl.obolibrary.org/obo/CHMO_0001988>	"A method for the synthesis of solid particles from an aerosol. The desired solid particles are suspended in a liquid, which is heated to 275–330 °C under pressure and passed through an orifice so that an aerosol forms. The particles in the aerosol are polymerised by partial evaporation of the solvent."	
+<https://purl.archive.org/tfsco/TFSCO_00005061>	"The current density measurement datum is a  scalar measurement datum, that quantifies the result of some current density measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0001029>		
+<http://purl.obolibrary.org/obo/PATO_0001574>		
+<http://purl.obolibrary.org/obo/IAO_0000584>	"A data set that is an aggregate of data recording some measurement at a number of time points. The time series data set is an ordered list of pairs of time measurement data and the corresponding measurement data acquired at that time."@en	
+<http://purl.obolibrary.org/obo/PATO_0001555>		
+<http://purl.obolibrary.org/obo/BFO_0000038>		
+<https://purl.archive.org/tfsco/TFSCO_00005742>	"The angle measurement datum is a scalar measurement datum, quantifies the result of some angle measurement"@en	
+<http://purl.obolibrary.org/obo/BFO_0000026>		
+<http://purl.obolibrary.org/obo/BFO_0000147>		
+<http://purl.obolibrary.org/obo/OBI_0000374>	"A excitation function is a function  to inject energy by bombarding a material with energetic particles (e.g., photons) thereby imbuing internal material components such as electrons with additional energy.  These internal, 'excited' particles may lead to the rupturing of covalent chemical bonds or may quickly relax back to there unexcited state with an exponential time course thereby locally emitting energy in the form of photons."@en	
+<http://purl.obolibrary.org/obo/OBI_0002901>	"A light source that provides visible light for use in a distant area using a delivery system."@en	
+<http://purl.obolibrary.org/obo/OBI_0000011>	"A process that realizes a plan which is the concretization of a plan specification."@en	
+<http://purl.obolibrary.org/obo/PATO_0103000>		
+<http://purl.obolibrary.org/obo/OBI_0400142>	"A power supply is an device or part of a device that permits the required application of a defined electrical charge to an instrument. The power supply may permit the defined application of a given amount of current for a defined length of time."@en	
+<https://purl.archive.org/tfsco/TFSCO_00002118>	"The pressure measurement datum is a scalar measurement datum, that quantifies the result of some pressure measurement"@en	
+<http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
+<http://purl.obolibrary.org/obo/CHMO_0001470>	"The application of a thin cover to a sample."	
+<http://purl.obolibrary.org/obo/OBI_0001928>	"A planned process with the objective to create a group of entities by applying a predefined criteria to a larger group of entities."@en	
+<http://purl.obolibrary.org/obo/PATO_0000051>	"A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure."	
+<http://purl.obolibrary.org/obo/OBI_0000456>	"an objective specifiction that creates an specific output object from input materials."@en	
+<https://purl.archive.org/tfsco/TFSCO_00002110>		
+<http://purl.obolibrary.org/obo/CHMO_0001559>	"The process of removing a thin layer of a sample surface by sputtering or dissolving using reactive ions or a vapour-phase etchant"	
+<https://purl.archive.org/tfsco/TFSCO_00002146>		
+<https://purl.archive.org/tfsco/TFSCO_00005010>		
+<https://purl.archive.org/tfsco/TFSCO_00002158>		
+<http://purl.obolibrary.org/obo/CHMO_0001351>	"A synthesis method where a flow of carrier gas containing vaporised precursors is projected onto a surface, resulting in a deposit."	
+<http://purl.obolibrary.org/obo/OBI_0000086>	"A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer."@en	
+<http://purl.obolibrary.org/obo/BFO_0000001>		
+<http://purl.obolibrary.org/obo/BFO_0000146>		
+<http://purl.obolibrary.org/obo/IAO_0000033>	"An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en	
+<http://purl.obolibrary.org/obo/PATO_0000128>		
+<http://purl.obolibrary.org/obo/OBI_0600008>	"A planned process with the objective of gaining possession of an entity."@en	
+<http://purl.obolibrary.org/obo/COB_0001300>	"A processed material entity which is designed to be capable of a process."@en	
+<https://purl.archive.org/tfsco/TFSCO_00005753>		
+<https://purl.archive.org/tfsco/TFSCO_00002080>		
+<http://purl.obolibrary.org/obo/BFO_0000002>	"An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en	
+<https://purl.archive.org/tfsco/TFSCO_00007034>	"the device temperature measurement datum is a measurement datum, that is the output of some temperature measurement of some device"@en	
+<http://purl.obolibrary.org/obo/IAO_0000140>	"A settings datum is a datum that denotes some configuration of an instrument."@en	
+<https://purl.archive.org/tfsco/TFSCO_00002121>		
+<http://purl.obolibrary.org/obo/UO_0000005>		
+<http://purl.obolibrary.org/obo/BFO_0000028>		
+<http://purl.obolibrary.org/obo/BFO_0000016>		
+<http://purl.obolibrary.org/obo/IAO_0000582>		
+<http://purl.obolibrary.org/obo/IAO_0000416>	"A scalar measurement datum that is the result of measuring a temporal interval"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002096>	"The area measurement datum is a scalar measurement datum, that quantifies the result of area measurement"@en	
+<http://purl.obolibrary.org/obo/PATO_0001323>		
+<https://purl.archive.org/tfsco/TFSCO_00001065>		
+<http://purl.obolibrary.org/obo/OBI_0600013>	"An acquisition in which possession of information is gained."@en	
+<http://purl.obolibrary.org/obo/BFO_0000020>	"b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en	
+<http://purl.obolibrary.org/obo/IAO_0000009>	"A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label"@en	
+<https://purl.archive.org/tfsco/TFSCO_00007029>		
+<http://purl.obolibrary.org/obo/CHMO_0001471>	"The application of a thin cover to sample by immersing it in a tank containing coating material, allowing it to remain there for a certain 'dwell time', removing the piece from the tank ('withdrawal'), and allowing it to drain."	
+<https://purl.archive.org/tfsco/TFSCO_00002120>		
+<http://purl.obolibrary.org/obo/BFO_0000145>	"b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])"@en	
+<http://purl.obolibrary.org/obo/BFO_0000148>		
+<https://purl.archive.org/tfsco/TFSCO_00003000>	"The volume measurement datum is a scalar measurement datum, that quantifies the result of some volumetric measurement"@en	
+<http://purl.obolibrary.org/obo/BFO_0000027>		
+<http://purl.obolibrary.org/obo/CHMO_0001314>	"A synthesis method where the substrate is exposed to one or more volatile precursors, which react or decompose on the surface to produce a deposit."	
+<http://purl.obolibrary.org/obo/IAO_0000414>	"A scalar measurement datum that is the result of measurement of mass quality"@en	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	"A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target ('ablation') and deposited as a thin film on a substrate facing the target."	
+<http://purl.obolibrary.org/obo/CHMO_0000219>	"A method for determining structure by directing a beam of X-rays at an extremely flat surface and measuring the intensity of the reflected X-rays as a function of angle. X-ray reflectometry is used to determine the structure of thin films."	
+<http://purl.obolibrary.org/obo/IAO_0000408>	"A scalar measurement datum that is the result of measurement of length quality"@en	
+<http://purl.obolibrary.org/obo/IAO_0000003>	"A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure."@en	
+<http://purl.obolibrary.org/obo/OBI_0000185>	"An assay that produces a picture of an entity."@en	
+<https://purl.archive.org/tfsco/TFSCO_00005009>	"The reflectance measurement datum is a scalar measurement datum, that quantifies the result of some reflectance measurement"@en	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000796>	"A planned process that has a data set as its specified output."@en	
+<http://purl.obolibrary.org/obo/IAO_0000101>	"An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface."@en	
+<http://purl.obolibrary.org/obo/IAO_0000409>	"A denotator type indicates how a term should be interpreted from an ontological perspective."@en	
+<https://purl.archive.org/tfsco/TFSCO_00005763>		
+<http://purl.obolibrary.org/obo/PATO_0050000>		
+<http://purl.obolibrary.org/obo/PATO_0000918>	"A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies."	

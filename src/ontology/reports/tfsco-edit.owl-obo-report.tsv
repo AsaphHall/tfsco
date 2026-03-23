@@ -1,0 +1,620 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	missing_label	CHMO:0000208	rdfs:label	
+ERROR	missing_label	CHMO:0000228	rdfs:label	
+ERROR	missing_label	CHMO:0000800	rdfs:label	
+ERROR	missing_label	CHMO:0001301	rdfs:label	
+ERROR	missing_label	CHMO:0001310	rdfs:label	
+ERROR	missing_label	CHMO:0001356	rdfs:label	
+ERROR	missing_label	CHMO:0001470	rdfs:label	
+ERROR	missing_label	CHMO:0001472	rdfs:label	
+ERROR	missing_label	CHMO:0001558	rdfs:label	
+ERROR	missing_label	CHMO:0001685	rdfs:label	
+ERROR	missing_label	CHMO:0002770	rdfs:label	
+ERROR	missing_label	CHMO:0002793	rdfs:label	
+ERROR	missing_label	CHMO:0002917	rdfs:label	
+ERROR	missing_label	IAO:0000101	rdfs:label	
+ERROR	missing_label	OBI:0000011	rdfs:label	
+ERROR	missing_label	OBI:0000070	rdfs:label	
+ERROR	missing_label	OBI:0000094	rdfs:label	
+ERROR	missing_label	OBI:0000374	rdfs:label	
+ERROR	missing_label	OBI:0200000	rdfs:label	
+ERROR	missing_label	OBI:0400065	rdfs:label	
+ERROR	missing_label	PATO:0000008	rdfs:label	
+ERROR	missing_label	PATO:0000125	rdfs:label	
+ERROR	missing_label	PATO:0000146	rdfs:label	
+ERROR	missing_label	PATO:0000165	rdfs:label	
+ERROR	missing_label	PATO:0000918	rdfs:label	
+ERROR	missing_label	PATO:0001024	rdfs:label	
+ERROR	missing_label	PATO:0001025	rdfs:label	
+ERROR	missing_label	PATO:0001242	rdfs:label	
+ERROR	missing_label	PATO:0001309	rdfs:label	
+ERROR	missing_label	PATO:0001464	rdfs:label	
+ERROR	missing_label	PATO:0001574	rdfs:label	
+ERROR	missing_label	PATO:0001585	rdfs:label	
+ERROR	missing_label	PATO:0002242	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000021	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000022	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000063	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000064	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000067	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000068	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000075	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000087	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00000088	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001000	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001003	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001004	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001030	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001033	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001034	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001035	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001037	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001042	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001044	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001045	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001052	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001061	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001062	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001063	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001064	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001065	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001077	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001094	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001100	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001103	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001104	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001106	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001107	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001122	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001124	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001129	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00001147	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002001	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002008	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002012	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002026	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002033	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002046	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002047	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002049	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002051	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002053	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002060	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002076	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002077	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002078	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002080	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002081	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002082	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002083	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002084	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002095	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002109	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002110	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002114	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002123	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002125	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002127	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002129	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002132	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002140	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002141	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002142	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002143	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002144	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002145	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002146	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002150	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00002156	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003100	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003105	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003108	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003300	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003301	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003302	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003303	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003313	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003500	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003502	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003503	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00003504	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005001	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005016	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005021	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005022	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005023	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005024	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005025	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005032	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005033	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005034	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005035	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005036	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005038	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005039	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005050	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005060	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005066	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005067	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005069	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005070	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005071	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005072	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005074	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005078	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005079	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005080	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005086	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005088	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005091	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005092	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005700	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005702	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005711	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005717	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005720	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005724	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005731	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005740	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005746	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005750	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005753	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00005763	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007000	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007001	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007002	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007007	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007009	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007011	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007013	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007016	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007017	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007022	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007026	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007027	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007029	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007031	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007033	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007034	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007035	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007036	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007037	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007038	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007045	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007046	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007047	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007050	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007051	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007052	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007054	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007056	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007060	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007061	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007063	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007064	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007068	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00007069	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008000	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008005	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008007	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008009	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008012	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008013	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00008014	rdfs:label	
+ERROR	missing_label	https://purl.archive.org/tfsco/TFSCO_00009996	rdfs:label	
+ERROR	multiple_definitions	Hybrid cell	IAO:0000600	Inorganic material is used as the acceptor and electron transporter.@en
+ERROR	multiple_definitions	Hybrid cell	IAO:0000600	Organic material is used as light absorber, donor and transports holes.@en
+WARN	missing_definition	CHMO:0000208	IAO:0000115	
+WARN	missing_definition	CHMO:0000228	IAO:0000115	
+WARN	missing_definition	CHMO:0000800	IAO:0000115	
+WARN	missing_definition	CHMO:0001301	IAO:0000115	
+WARN	missing_definition	CHMO:0001310	IAO:0000115	
+WARN	missing_definition	CHMO:0001356	IAO:0000115	
+WARN	missing_definition	CHMO:0001470	IAO:0000115	
+WARN	missing_definition	CHMO:0001472	IAO:0000115	
+WARN	missing_definition	CHMO:0001558	IAO:0000115	
+WARN	missing_definition	CHMO:0001685	IAO:0000115	
+WARN	missing_definition	CHMO:0002770	IAO:0000115	
+WARN	missing_definition	CHMO:0002793	IAO:0000115	
+WARN	missing_definition	CHMO:0002917	IAO:0000115	
+WARN	missing_definition	IAO:0000101	IAO:0000115	
+WARN	missing_definition	OBI:0000011	IAO:0000115	
+WARN	missing_definition	OBI:0000070	IAO:0000115	
+WARN	missing_definition	OBI:0000094	IAO:0000115	
+WARN	missing_definition	OBI:0000374	IAO:0000115	
+WARN	missing_definition	OBI:0200000	IAO:0000115	
+WARN	missing_definition	OBI:0400065	IAO:0000115	
+WARN	missing_definition	PATO:0000008	IAO:0000115	
+WARN	missing_definition	PATO:0000125	IAO:0000115	
+WARN	missing_definition	PATO:0000146	IAO:0000115	
+WARN	missing_definition	PATO:0000165	IAO:0000115	
+WARN	missing_definition	PATO:0000918	IAO:0000115	
+WARN	missing_definition	PATO:0001024	IAO:0000115	
+WARN	missing_definition	PATO:0001025	IAO:0000115	
+WARN	missing_definition	PATO:0001242	IAO:0000115	
+WARN	missing_definition	PATO:0001309	IAO:0000115	
+WARN	missing_definition	PATO:0001464	IAO:0000115	
+WARN	missing_definition	PATO:0001574	IAO:0000115	
+WARN	missing_definition	PATO:0001585	IAO:0000115	
+WARN	missing_definition	PATO:0002242	IAO:0000115	
+WARN	missing_definition	root node	IAO:0000115	
+WARN	missing_definition	description	IAO:0000115	
+WARN	missing_definition	license	IAO:0000115	
+WARN	missing_definition	title	IAO:0000115	
+WARN	missing_definition	Hole transport layer	IAO:0000115	
+WARN	missing_definition	Antireflective coating	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000021	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000022	IAO:0000115	
+WARN	missing_definition	Inorganic p-n homojunction	IAO:0000115	
+WARN	missing_definition	Schottky-junction	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000063	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000064	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000067	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000068	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000075	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000087	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00000088	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001000	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001003	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001004	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001030	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001033	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001034	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001035	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001037	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001042	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001044	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001045	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001052	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001061	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001062	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001063	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001064	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001065	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001077	IAO:0000115	
+WARN	missing_definition	Encapsulation layer	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001094	IAO:0000115	
+WARN	missing_definition	certified	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001100	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001103	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001104	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001106	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001107	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001122	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001124	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001129	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00001147	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002001	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002008	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002012	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002026	IAO:0000115	
+WARN	missing_definition	Analytical model	IAO:0000115	
+WARN	missing_definition	illumination direction setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002033	IAO:0000115	
+WARN	missing_definition	pvd source	IAO:0000115	
+WARN	missing_definition	Sublayer	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002046	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002047	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002049	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002051	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002053	IAO:0000115	
+WARN	missing_definition	scan rate setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002060	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002076	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002077	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002078	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002080	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002081	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002082	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002083	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002084	IAO:0000115	
+WARN	missing_definition	compliance setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002095	IAO:0000115	
+WARN	missing_definition	active area measurement datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002109	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002110	IAO:0000115	
+WARN	missing_definition	thermal pvd source	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002114	IAO:0000115	
+WARN	missing_definition	total pressure measurement datum	IAO:0000115	
+WARN	missing_definition	partial pressure measurement datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002123	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002125	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002127	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002129	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002132	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002140	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002141	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002142	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002143	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002144	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002145	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002146	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002150	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00002156	IAO:0000115	
+WARN	missing_definition	perovskite solar cell	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003100	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003105	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003108	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003300	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003301	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003302	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003303	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003313	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003500	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003502	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003503	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00003504	IAO:0000115	
+WARN	missing_definition	sample	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005001	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005016	IAO:0000115	
+WARN	missing_definition	plasma	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005021	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005022	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005023	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005024	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005025	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005032	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005033	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005034	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005035	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005036	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005038	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005039	IAO:0000115	
+WARN	missing_definition	1-D extent setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005050	IAO:0000115	
+WARN	missing_definition	silver back contact	IAO:0000115	
+WARN	missing_definition	2PacZ hole transport layer	IAO:0000115	
+WARN	missing_definition	triple halide perovskite layer	IAO:0000115	
+WARN	missing_definition	C60 electron transport layer	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005060	IAO:0000115	
+WARN	missing_definition	thin-film solar cell	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005066	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005067	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005069	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005070	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005071	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005072	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005074	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005078	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005079	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005080	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005086	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005088	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005091	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005092	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005700	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005702	IAO:0000115	
+WARN	missing_definition	hotplate	IAO:0000115	
+WARN	missing_definition	infrared light source	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005711	IAO:0000115	
+WARN	missing_definition	pipette	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005717	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005720	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005724	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005731	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005740	IAO:0000115	
+WARN	missing_definition	pipette tip opening diameter setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005746	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005750	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005753	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00005763	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007000	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007001	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007002	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007007	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007009	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007011	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007013	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007016	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007017	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007022	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007026	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007027	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007029	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007031	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007033	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007035	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007038	IAO:0000115	
+WARN	missing_definition	Si ccd sensor	IAO:0000115	
+WARN	missing_definition	InGaAs photodiode	IAO:0000115	
+WARN	missing_definition	Ge photodiode	IAO:0000115	
+WARN	missing_definition	photomultiplier	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007046	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007051	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007060	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00007068	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008000	IAO:0000115	
+WARN	missing_definition	round nozzle	IAO:0000115	
+WARN	missing_definition	round nozzle tip diameter setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008005	IAO:0000115	
+WARN	missing_definition	round nozzle speed setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008007	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008009	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008012	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008013	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00008014	IAO:0000115	
+WARN	missing_definition	transferring device pressure setting datum	IAO:0000115	
+WARN	missing_definition	pipette pressure setting datum	IAO:0000115	
+WARN	missing_definition	nozzle pressure setting datum	IAO:0000115	
+WARN	missing_definition	round nozzle pressure setting datum	IAO:0000115	
+WARN	missing_definition	https://purl.archive.org/tfsco/TFSCO_00009996	IAO:0000115	
+INFO	lowercase_definition	Front contact	IAO:0000115	a non photo-absorber layer that connects to the external electrical circuit situated at the front of a solar cell.@en
+INFO	lowercase_definition	layer	IAO:0000115	a flat fiat object part, constitutet as a film of molecules on or in a object@en
+INFO	lowercase_definition	Conversion layer	IAO:0000115	a layer that converts high-energy photons into low-energy photons and vice versa@en
+INFO	lowercase_definition	Cell spacing	IAO:0000115	describes the distance between individual cells in a module@en
+INFO	lowercase_definition	perovskite layer	IAO:0000600	a photo absorber layer based on the component perovskite@en
+INFO	lowercase_definition	Inorganic cell	IAO:0000115	a solar cell that is made from  non-carbon based molecules@en
+INFO	lowercase_definition	Organic cell	IAO:0000115	a solalr cell that contains at least one organic semiconductor in the cell active region@en
+INFO	lowercase_definition	Hybrid cell	IAO:0000115	a solar cell that contains both organic and inorganic materials@en
+INFO	lowercase_definition	Homo-junction	IAO:0000115	a junction that occurs between similar materials@en
+INFO	lowercase_definition	Hetero-junction	IAO:0000115	a junction between different kinds of material@en
+INFO	lowercase_definition	tandem cell	IAO:0000600	a cell, that consists of multiple cells that are capable of absorbing different frequencies of light@en
+INFO	lowercase_definition	light	IAO:0000115	electromagnetic radiation that can be witnessed by the human eye@en
+INFO	lowercase_definition	atmosphere	IAO:0000115	the gaseous material entity that surrounds a process/object@en
+INFO	lowercase_definition	solar module	IAO:0000600	a object consisting of multiple cells@en
+INFO	lowercase_definition	calibration data	IAO:0000115	a data tranformation output, that interprets a measurement output to calculate a devices deviation@en
+INFO	lowercase_definition	rotation acceleration setting datum	IAO:0000115	is a setting datum, which indicates the settings for the rotation acceleration@en
+INFO	lowercase_definition	rotation speed setting datum	IAO:0000115	is a setting datum, which indicates the settings for the rotation speed@en
+INFO	lowercase_definition	duration setting datum	IAO:0000115	is a setting datum, that specifies the duration of some occurent@en
+INFO	lowercase_definition	external quantum efficiency curve	IAO:0000115	the logged assay output of an external quantum efficiency measurement@en
+INFO	lowercase_definition	data transformation output	IAO:0000115	a data item that describes the returned data from an data transformation@en
+INFO	lowercase_definition	photovoltaic device efficiency datum	IAO:0000115	the photovoltaic device efficiency datum is a scalar datum, that quantifies the efficiency of some photovoltaic device@en
+INFO	lowercase_definition	scalar datum	IAO:0000115	scalar datums are data items, that are represented by a numerical part and a unit part@en
+INFO	lowercase_definition	Up conversion layer	IAO:0000115	a conversion layer that converts two or more low-energy photons into one high-energy photons@en
+INFO	lowercase_definition	Down conversion layer	IAO:0000115	a conversion layer that converts one high-energy photons into two or more low-energy photons@en
+INFO	lowercase_definition	CIGS	IAO:0000600	is a photo absorber layer based on the components copper, indium, gallium and selenide@en
+INFO	lowercase_definition	data transforming algorithm	IAO:0000115	a algorithm that specifies the transformation of some data into another data format@en
+INFO	lowercase_definition	light intensity setting datum	IAO:0000115	is a setting datum, which indicates the settings for the light intensity@en
+INFO	lowercase_definition	time range setting datum	IAO:0000115	is a setting datum, which specifies the settiing of some time range@en
+INFO	lowercase_definition	cycling time setting datum	IAO:0000115	the cycling time setting datum is a setting datum, that specifies some cycling time@en
+INFO	lowercase_definition	wavelength setting datum	IAO:0000115	is a setting datum, which indicates the settings for the wavelength@en
+INFO	lowercase_definition	load balance setting datum	IAO:0000115	is a setting datum, which indicates the settings for the load balance@en
+INFO	lowercase_definition	photovoltaic device	IAO:0000115	the photovoltaic device is a device, that is capable of  transforming light into electricity via the photovoltaic effect@en
+INFO	lowercase_definition	Functional layer	IAO:0000115	a functional layer is a layer that is capable of fullfilling some function@en
+INFO	lowercase_definition	fill factor datum	IAO:0000115	the fill factor datum is a scalar datum, that quantifies some fill factor@en
+INFO	lowercase_definition	open circuit voltage datum	IAO:0000115	the open circuit voltage datum is a scalar datum, that quantifies some open circuit voltage@en
+INFO	lowercase_definition	voltage maximum power point datum	IAO:0000115	the voltage maximum power point datum is a scalar datum, that quantifies some votlage maximum power point@en
+INFO	lowercase_definition	current density maximum power point datum	IAO:0000115	the current density maximum power point datum is a scalar datum, that quantifies the current density at the maximum power point@en
+INFO	lowercase_definition	short circuit current datum	IAO:0000115	the short circuit current datum is a scalar datum, that quantifies some short circuit current@en
+INFO	lowercase_definition	total area datum	IAO:0000115	the total area datum is a scalar datum. that quantifies the total area of some entity@en
+INFO	lowercase_definition	effective area datum	IAO:0000115	the effective area datum is a scalar datum, that quantifies the area that actively participates in the conversion of light into electric energy@en
+INFO	lowercase_definition	process temperature setting datum	IAO:0000115	is a setting datum, which indicates the settings for the process temperature@en
+INFO	lowercase_definition	process time setting datum	IAO:0000115	is a duration setting datum, which indicates the settings for the process time@en
+INFO	lowercase_definition	hotplate temperature setting datum	IAO:0000115	is a setting datum, which indicates the settings for the annealing temperature@en
+INFO	lowercase_definition	scan rate voltage setting datum	IAO:0000115	is a setting datum, which indicates the voltage settings for the scan rate@en
+INFO	lowercase_definition	wavelength step size setting datum	IAO:0000115	a wavelength setting datum that specifies some size configuration of wavelength steps@en
+INFO	lowercase_definition	scan direction setting datum	IAO:0000115	is a setting datum, which indicates the settings for the scan direction@en
+INFO	lowercase_definition	starting voltage setting datum	IAO:0000115	is a setting datum, which indicates the settings for the starting voltage@en
+INFO	lowercase_definition	stopping voltage setting datum	IAO:0000115	is a setting datum, which indicates the settings for the stopping voltage@en
+INFO	lowercase_definition	voltage step size setting datum	IAO:0000115	is a setting datum, which indicates the settings for the voltage step size@en
+INFO	lowercase_definition	settling time setting datum	IAO:0000115	is a setting datum, which indicates  the settings for the time@en
+INFO	lowercase_definition	integration time setting datum	IAO:0000115	a setting datum that specifies some integration time@en
+INFO	lowercase_definition	shunt resistance datum	IAO:0000115	the shunt resistance datum is a scalar datum, that quantifies some shunt resistance@en
+INFO	lowercase_definition	series resistance datum	IAO:0000115	the series resistance datum is a scalar datum, that quantifies some series resistance@en
+INFO	lowercase_definition	power setting datum	IAO:0000115	is a setting datum, which indicates the power setting@en
+INFO	lowercase_definition	shutter status setting datum	IAO:0000115	a setting datum, that describes the set status of the shutter@en
+INFO	lowercase_definition	gas flow rate setting datum	IAO:0000115	a setting datum, that specifies the gas flow per time unit@en
+INFO	lowercase_definition	temperature setting datum	IAO:0000115	the temperature setting datum is a setting datum, that specifies the thermal energy of some material entity@en
+INFO	lowercase_definition	device temperature setting datum	IAO:0000115	is a setting datum, which indicates the settings for the device temperature@en
+INFO	lowercase_definition	tabular data	IAO:0000115	tabular data is a data set, that is organised in rows and columns@en
+INFO	lowercase_definition	pvd process log	IAO:0000115	the process log of some pvd process@en
+INFO	lowercase_definition	light bias setting datum	IAO:0000115	is a setting datum, which indicates the settings for the bias light@en
+INFO	lowercase_definition	chopper frequency setting datum	IAO:0000115	the chopper frequency setting datum is a setting datum, which specifies some chopper frequency@en
+INFO	lowercase_definition	voltage bias setting datum	IAO:0000115	is a setting datum, which indicates the settings for the voltage bias@en
+INFO	lowercase_definition	scan rate wavelength setting datum	IAO:0000115	is a setting datum, which indicates the wavelength settings for the scan rate@en
+INFO	lowercase_definition	eqe bandgap datum	IAO:0000115	the eqe bandgap datum is a scalar datum. that quantifies some eqe bandgap@en
+INFO	lowercase_definition	integrated jsc datum	IAO:0000115	the integrated jsc datum is a scalar datum, that quantifies some integrated jsc@en
+INFO	lowercase_definition	integrated j0rad datum	IAO:0000115	the integrated j0rad datum is a scalar datum, that quantifies some integradted j0rad@en
+INFO	lowercase_definition	radiative open-circuit voltage datum	IAO:0000115	the radiative open-circuit voltage datum is a scalar datum, that quantifies some radiative open-circuit voltage@en
+INFO	lowercase_definition	urbach energy datum	IAO:0000115	the urbach energy datum is a scalar datum, that quantifies some urbach energy@en
+INFO	lowercase_definition	urbach energy fit standard deviation datum	IAO:0000115	the urbach energy fit standard deviation datum is a scalar datum, that quantifies some urbach energy fit standard deviation@en
+INFO	lowercase_definition	external quantum efficiency datum	IAO:0000115	the external quantum efficiency datum is a scalar datum, that quantifies some external quantum efficiency@en
+INFO	lowercase_definition	anti solvent dropping time setting datum	IAO:0000115	the anti solvent dropping time setting datum is a setting datum, that specifies the dropping duration of some anti solvent@en
+INFO	lowercase_definition	dropping time setting datum	IAO:0000115	the dropping time setting datum is a setting datum, that specifies the dropping duration of some fluid@en
+INFO	lowercase_definition	volume setting datum	IAO:0000115	a setting datum that specifies some volume configuration@en
+INFO	lowercase_definition	anti solvent volume setting datum	IAO:0000115	a volume setting datum that specifies some volume configuration of some anti solvent@en
+INFO	lowercase_definition	precursor solution volume setting datum	IAO:0000115	a volume setting datum that specifies some volume configuration of some precursor solution@en
+INFO	lowercase_definition	camera	IAO:0000115	a camera is a device, that is capable of creating an image by converting incoming light into an electrical signal@en
+INFO	lowercase_definition	excitation source	IAO:0000115	an excitation source is a source that fullfills some excitation function@en
+INFO	lowercase_definition	electric current setting datum	IAO:0000115	the electric current setting datum is a setting datum, that specifies the set value of some current@en
+INFO	lowercase_definition	excitation current setting datum	IAO:0000115	the excitation current setting datum is a electric current setting datum, that specifies some excitation current@en
+INFO	lowercase_definition	excitation wavelength setting datum	IAO:0000115	a wavelength setting datum that specifies some excitation wavelength@en
+INFO	lowercase_definition	velocity setting datum	IAO:0000115	the velocity setting datum is a setting datum, that specifies the value of some velocity datum@en
+INFO	lowercase_definition	round nozzle distance to substrate setting datum	IAO:0000600	the round nozzle distance to substrate setting datum is a nozzle distance to substrate setting datum, that specifies the distance of some nozzle to some substrate@en
+INFO	lowercase_definition	angle setting datum	IAO:0000600	the angle setting datum is a setting datum, that specifies some angle@en
+INFO	lowercase_definition	delay setting datum	IAO:0000600	a setting datum, that specifies the duration of the delay of some occurent@en
+INFO	lowercase_definition	starting delay time setting datum	IAO:0000600	is a delay setting datum, that specifies the amount of time some subprocess is being delayed the start of some occurent@en
+INFO	lowercase_definition	velocity at nozzle tip setting datum	IAO:0000600	is a velocity setting datum, that specifies the velocity setting at some nozzle tip@en
+INFO	lowercase_definition	time until 80 percent efficiency datum	IAO:0000115	the time until 80 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 80 percent of its initial efficiency@en
+INFO	lowercase_definition	time until 90 percent efficiency datum	IAO:0000115	the time until 90 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 90 percent of its initial efficiency@en
+INFO	lowercase_definition	power datum	IAO:0000115	is a scalar datum that quantifies some power@en
+INFO	lowercase_definition	uv-vis curve	IAO:0000115	a spectrum, that displays the amount of absorption of ultraviolet and visible light as a function of wavelength as a plot@en
+INFO	lowercase_definition	electric potential setting datum	IAO:0000115	is a setting datum, that specifies the set value some electric potential@en
+INFO	lowercase_definition	reflection uv-vis curve	IAO:0000115	a uv-vis curve, that displays the reflection of ultraviolet and visible light as a function of wavelength as a plot@en
+INFO	lowercase_definition	transmittance uv-vis curve	IAO:0000115	a uv-vis curve, that displays the transmittance of ultraviolet and visible light as a function of wavelength as a plot@en
+INFO	lowercase_definition	starting wavelength setting datum	IAO:0000115	a wavelength setting datum that specifies some starting wavelength configuration@en
+INFO	lowercase_definition	stopping wavelength setting datum	IAO:0000115	a wavelength setting datum that specifies some stopping wavelength configuration@en
+INFO	lowercase_definition	plasma power setting datum	IAO:0000115	a power setting datum, that concretizes the power of some plasma@en
+INFO	lowercase_definition	mass setting datum	IAO:0000115	a setting datum, that concretizes the set amount of some entity@en
+INFO	lowercase_definition	air knife speed setting datum	IAO:0000115	a speed setting datum that specifies some air knife speed@en
+INFO	lowercase_definition	air knife pressure setting datum	IAO:0000115	a setting datum, that describes the set pressure of an air knife@en
+INFO	lowercase_definition	air knife distance to thin-film setting datum	IAO:0000115	the air knife distance to thin-film setting datum is a nozzle distance to substrate setting datum, that specifies the distance between some air knife and some entity@en
+INFO	lowercase_definition	air knife impingement angle setting datum	IAO:0000115	the air knife impingement angle setting datum is a transferring device impingement setting datum, that specifies the impingement angle of some air knife@en
+INFO	lowercase_definition	slot die head	IAO:0000115	is a object that distributes the coating fluid across the desired coating width befor coating onto the substrate@en
+INFO	lowercase_definition	slot die shim	IAO:0000115	a shim that is used to alter the width of the slot die heads channel@en
+INFO	lowercase_definition	pressure setting datum	IAO:0000115	the pressure setting datum is a setting datum, that specifies the applied force on a surface per unit area of some entity@en
+INFO	lowercase_definition	slot die head speed setting datum	IAO:0000115	a setting datum, that specifies the speed of some slot die head@en
+INFO	lowercase_definition	speed setting datum	IAO:0000115	a setting datum that specifies some speed configuration@en
+INFO	lowercase_definition	slot die head distance to thin-film setting datum	IAO:0000115	the slot die head distance to thin-film setting datum is a 1-d extent setting datum, that specifies the distance between some slot-die-head and some thin-film@en
+INFO	lowercase_definition	slot die shim width setting datum	IAO:0000115	the slot die shim width setting datum is a 1-d extent setting datum, that specifies the width of some slot die shim@en
+INFO	lowercase_definition	slot die shim thickness setting datum	IAO:0000115	the slot die shim thickness setting datum is a 1-d extent setting datum, that specifies the thickness of some slot die shim@en
+INFO	lowercase_definition	slot die head width setting datum	IAO:0000115	the slot die head width setting datum is a 1-d extent setting datum, that specifies the width of some slot die head@en
+INFO	lowercase_definition	slot die coating flow rate setting datum	IAO:0000115	a setting datum, that describes the flow rate that is set for a slot die coating process@en
+INFO	lowercase_definition	thin-film stack	IAO:0000115	a processed material, that consists of multiple layers ranging from fractions of nanometer to several micrometers in thickness@en
+INFO	lowercase_definition	glass carrier	IAO:0000115	a carrier made from glass (usually silicates)@en
+INFO	lowercase_definition	ITO	IAO:0000115	a front contact layer that consists of Indium Tin Oxide (ITO)@en
+INFO	lowercase_definition	FTO	IAO:0000115	a front contact layer that consists of fluorine-doped tin oxide (FTO)@en
+INFO	lowercase_definition	LiF buffer layer	IAO:0000115	a buffer layer consisting of lithium flouride@en
+INFO	lowercase_definition	PI buffer layer	IAO:0000115	a buffer layer consisting of polyimide@en
+INFO	lowercase_definition	print head	IAO:0000115	an object through which a chemical gets distributed onto a surface@en
+INFO	lowercase_definition	profile	IAO:0000115	a profile is a datasets which defines the set values of an instrument or part of an instrument at specific time points.
+INFO	lowercase_definition	print nozzle voltage profile	IAO:0000115	a print nozzle voltage profile is a profile which determines the voltage set of a nozzle in a printing process
+INFO	lowercase_definition	print head path	IAO:0000115	a print head path is a profile which describes how a print head is moving in a printing process.
+INFO	lowercase_definition	time setting datum	IAO:0000115	a setting datum that specifies some time configuration@en
+INFO	lowercase_definition	print nozzle voltage setting datum	IAO:0000115	a setting datum, which describes the voltage to which a nozzle is set.@en
+INFO	lowercase_definition	position setting datum	IAO:0000115	a setting datum, that describes the position to which an entity is set.@en
+INFO	lowercase_definition	print head position setting datum	IAO:0000115	a setting datum, that describes the position to which an print head is set.@en
+INFO	lowercase_definition	anti solvent dropping height setting datum	IAO:0000115	the anti solvent dropping height setting datum is a nozzle distance to substrate setting datum, that specifies the dropping height of some anti solvent@en
+INFO	lowercase_definition	anti solvent dropping flow rate setting datum	IAO:0000115	the anti solvent dropping flow rate setting datum is a setting datum, that specifies the flow rate of some anti solvent@en
+INFO	lowercase_definition	print nozzle width setting datum	IAO:0000115	the print nozzle width setting datum is a 1-d extent setting datum, that specifies the width of some print nozzle@en
+INFO	lowercase_definition	print nozzle drop volume setting datum	IAO:0000115	a volume setting datum that specifies some drop volume configuration of some print nozzle@en
+INFO	lowercase_definition	cartridge pressure setting datum	IAO:0000115	a setting datum, that describes the set pressure of an cartridge@en
+INFO	lowercase_definition	print head distance to substrate setting datum	IAO:0000115	the print head distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some print head and some substrate@en
+INFO	lowercase_definition	print speed setting datum	IAO:0000115	a setting datum that specifies some print speed@en
+INFO	lowercase_definition	print head temperature setting datum	IAO:0000115	a setting datum that specifies the temperature of some print head@en
+INFO	lowercase_definition	print head angle setting datum	IAO:0000115	a setting datum, that describes the set angle of an print head@en
+INFO	lowercase_definition	print head width setting datum	IAO:0000115	the print head width setting datum is a 1-d extent setting datum, that specifies the width of some print head@en
+INFO	lowercase_definition	cartridge temperature setting datum	IAO:0000115	the cartridge temperature setting datum is a temperature setting datum, that specifies the thermal energy of some cartridge@en
+INFO	lowercase_definition	print nozzle distance setting datum	IAO:0000115	the print nozzle distance setting datum is a 1-d extent setting datum, that specifies the distance between some nozzle and some entity@en
+INFO	lowercase_definition	air knife shim width setting datum	IAO:0000115	the air knife shim width setting datum is a 1-d extent setting datum, that specifies the set width of some air knife shim@en
+INFO	lowercase_definition	gas velocity setting datum	IAO:0000115	the gas velocity setting datum is a velocity setting datum, that specifies the set velocity value of some gas stream@en
+INFO	lowercase_definition	flow rate setting datum	IAO:0000115	the flow rate setting datum is a setting datum, that specifies the set flow rate value@en
+INFO	lowercase_definition	volumetric flow rate setting datum	IAO:0000115	the volumetric flow rate setting datum is a flow rate setting datum, that specifies the set flow rate value of some liquid@en
+INFO	lowercase_definition	distance to substrate setting datum	IAO:0000115	the distance to substrate setting datum is a 1-d extent setting datum,  that specifies the distance between some substrate and some entity@en
+INFO	lowercase_definition	contact angle measurement datum	IAO:0000115	the contact angle measurement datum is a angle measurement datum, that quantifies the result of some contact angle measurement@en
+INFO	lowercase_definition	hotplate distance to substrate setting datum	IAO:0000115	the hotplate distance to substrate setting datum is a distance to susbtrate setting datum, that specifies the distance between some hotplate and some entity@en
+INFO	lowercase_definition	transferring device impingement angle setting datum	IAO:0000115	the transferring device impingement angle setting datum is a angle setting datum, that specifies the impingement angle of some transferring device@en
+INFO	lowercase_definition	nozzle speed setting datum	IAO:0000115	the nozzle speed setting datum is a speed setting datum, that specifies the amount of rate of movement of some nozzle@en
+INFO	lowercase_definition	round nozzle impingement angle setting datum	IAO:0000115	the round nozzle impingement angle setting datum is a transferring device impingement angle setting datum, that specifies the impingement angle of some round nozzle@en
+INFO	lowercase_definition	air knife impingement angle measurement datum	IAO:0000115	the air knife  impingement angle measurement datum is a angle measurement datum, that quantifies the result of some air knife impingement angle measurement@en
+INFO	lowercase_definition	round nozzle impingement angle measurement datum	IAO:0000115	the nozzle impingement angle measurement datum is a angle measurement datum, that quantifies the result of some round nozzle impingement angle measurement@en
+INFO	lowercase_definition	count measurement datum	IAO:0000600	the count measurement datum that specifies the output of some counting@en
+INFO	lowercase_definition	number of averages setting datum	IAO:0000115	the number of averages setting datum is a setting datum that is the specification of the amount of averages@en
+INFO	lowercase_definition	time until 95 percent efficiency datum	IAO:0000115	the time until 95 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 95 percent of its initial efficiency@en
+INFO	lowercase_definition	conductivity measurement datum	IAO:0000115	the conductivity measurement datum is a scalar measurement datum, that quantifies the output of some conductivity measurement@en
+INFO	lowercase_definition	blade distance to substrate setting datum	IAO:0000115	the blade distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some blade and some substrate@en
+INFO	lowercase_definition	blade traverse speed setting datum	IAO:0000115	the blade speed setting datum is a speed setting datum, that specifies the relative rate of movement between some blade and some material entity@en
+INFO	lowercase_definition	blade angle setting datum	IAO:0000115	the blade angle setting datum is a angle setting datum, that specifies the angle between some blade and some material entity@en
+INFO	lowercase_definition	blade pressure setting datum	IAO:0000115	the blade pressure setting datum is a pressure setting datum, that specifies the force per area applied by some blade@en
+INFO	lowercase_definition	doctor blade	IAO:0000115	a doctor blade is a device, that is being used to remove excess ink by traversing over some surface during wet chemical deposition@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007034	IAO:0000115	the device temperature measurement datum is a measurement datum, that is the output of some temperature measurement of some device@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007036	IAO:0000115	the camera distance to object setting datum is a 1-D extent setting datum, that specifies the distance between some camera and some object during an imaging process@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007037	IAO:0000115	the exposure time setting datum is a time setting datum, that specifies the time some sensor is exposed to some signal@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007047	IAO:0000115	the iso speed setting datum is a setting datum, that specifies the set iso value of some camera@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007050	IAO:0000115	the iso speed datum is a scalar datum, that contains information about some iso speed@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007052	IAO:0000115	the exposure time datum is a scalar datum, that contains information about some exposure time@en
+INFO	lowercase_definition	focal length datum	IAO:0000115	the focal length datum a scalar datum, that contains information about some focal length@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007054	IAO:0000115	the limit setting datum is a setting datum, that specifies the restriction of some entity during some process@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007056	IAO:0000115	the aperture datum is a scalar datum, that contains information about some aperture@en
+INFO	lowercase_definition	neutral density filter	IAO:0000115	a neutral density filter is a optical filter, that reduces the intensity of light that passes throught the filter@en
+INFO	lowercase_definition	pixel count datum	IAO:0000115	the pixel count datum is a scalar datum, that contains information about some pixel count@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007061	IAO:0000115	the pixel density datum is a scalar datum, that contains information about some pixel density@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007063	IAO:0000115	the color depth datum is a scalar datum, that contains information about some color depth@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007064	IAO:0000115	the aperture setting datum is a 1-D extent, that specifies the set diameter of some camera opening throught which light enters during some imaging process@en
+INFO	lowercase_definition	https://purl.archive.org/tfsco/TFSCO_00007069	IAO:0000115	the camera angle setting datum is a angle setting datum, that specifies the angle between some camera and some object@en
+INFO	lowercase_definition	nozzle distance to substrate setting datum	IAO:0000115	the nozzle distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some nozzle and some entity@en
+INFO	lowercase_definition	reynolds number datum	IAO:0000115	the reynolds number datum is a scalar datum, that quantifies some reynolds number@en
+INFO	lowercase_definition	raditation source distance to substrate setting datum	IAO:0000115	the radiation source distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some radiation source and some substrate@en
+INFO	lowercase_definition	substrate temperature setting datum	IAO:0000115	a setting datum that specifies the temperature of some substrate@en
+INFO	lowercase_definition	stacked tandem cell	IAO:0000115	a photovaltaic device which consists of multiple distinct stacked  solarcells
+INFO	missing_superclass	root node	rdfs:subClassOf	

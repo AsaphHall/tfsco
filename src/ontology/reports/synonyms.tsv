@@ -1,0 +1,350 @@
+?cls	?pred	?val	?synType
+<http://purl.obolibrary.org/obo/COB_0000026>	<http://www.w3.org/2000/01/rdf-schema#label>	"processed material entity"@en	
+<http://purl.obolibrary.org/obo/OBI_0000070>	<http://www.w3.org/2000/01/rdf-schema#label>	"assay"@en	
+<http://purl.obolibrary.org/obo/COB_0001300>	<http://www.w3.org/2000/01/rdf-schema#label>	"device"@en	
+<http://purl.obolibrary.org/obo/IAO_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"directive information entity"@en	
+<http://purl.obolibrary.org/obo/IAO_0000109>	<http://www.w3.org/2000/01/rdf-schema#label>	"measurement datum"@en	
+<http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"@en	
+<http://purl.obolibrary.org/obo/COB_0000035>	<http://www.w3.org/2000/01/rdf-schema#label>	"completely executed planned process"@en	
+<http://purl.obolibrary.org/obo/COB_0000110>	<http://www.w3.org/2000/01/rdf-schema#label>	"material processing"@en	
+<http://purl.obolibrary.org/obo/COB_0000082>	<http://www.w3.org/2000/01/rdf-schema#label>	"planned process"@en	
+<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"@en	
+<http://purl.obolibrary.org/obo/IAO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"information content entity"@en	
+<http://purl.obolibrary.org/obo/COB_0000502>	<http://www.w3.org/2000/01/rdf-schema#label>	"characteristic"@en	
+<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"@en	
+<http://purl.obolibrary.org/obo/IAO_0000104>	<http://www.w3.org/2000/01/rdf-schema#label>	"plan specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0000260>	<http://www.w3.org/2000/01/rdf-schema#label>	"plan"@en	
+<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000144>	<http://www.w3.org/2000/01/rdf-schema#label>	"process profile"@en	
+<http://purl.obolibrary.org/obo/BFO_0000035>	<http://www.w3.org/2000/01/rdf-schema#label>	"process boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"@en	
+<http://purl.obolibrary.org/obo/BFO_0000148>	<http://www.w3.org/2000/01/rdf-schema#label>	"zero-dimensional temporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000026>	<http://www.w3.org/2000/01/rdf-schema#label>	"one-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000008>	<http://www.w3.org/2000/01/rdf-schema#label>	"temporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"immaterial entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"function"@en	
+<http://purl.obolibrary.org/obo/BFO_0000024>	<http://www.w3.org/2000/01/rdf-schema#label>	"fiat object part"@en	
+<http://purl.obolibrary.org/obo/BFO_0000006>	<http://www.w3.org/2000/01/rdf-schema#label>	"spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"@en	
+<http://purl.obolibrary.org/obo/BFO_0000038>	<http://www.w3.org/2000/01/rdf-schema#label>	"one-dimensional temporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"three-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"generically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000029>	<http://www.w3.org/2000/01/rdf-schema#label>	"site"@en	
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
+<http://purl.obolibrary.org/obo/BFO_0000147>	<http://www.w3.org/2000/01/rdf-schema#label>	"zero-dimensional continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"role"@en	
+<http://purl.obolibrary.org/obo/BFO_0000182>	<http://www.w3.org/2000/01/rdf-schema#label>	"history"@en	
+<http://purl.obolibrary.org/obo/BFO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"object aggregate"@en	
+<http://purl.obolibrary.org/obo/BFO_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"spatiotemporal region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000009>	<http://www.w3.org/2000/01/rdf-schema#label>	"two-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000145>	<http://www.w3.org/2000/01/rdf-schema#label>	"relational quality"@en	
+<http://purl.obolibrary.org/obo/BFO_0000142>	<http://www.w3.org/2000/01/rdf-schema#label>	"one-dimensional continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/BFO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"object"@en	
+<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"zero-dimensional spatial region"@en	
+<http://purl.obolibrary.org/obo/BFO_0000146>	<http://www.w3.org/2000/01/rdf-schema#label>	"two-dimensional continuant fiat boundary"@en	
+<http://purl.obolibrary.org/obo/UO_0000280>	<http://www.w3.org/2000/01/rdf-schema#label>	"rate unit"@en	
+<http://purl.obolibrary.org/obo/UO_0000280>	<http://www.w3.org/2000/01/rdf-schema#label>	"rate unit"	
+<http://purl.obolibrary.org/obo/UO_0000186>	<http://www.w3.org/2000/01/rdf-schema#label>	"dimensionless unit"@en	
+<http://purl.obolibrary.org/obo/PATO_0000146>	<http://www.w3.org/2000/01/rdf-schema#label>	"temperature"	
+<http://purl.obolibrary.org/obo/IAO_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"scalar measurement datum"@en	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"counting"@en	
+<http://purl.obolibrary.org/obo/PATO_0001709>	<http://www.w3.org/2000/01/rdf-schema#label>	"2-D extent"	
+<http://purl.obolibrary.org/obo/PATO_0000070>	<http://www.w3.org/2000/01/rdf-schema#label>	"amount"	
+<http://purl.obolibrary.org/obo/PATO_0001029>	<http://www.w3.org/2000/01/rdf-schema#label>	"efficiency"	
+<http://purl.obolibrary.org/obo/PATO_0001018>	<http://www.w3.org/2000/01/rdf-schema#label>	"physical quality"	
+<http://purl.obolibrary.org/obo/PATO_0000051>	<http://www.w3.org/2000/01/rdf-schema#label>	"morphology"	
+<http://purl.obolibrary.org/obo/PATO_0000125>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass"	
+<http://purl.obolibrary.org/obo/PATO_0002198>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality of a substance"	
+<http://purl.obolibrary.org/obo/PATO_0000161>	<http://www.w3.org/2000/01/rdf-schema#label>	"rate"	
+<http://purl.obolibrary.org/obo/PATO_0001547>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality of a gas"	
+<http://purl.obolibrary.org/obo/PATO_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"position"	
+<http://purl.obolibrary.org/obo/PATO_0001334>	<http://www.w3.org/2000/01/rdf-schema#label>	"diameter"	
+<http://purl.obolibrary.org/obo/PATO_0001413>	<http://www.w3.org/2000/01/rdf-schema#label>	"angular velocity"	
+<http://purl.obolibrary.org/obo/PATO_0050000>	<http://www.w3.org/2000/01/rdf-schema#label>	"rate of occurence"	
+<http://purl.obolibrary.org/obo/PATO_0001323>	<http://www.w3.org/2000/01/rdf-schema#label>	"area"	
+<http://purl.obolibrary.org/obo/PATO_0001026>	<http://www.w3.org/2000/01/rdf-schema#label>	"work"	
+<http://purl.obolibrary.org/obo/PATO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"	
+<http://purl.obolibrary.org/obo/PATO_0103000>	<http://www.w3.org/2000/01/rdf-schema#label>	"quantitative"	
+<http://purl.obolibrary.org/obo/PATO_0000044>	<http://www.w3.org/2000/01/rdf-schema#label>	"frequency"	
+<http://purl.obolibrary.org/obo/PATO_0001906>	<http://www.w3.org/2000/01/rdf-schema#label>	"movement quality"	
+<http://purl.obolibrary.org/obo/PATO_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"concentration of"	
+<http://purl.obolibrary.org/obo/PATO_0001021>	<http://www.w3.org/2000/01/rdf-schema#label>	"energy"	
+<http://purl.obolibrary.org/obo/PATO_0001309>	<http://www.w3.org/2000/01/rdf-schema#label>	"duration"	
+<http://purl.obolibrary.org/obo/PATO_0000008>	<http://www.w3.org/2000/01/rdf-schema#label>	"speed"	
+<http://purl.obolibrary.org/obo/PATO_0001757>	<http://www.w3.org/2000/01/rdf-schema#label>	"electrical conductivity"	
+<http://purl.obolibrary.org/obo/PATO_0001708>	<http://www.w3.org/2000/01/rdf-schema#label>	"1-D extent"	
+<http://purl.obolibrary.org/obo/PATO_0002326>	<http://www.w3.org/2000/01/rdf-schema#label>	"angle"	
+<http://purl.obolibrary.org/obo/PATO_0002244>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass flow rate"	
+<http://purl.obolibrary.org/obo/PATO_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"structure"	
+<http://purl.obolibrary.org/obo/PATO_0000133>	<http://www.w3.org/2000/01/rdf-schema#label>	"orientation"	
+<http://purl.obolibrary.org/obo/PATO_0000918>	<http://www.w3.org/2000/01/rdf-schema#label>	"volume"	
+<http://purl.obolibrary.org/obo/PATO_0001242>	<http://www.w3.org/2000/01/rdf-schema#label>	"wavelength"	
+<http://purl.obolibrary.org/obo/PATO_0000122>	<http://www.w3.org/2000/01/rdf-schema#label>	"length"	
+<http://purl.obolibrary.org/obo/PATO_0001024>	<http://www.w3.org/2000/01/rdf-schema#label>	"power"	
+<http://purl.obolibrary.org/obo/PATO_0000165>	<http://www.w3.org/2000/01/rdf-schema#label>	"time"	
+<http://purl.obolibrary.org/obo/PATO_0002390>	<http://www.w3.org/2000/01/rdf-schema#label>	"radius"	
+<http://purl.obolibrary.org/obo/PATO_0000117>	<http://www.w3.org/2000/01/rdf-schema#label>	"size"	
+<http://purl.obolibrary.org/obo/PATO_0001574>	<http://www.w3.org/2000/01/rdf-schema#label>	"flow rate"	
+<http://purl.obolibrary.org/obo/PATO_0001756>	<http://www.w3.org/2000/01/rdf-schema#label>	"heat conductivity"	
+<http://purl.obolibrary.org/obo/PATO_0001464>	<http://www.w3.org/2000/01/rdf-schema#label>	"electric potential"	
+<http://purl.obolibrary.org/obo/PATO_0002243>	<http://www.w3.org/2000/01/rdf-schema#label>	"fluid flow rate"	
+<http://purl.obolibrary.org/obo/PATO_0002182>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular quality"	
+<http://purl.obolibrary.org/obo/PATO_0015009>	<http://www.w3.org/2000/01/rdf-schema#label>	"humidity"	
+<http://purl.obolibrary.org/obo/PATO_0000128>	<http://www.w3.org/2000/01/rdf-schema#label>	"weight"	
+<http://purl.obolibrary.org/obo/PATO_0002122>	<http://www.w3.org/2000/01/rdf-schema#label>	"mixed"	
+<http://purl.obolibrary.org/obo/PATO_0001350>	<http://www.w3.org/2000/01/rdf-schema#label>	"angular acceleration"	
+<http://purl.obolibrary.org/obo/PATO_0001555>	<http://www.w3.org/2000/01/rdf-schema#label>	"has number of"	
+<http://purl.obolibrary.org/obo/PATO_0000915>	<http://www.w3.org/2000/01/rdf-schema#label>	"thickness"	
+<http://purl.obolibrary.org/obo/PATO_0001035>	<http://www.w3.org/2000/01/rdf-schema#label>	"force"	
+<http://purl.obolibrary.org/obo/PATO_0001025>	<http://www.w3.org/2000/01/rdf-schema#label>	"pressure"	
+<http://purl.obolibrary.org/obo/PATO_0000921>	<http://www.w3.org/2000/01/rdf-schema#label>	"width"	
+<http://purl.obolibrary.org/obo/PATO_0001585>	<http://www.w3.org/2000/01/rdf-schema#label>	"conductivity"	
+<http://purl.obolibrary.org/obo/PATO_0000025>	<http://www.w3.org/2000/01/rdf-schema#label>	"composition"	
+<http://purl.obolibrary.org/obo/PATO_0001019>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass density"	
+<http://purl.obolibrary.org/obo/PATO_0001236>	<http://www.w3.org/2000/01/rdf-schema#label>	"process quality"	
+<http://purl.obolibrary.org/obo/PATO_0002062>	<http://www.w3.org/2000/01/rdf-schema#label>	"physical quality of a process"	
+<http://purl.obolibrary.org/obo/PATO_0000052>	<http://www.w3.org/2000/01/rdf-schema#label>	"shape"	
+<http://purl.obolibrary.org/obo/PATO_0001241>	<http://www.w3.org/2000/01/rdf-schema#label>	"physical object quality"	
+<http://purl.obolibrary.org/obo/PATO_0001028>	<http://www.w3.org/2000/01/rdf-schema#label>	"acceleration"	
+<http://purl.obolibrary.org/obo/PATO_0001711>	<http://www.w3.org/2000/01/rdf-schema#label>	"perimeter"	
+<http://purl.obolibrary.org/obo/PATO_0002242>	<http://www.w3.org/2000/01/rdf-schema#label>	"velocity"	
+<http://purl.obolibrary.org/obo/PATO_0001595>	<http://www.w3.org/2000/01/rdf-schema#label>	"depth"	
+<http://purl.obolibrary.org/obo/PATO_0001710>	<http://www.w3.org/2000/01/rdf-schema#label>	"3-D extent"	
+<http://purl.obolibrary.org/obo/PATO_0000119>	<http://www.w3.org/2000/01/rdf-schema#label>	"height"	
+<http://purl.obolibrary.org/obo/CHMO_0000208>	<http://www.w3.org/2000/01/rdf-schema#label>	"reflection method"	
+<http://purl.obolibrary.org/obo/CHMO_0000793>	<http://www.w3.org/2000/01/rdf-schema#label>	"assay output"	
+<http://purl.obolibrary.org/obo/CHMO_0001568>	<http://www.w3.org/2000/01/rdf-schema#label>	"sputter etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001558>	<http://www.w3.org/2000/01/rdf-schema#label>	"etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.w3.org/2000/01/rdf-schema#label>	"pulsed laser deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0002530>	<http://www.w3.org/2000/01/rdf-schema#label>	"spray coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical solution deposition"	
+<http://purl.obolibrary.org/obo/UO_0000095>	<http://www.w3.org/2000/01/rdf-schema#label>	"volume unit"	
+<http://purl.obolibrary.org/obo/CHMO_0000219>	<http://www.w3.org/2000/01/rdf-schema#label>	"X-ray reflectometry"	
+<http://purl.obolibrary.org/obo/CHMO_0002774>	<http://www.w3.org/2000/01/rdf-schema#label>	"stirring"	
+<http://purl.obolibrary.org/obo/CHMO_0000209>	<http://www.w3.org/2000/01/rdf-schema#label>	"reflectometry"	
+<http://purl.obolibrary.org/obo/CHMO_0001353>	<http://www.w3.org/2000/01/rdf-schema#label>	"plasma jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001310>	<http://www.w3.org/2000/01/rdf-schema#label>	"sample deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001472>	<http://www.w3.org/2000/01/rdf-schema#label>	"spin coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.w3.org/2000/01/rdf-schema#label>	"electron-beam-induced deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0002063>	<http://www.w3.org/2000/01/rdf-schema#label>	"colloid method"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.w3.org/2000/01/rdf-schema#label>	"gas jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001341>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular beam epitaxy"	
+<http://purl.obolibrary.org/obo/CHMO_0002773>	<http://www.w3.org/2000/01/rdf-schema#label>	"dissolving"	
+<http://purl.obolibrary.org/obo/UO_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"temperature unit"	
+<http://purl.obolibrary.org/obo/CHMO_0001314>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0002917>	<http://www.w3.org/2000/01/rdf-schema#label>	"sample quenching"	
+<http://purl.obolibrary.org/obo/CHMO_0000228>	<http://www.w3.org/2000/01/rdf-schema#label>	"spectroscopy"	
+<http://purl.obolibrary.org/obo/OBI_0000185>	<http://www.w3.org/2000/01/rdf-schema#label>	"imaging assay"	
+<http://purl.obolibrary.org/obo/CHMO_0001364>	<http://www.w3.org/2000/01/rdf-schema#label>	"sputter deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001685>	<http://www.w3.org/2000/01/rdf-schema#label>	"mixing"	
+<http://purl.obolibrary.org/obo/CHMO_0000067>	<http://www.w3.org/2000/01/rdf-schema#label>	"microscopy"	
+<http://purl.obolibrary.org/obo/CHMO_0001471>	<http://www.w3.org/2000/01/rdf-schema#label>	"dip coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001560>	<http://www.w3.org/2000/01/rdf-schema#label>	"plasma etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001301>	<http://www.w3.org/2000/01/rdf-schema#label>	"synthesis method"	
+<http://purl.obolibrary.org/obo/CHMO_0002793>	<http://www.w3.org/2000/01/rdf-schema#label>	"sensor"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.w3.org/2000/01/rdf-schema#label>	"sol–gel method"	
+<http://purl.obolibrary.org/obo/CHMO_0001336>	<http://www.w3.org/2000/01/rdf-schema#label>	"epitaxy"	
+<http://purl.obolibrary.org/obo/CHMO_0001559>	<http://www.w3.org/2000/01/rdf-schema#label>	"dry etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001349>	<http://www.w3.org/2000/01/rdf-schema#label>	"jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0000800>	<http://www.w3.org/2000/01/rdf-schema#label>	"spectrum"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.w3.org/2000/01/rdf-schema#label>	"plasma-assisted chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001350>	<http://www.w3.org/2000/01/rdf-schema#label>	"aerosol jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001470>	<http://www.w3.org/2000/01/rdf-schema#label>	"coating method"	
+<http://purl.obolibrary.org/obo/CHMO_0001988>	<http://www.w3.org/2000/01/rdf-schema#label>	"aerosol method"	
+<http://purl.obolibrary.org/obo/CHMO_0001516>	<http://www.w3.org/2000/01/rdf-schema#label>	"spray pyrolysis"	
+<http://purl.obolibrary.org/obo/CHMO_0001311>	<http://www.w3.org/2000/01/rdf-schema#label>	"atomic layer deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.w3.org/2000/01/rdf-schema#label>	"metal–organic chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0002770>	<http://www.w3.org/2000/01/rdf-schema#label>	"sample heating"	
+<http://purl.obolibrary.org/obo/CHMO_0001356>	<http://www.w3.org/2000/01/rdf-schema#label>	"physical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0002163>	<http://www.w3.org/2000/01/rdf-schema#label>	"drop coating"	
+<http://purl.obolibrary.org/obo/OBI_0400065>	<http://www.w3.org/2000/01/rdf-schema#label>	"light source"	
+<http://purl.obolibrary.org/obo/OBI_0001032>	<http://www.w3.org/2000/01/rdf-schema#label>	"light emission device"	
+<http://purl.obolibrary.org/obo/OBI_0000339>	<http://www.w3.org/2000/01/rdf-schema#label>	"planning"@en	
+<http://purl.obolibrary.org/obo/OBI_0000086>	<http://www.w3.org/2000/01/rdf-schema#label>	"reagent role"@en	
+<http://purl.obolibrary.org/obo/OBI_0000378>	<http://www.w3.org/2000/01/rdf-schema#label>	"filter function"@en	
+<http://purl.obolibrary.org/obo/OBI_0000458>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturing objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0400079>	<http://www.w3.org/2000/01/rdf-schema#label>	"optical filter"	
+<http://purl.obolibrary.org/obo/OBI_0002901>	<http://www.w3.org/2000/01/rdf-schema#label>	"visible light source"	
+<http://purl.obolibrary.org/obo/OBI_0001755>	<http://www.w3.org/2000/01/rdf-schema#label>	"selection criterion"@en	
+<http://purl.obolibrary.org/obo/OBI_0003610>	<http://www.w3.org/2000/01/rdf-schema#label>	"reactant role"@en	
+<http://purl.obolibrary.org/obo/OBI_0001928>	<http://www.w3.org/2000/01/rdf-schema#label>	"selection"@en	
+<http://purl.obolibrary.org/obo/OBI_0000806>	<http://www.w3.org/2000/01/rdf-schema#label>	"material maintenance objective"	
+<http://purl.obolibrary.org/obo/UO_0000109>	<http://www.w3.org/2000/01/rdf-schema#label>	"pressure unit"	
+<http://purl.obolibrary.org/obo/OBI_0400095>	<http://www.w3.org/2000/01/rdf-schema#label>	"short pass filter"	
+<http://purl.obolibrary.org/obo/OBI_0000067>	<http://www.w3.org/2000/01/rdf-schema#label>	"evaluant role"@en	
+<http://purl.obolibrary.org/obo/OBI_0400064>	<http://www.w3.org/2000/01/rdf-schema#label>	"laser"	
+<http://purl.obolibrary.org/obo/OBI_0302893>	<http://www.w3.org/2000/01/rdf-schema#label>	"storage"@en	
+<http://purl.obolibrary.org/obo/OBI_0600013>	<http://www.w3.org/2000/01/rdf-schema#label>	"information acquisition"@en	
+<http://purl.obolibrary.org/obo/OBI_0400013>	<http://www.w3.org/2000/01/rdf-schema#label>	"band pass filter"	
+<http://purl.obolibrary.org/obo/OBI_0000367>	<http://www.w3.org/2000/01/rdf-schema#label>	"light emission function"@en	
+<http://purl.obolibrary.org/obo/OBI_0000456>	<http://www.w3.org/2000/01/rdf-schema#label>	"material transformation objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0600010>	<http://www.w3.org/2000/01/rdf-schema#label>	"material acquisition"@en	
+<http://purl.obolibrary.org/obo/OBI_0001138>	<http://www.w3.org/2000/01/rdf-schema#label>	"X-ray source"	
+<http://purl.obolibrary.org/obo/OBI_0000932>	<http://www.w3.org/2000/01/rdf-schema#label>	"material separation device"	
+<http://purl.obolibrary.org/obo/OBI_0002902>	<http://www.w3.org/2000/01/rdf-schema#label>	"solar light source"	
+<http://purl.obolibrary.org/obo/OBI_0600008>	<http://www.w3.org/2000/01/rdf-schema#label>	"acquisition"@en	
+<http://purl.obolibrary.org/obo/OBI_0200166>	<http://www.w3.org/2000/01/rdf-schema#label>	"data transformation objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0200000>	<http://www.w3.org/2000/01/rdf-schema#label>	"data transformation"@en	
+<http://purl.obolibrary.org/obo/OBI_0000374>	<http://www.w3.org/2000/01/rdf-schema#label>	"excitation function"@en	
+<http://purl.obolibrary.org/obo/OBI_0002900>	<http://www.w3.org/2000/01/rdf-schema#label>	"ultraviolet light source"	
+<http://purl.obolibrary.org/obo/OBI_0000838>	<http://www.w3.org/2000/01/rdf-schema#label>	"material maintenance"	
+<http://purl.obolibrary.org/obo/OBI_0400067>	<http://www.w3.org/2000/01/rdf-schema#label>	"long pass filter"	
+<http://purl.obolibrary.org/obo/OBI_0000441>	<http://www.w3.org/2000/01/rdf-schema#label>	"assay objective"@en	
+<http://purl.obolibrary.org/obo/IAO_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"objective specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0400142>	<http://www.w3.org/2000/01/rdf-schema#label>	"power supply"	
+<http://purl.obolibrary.org/obo/OBI_0000372>	<http://www.w3.org/2000/01/rdf-schema#label>	"material separation function"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002103>	<http://www.w3.org/2000/01/rdf-schema#label>	"power measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00003000>	<http://www.w3.org/2000/01/rdf-schema#label>	"volume measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002102>	<http://www.w3.org/2000/01/rdf-schema#label>	"temperature measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005062>	<http://www.w3.org/2000/01/rdf-schema#label>	"external quantum efficiency measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002119>	<http://www.w3.org/2000/01/rdf-schema#label>	"thin-film deposition rate measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00007006>	<http://www.w3.org/2000/01/rdf-schema#label>	"conductivity measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00001145>	<http://www.w3.org/2000/01/rdf-schema#label>	"calibration data"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005742>	<http://www.w3.org/2000/01/rdf-schema#label>	"angle measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002121>	<http://www.w3.org/2000/01/rdf-schema#label>	"partial pressure measurement datum"@en	
+<http://purl.obolibrary.org/obo/TFSCO_0000000>	<http://www.w3.org/2000/01/rdf-schema#label>	"root node"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002098>	<http://www.w3.org/2000/01/rdf-schema#label>	"current measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002120>	<http://www.w3.org/2000/01/rdf-schema#label>	"total pressure measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005760>	<http://www.w3.org/2000/01/rdf-schema#label>	"count measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002096>	<http://www.w3.org/2000/01/rdf-schema#label>	"area measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005061>	<http://www.w3.org/2000/01/rdf-schema#label>	"current density measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005008>	<http://www.w3.org/2000/01/rdf-schema#label>	"transmittance measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005756>	<http://www.w3.org/2000/01/rdf-schema#label>	"air knife impingement angle measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002118>	<http://www.w3.org/2000/01/rdf-schema#label>	"pressure measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00001096>	<http://www.w3.org/2000/01/rdf-schema#label>	"certified"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002097>	<http://www.w3.org/2000/01/rdf-schema#label>	"active area measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005009>	<http://www.w3.org/2000/01/rdf-schema#label>	"reflectance measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00002147>	<http://www.w3.org/2000/01/rdf-schema#label>	"electric potential measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005757>	<http://www.w3.org/2000/01/rdf-schema#label>	"round nozzle impingement angle measurement datum"@en	
+<https://purl.archive.org/tfsco/TFSCO_00005743>	<http://www.w3.org/2000/01/rdf-schema#label>	"contact angle measurement datum"@en	
+<http://purl.obolibrary.org/obo/IAO_0000101>	<http://www.w3.org/2000/01/rdf-schema#label>	"image"@en	
+<http://purl.obolibrary.org/obo/UO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"time unit"	
+<http://purl.obolibrary.org/obo/IAO_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"symbol"@en	
+<http://purl.obolibrary.org/obo/IAO_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"algorithm"@en	
+<http://purl.obolibrary.org/obo/IAO_0000584>	<http://www.w3.org/2000/01/rdf-schema#label>	"time sampled measurement data set"@en	
+<http://purl.obolibrary.org/obo/IAO_0000414>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass measurement datum"@en	
+<http://purl.obolibrary.org/obo/IAO_0000102>	<http://www.w3.org/2000/01/rdf-schema#label>	"data about an ontology part"@en	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"count"@en	
+<http://purl.obolibrary.org/obo/IAO_0000308>	<http://www.w3.org/2000/01/rdf-schema#label>	"figure"@en	
+<http://purl.obolibrary.org/obo/IAO_0000225>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolescence reason specification"@en	
+<http://purl.obolibrary.org/obo/IAO_0000100>	<http://www.w3.org/2000/01/rdf-schema#label>	"data set"@en	
+<http://purl.obolibrary.org/obo/UO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass unit"	
+<http://purl.obolibrary.org/obo/IAO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"measurement unit label"@en	
+<http://purl.obolibrary.org/obo/IAO_0000416>	<http://www.w3.org/2000/01/rdf-schema#label>	"time measurement datum"@en	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000796>	<http://www.w3.org/2000/01/rdf-schema#label>	"dataset creating"@en	
+<http://purl.obolibrary.org/obo/UO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"length unit"	
+<http://purl.obolibrary.org/obo/IAO_0000409>	<http://www.w3.org/2000/01/rdf-schema#label>	"denotator type"@en	
+<http://purl.obolibrary.org/obo/IAO_0000007>	<http://www.w3.org/2000/01/rdf-schema#label>	"action specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"planned process"@en	
+<http://purl.obolibrary.org/obo/IAO_0000582>	<http://www.w3.org/2000/01/rdf-schema#label>	"time stamped measurement datum"@en	
+<http://purl.obolibrary.org/obo/IAO_0000408>	<http://www.w3.org/2000/01/rdf-schema#label>	"length measurement datum"@en	
+<http://purl.obolibrary.org/obo/IAO_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"setting datum"@en	
+<http://purl.obolibrary.org/obo/IAO_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"curation status specification"@en	
+<http://purl.obolibrary.org/obo/IAO_0000009>	<http://www.w3.org/2000/01/rdf-schema#label>	"datum label"@en	
+<http://purl.obolibrary.org/obo/IAO_0000098>	<http://www.w3.org/2000/01/rdf-schema#label>	"data format specification"@en	
+<http://purl.obolibrary.org/obo/CHMO_0001310>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"deposition"	<http://purl.obolibrary.org/obo/chmo#non-mining_synonym>
+<http://purl.obolibrary.org/obo/CHMO_0000793>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"experimental data"	
+<http://purl.obolibrary.org/obo/CHMO_0001568>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ion milling"	
+<http://purl.obolibrary.org/obo/CHMO_0001568>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ion etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pulsed-laser ablation deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pulsed laser ablation deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"laser ablation growth"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"PLA deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"PLD"	
+<http://purl.obolibrary.org/obo/CHMO_0001363>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pulsed-laser deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0002530>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spray-coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"CSD"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"CBD"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical bath deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical-bath deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001312>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical-solution deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0000219>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"XRR"	
+<http://purl.obolibrary.org/obo/CHMO_0000219>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"X-ray reflectivity"	
+<http://purl.obolibrary.org/obo/CHMO_0000209>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"reflectivity"	
+<http://purl.obolibrary.org/obo/CHMO_0001353>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma JD"	
+<http://purl.obolibrary.org/obo/CHMO_0001472>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spin-coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001472>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spin-casting"	
+<http://purl.obolibrary.org/obo/CHMO_0001472>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spin casting"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"EBID"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"electron beam-induced deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"EBD"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"EB deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"electron-beam deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001358>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"electron beam deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"VJD"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"physical jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"PJD"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"vapor jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"physical-jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"physical JD"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"jet-vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"jet vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"vapour-jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"vapor-jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"GJD"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"JVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"jet-vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"vapour jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"gas-jet deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001351>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"jet vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001341>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"molecular-beam epitaxy"	
+<http://purl.obolibrary.org/obo/CHMO_0001341>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"MBE"	
+<http://purl.obolibrary.org/obo/CHMO_0001314>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical-vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001314>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001314>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"CVD (chemical vapour deposition) synthesis"	
+<http://purl.obolibrary.org/obo/CHMO_0001314>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chemical-vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001314>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"CVD"	
+<http://purl.obolibrary.org/obo/CHMO_0000228>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spectrometry"	
+<http://purl.obolibrary.org/obo/CHMO_0001364>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sputtering"	
+<http://purl.obolibrary.org/obo/CHMO_0001364>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sputter coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001471>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"dip-coating"	
+<http://purl.obolibrary.org/obo/CHMO_0001560>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"reactive-ion etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001560>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"reactive ion etching"	
+<http://purl.obolibrary.org/obo/CHMO_0001560>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"RIE"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sol-gel method"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sol-gel processing"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"solgel method"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sol–gel processing"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"colloidal processing"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"solgel process"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sol-gel process"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"colloid process"	
+<http://purl.obolibrary.org/obo/CHMO_0001313>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"solgel processing"	
+<http://purl.obolibrary.org/obo/CHMO_0001349>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"JD"	
+<http://purl.obolibrary.org/obo/CHMO_0000800>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spectrum plot"	
+<http://purl.obolibrary.org/obo/CHMO_0000800>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"spectra"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma enhanced CVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma assisted chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma-assisted CVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma-enhanced chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma-assisted chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"PACVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma-enhanced CVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma-enhanced chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma assisted chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"PECVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001325>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasma assisted CVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001350>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"aerosol JD"	
+<http://purl.obolibrary.org/obo/CHMO_0001350>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"AJD"	
+<http://purl.obolibrary.org/obo/CHMO_0001988>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"aerosol processing"	
+<http://purl.obolibrary.org/obo/CHMO_0001988>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"aerosol process"	
+<http://purl.obolibrary.org/obo/CHMO_0001311>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"atomic-layer deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001311>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ALD"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"organometallic chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"metalorganic CVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"metalorganic chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"OMCVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"MOCVD"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"organometallic chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"metal-organic chemical vapour deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"metal-organic chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001324>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"metalorganic chemical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001356>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"physical vapor deposition"	
+<http://purl.obolibrary.org/obo/CHMO_0001356>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"PVD"	
+<http://purl.obolibrary.org/obo/CHMO_0002163>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"drop-coating"	

@@ -1,0 +1,65 @@
+## ontology metadata ##
+
+id: tfsco
+title: "Ontology for thin-film solar cells"
+description: "Domain ontology for thin-film solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO."
+creators:
+  - https://orcid.org/0009-0008-1278-8890
+  - https://orcid.org/0009-0001-9163-357X
+contributor:
+  - https://orcid.org/0000-0002-1557-8361
+  - https://orcid.org/0000-0001-8552-2008
+  - https://orcid.org/0000-0002-3343-867X
+  - https://orcid.org/0000-0002-4292-6317
+  - https://orcid.org/0000-0002-5750-0693
+  - https://orcid.org/0000-0002-8173-2566
+  - https://orcid.org/0000-0003-4384-2112
+  - https://orcid.org/0009-0003-1803-0857
+license: https://creativecommons.org/licenses/by/4.0/
+rights_holder: https://ror.org/02aj13c28
+
+## general ODK Settings ##
+
+github_org: AsaphHall
+git_main_branch: main
+repo: odk_test
+release_artefacts:
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+  - json
+import_group:
+  products:
+    - id: bfo
+      module_type: mirror
+    - id: ro
+      module_type: custom
+    - id: chmo
+      module_type: custom
+    - id: iao
+      module_type: custom
+    - id: obi
+      module_type: custom
+    - id: pato
+      module_type: custom
+    - id: apollo_sv
+      module_type: custom
+    - id: cob
+      module_type: custom
+#    - id: uo
+#      module_type: custom
+#    - id: afo
+#      module_type: custom
+#    - id: chebi
+#      is_large: true
+#      use_gzipped: true
+#      module_type: custom
+robot_java_args: '-Xmx4G'
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit

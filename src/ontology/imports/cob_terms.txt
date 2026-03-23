@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/COB_0000026 # processed material entity
+http://purl.obolibrary.org/obo/COB_0000035 # completely executed planned process
+http://purl.obolibrary.org/obo/COB_0000082 # planned process
+http://purl.obolibrary.org/obo/COB_0000110 # material processing
+http://purl.obolibrary.org/obo/COB_0001300 # device
+
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
